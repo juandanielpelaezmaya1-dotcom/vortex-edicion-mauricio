@@ -1,0 +1,37 @@
+# Credenciales: nunca en el repo.
+.env
+.env.*
+
+# Media pesada: no viaja por git. El manifest SI (es el video descrito; con el material
+# original se reconstruye igual). El material crudo llega y se entrega por Drive.
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.aac
+*/material/
+*/salida/
+
+# Regenerables
+*/cache/
+_prueba/
+_render/node_modules/
+_render/out/
+_render/.remotion/
+.venv/
+__pycache__/
+
+# Modelos de whisper y binarios: pesados y regenerables
+_assets/
+
+# Revision con el iPad: el JSON de correcciones SI viaja (es lo que se pidio y por que);
+# los PNG anotados no, que son pesados y su trazo ya esta en el JSON.
+*/revision/*.png
+
+.DS_Store
+Thumbs.db

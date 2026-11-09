@@ -1,0 +1,22 @@
+{
+  "name": "vortex-edicion-render",
+  "version": "1.0.0",
+  "description": "Motor de composicion del estudio de edicion de Vortex. Los proyectos viven en la raiz del repo (<slug>/); este paquete solo compone y renderiza.",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "studio": "remotion studio"
+  },
+  "dependencies": {
+    "@remotion/captions": "^4.0.512",
+    "@remotion/cli": "4.0.512",
+    "@remotion/install-whisper-cpp": "^4.0.512",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.512"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Revisión — Estudio Vortex</title>
+<style>
+  :root {
+    --navy-950: #060835; --navy-900: #151d4b; --navy-800: #283465;
+    --royal-600: #305aa3; --royal-300: #7cb9f2; --fog-300: #d4d5d5;
+    --linea: #2a3568; --apagado: #8b93b8;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; height: 100%; overflow: hidden; overscroll-behavior: none; }
+  body {
+    background: var(--navy-950); color: var(--fog-300);
+    font: 15px/1.4 -apple-system, system-ui, sans-serif;
+    height: 100dvh; display: grid; grid-template-rows: auto minmax(0, 1fr) auto;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+
+  /* ---- barra superior ---- */
+  header {
+    display: flex; align-items: center; gap: 14px;
+    padding: 9px 16px; border-bottom: 1px solid var(--linea); background: var(--navy-900);
+  }
+  .titulo { font-weight: 700; color: #fff; font-size: 14px; letter-spacing: -0.01em; white-space: nowrap; }
+  .titulo span { color: var(--royal-300); font-weight: 500; }
+  .tc {
+    margin-left: auto; white-space: nowrap; font-variant-numeric: tabular-nums; font-size: 20px; font-weight: 600;
+    color: #fff; letter-spacing: 0.02em;
+  }
+  .tc small { color: var(--apagado); font-size: 13px; font-weight: 400; }
+
+  /* ---- cuerpo: herramientas · visor · panel ---- */
+  main {
+    display: grid; grid-template-columns: 64px minmax(0,1fr) minmax(240px, 300px);
+    grid-template-rows: minmax(0, 1fr); min-height: 0;
+  }
+  .herramientas {
+    display: flex; flex-direction: column; align-items: center; gap: 10px;
+    padding: 12px 0; border-right: 1px solid var(--linea); background: var(--navy-900);
+    overflow-y: auto;
+  }
+  .visor {
+    display: grid; place-items: center; min-height: 0; min-width: 0; padding: 12px;
+    background: #000; overflow: hidden;
+  }
+  .lienzo { position: relative; line-height: 0; }
+  video, canvas { width: 100%; height: 100%; display: block; border-radius: 6px; }
+  canvas { position: absolute; inset: 0; touch-action: none; }
+  .panel {
+    display: flex; flex-direction: column; gap: 10px; padding: 12px;
+    border-left: 1px solid var(--linea); background: var(--navy-900); overflow-y: auto; min-height: 0;
+  }
+
+  /* ---- controles ---- */
+  button {
+    background: var(--navy-800); color: var(--fog-300); border: 1px solid #3a4785;
+    border-radius: 9px; padding: 9px 12px; font: inherit; cursor: pointer;
+    min-height: 42px; touch-action: manipulation;
+  }
+  button:active { background: var(--royal-600); }
+  button.primario { background: var(--royal-600); color: #fff; border-color: var(--royal-600); font-weight: 600; }
+  button.primario:disabled { opacity: .35; }
+  .herramientas button { width: 44px; min-height: 44px; padding: 0; font-size: 17px; }
+  .tinta { border-radius: 50%; border: 2px solid transparent !important; }
+  .tinta[aria-pressed="true"] { border-color: #fff !important; box-shadow: 0 0 0 2px var(--navy-900); }
+  .sep { width: 32px; height: 1px; background: var(--linea); flex: none; }
+
+  .panel h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .09em; color: var(--apagado); margin: 4px 0 0; font-weight: 600; }
+  textarea {
+    width: 100%; background: var(--navy-950); color: #fff; border: 1px solid #3a4785;
+    border-radius: 9px; padding: 10px; font: inherit; resize: none; min-height: 92px;
+  }
+  textarea:focus { outline: 2px solid var(--royal-300); outline-offset: -1px; }
+  .aviso { font-size: 12.5px; color: var(--apagado); min-height: 16px; }
+  .lista { display: flex; flex-direction: column; gap: 6px; }
+  .item {
+    display: flex; gap: 8px; align-items: baseline; text-align: left; width: 100%;
+    padding: 8px 10px; font-size: 13px; line-height: 1.35; min-height: 0;
+  }
+  .item b { color: var(--royal-300); font-variant-numeric: tabular-nums; flex: none; }
+  .item.hecha { opacity: .5; }
+  .item.hecha b::after { content: " ✓"; color: #5cf08a; }
+  .vacio { color: var(--apagado); font-size: 13px; }
+
+  /* ---- linea de tiempo ---- */
+  footer { border-top: 1px solid var(--linea); background: var(--navy-900); padding: 8px 16px 12px; }
+  .transporte { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+  .transporte button { min-width: 46px; font-size: 15px; }
+  .pista {
+    position: relative; height: 46px; border-radius: 8px; overflow: hidden;
+    background: var(--navy-950); touch-action: none; cursor: pointer;
+  }
+  .toma {
+    position: absolute; top: 0; bottom: 0; background: var(--navy-800);
+    border-right: 1px solid var(--navy-950);
+    display: grid; place-items: center; font-size: 11px; color: #9aa5d6; pointer-events: none;
+  }
+  .hito {
+    position: absolute; top: 0; bottom: 0; width: 3px; background: #ff4d4d;
+    margin-left: -1.5px; pointer-events: none;
+  }
+  .hito.hecha { background: #5cf08a; }
+  .cabezal {
+    position: absolute; top: -2px; bottom: -2px; width: 2px; background: #fff;
+    margin-left: -1px; pointer-events: none; box-shadow: 0 0 6px rgba(255,255,255,.7);
+  }
+  .cabezal::before {
+    content: ""; position: absolute; top: 0; left: -5px; border: 6px solid transparent;
+    border-top-color: #fff; border-bottom: none;
+  }
+
+  /* ---- vertical: se apila y el visor manda ---- */
+  @media (orientation: portrait) {
+    main { grid-template-columns: 1fr; grid-template-rows: minmax(0,1fr) auto auto; }
+    .herramientas { flex-direction: row; border-right: 0; border-top: 1px solid var(--linea); padding: 8px 12px; }
+    .panel { border-left: 0; border-top: 1px solid var(--linea); max-height: 34vh; }
+    .visor { order: -1; }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <span class="titulo">ESTUDIO <span id="proyecto">—</span></span>
+    <span class="tc"><span id="tc">00:00:00</span> <small id="dur">/ 00:00:00</small></span>
+  </header>
+
+  <main>
+    <div class="herramientas" id="herramientas">
+      <div class="sep"></div>
+      <button id="deshacer" title="Deshacer trazo">↶</button>
+      <button id="limpiar" title="Limpiar lienzo">✕</button>
+    </div>
+
+    <div class="visor">
+      <div class="lienzo">
+        <video id="v" playsinline preload="auto" src="/borrador.mp4"></video>
+        <canvas id="c"></canvas>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Corrección</h2>
+      <textarea id="nota" placeholder="Qué hay que corregir en este cuadro. Ej: los subtítulos van acá · zoom a esta zona · destello en el corte"></textarea>
+      <div class="aviso" id="aviso"></div>
+      <button class="primario" id="guardar" disabled>Guardar</button>
+      <h2>Enviadas</h2>
+      <div class="lista" id="lista"><span class="vacio">Ninguna todavía.</span></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="transporte">
+      <button id="inicio" title="Al inicio">|◀</button>
+      <button id="atras" title="Un cuadro atrás">◀|</button>
+      <button id="play" title="Reproducir">▶</button>
+      <button id="adelante" title="Un cuadro adelante">|▶</button>
+    </div>
+    <div class="pista" id="pista">
+      <div id="tomas"></div>
+      <div id="marcas"></div>
+      <div class="cabezal" id="cabezal" style="left:0"></div>
+    </div>
+  </footer>
+
+<script>
+const FPS = 30;
+const $ = (id) => document.getElementById(id);
+const v = $("v"), c = $("c"), ctx = c.getContext("2d");
+const TINTAS = ["#ff4d4d", "#ffd84d", "#7cb9f2", "#5cf08a"];
+let tinta = TINTAS[0], trazos = [], actual = null, tFijo = null, notas = [];
+
+// Tintas arriba de todo en la columna de herramientas.
+TINTAS.forEach((col, i) => {
+  const b = document.createElement("button");
+  b.className = "tinta"; b.style.background = col; b.title = "Tinta " + (i + 1);
+  b.setAttribute("aria-pressed", String(i === 0));
+  b.onclick = () => {
+    tinta = col;
+    document.querySelectorAll(".tinta").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+  };
+  $("herramientas").prepend(b);
+});
+
+/** El visor manda: el alto disponible fija el alto del lienzo y el ratio real del video
+ *  fija el ancho. En CSS puro el video caia a sus 540x960 intrinsecos y se deformaba. */
+const ajustar = () => {
+  const caja = document.querySelector(".visor").getBoundingClientRect();
+  const ratio = (v.videoWidth || 9) / (v.videoHeight || 16);
+  const alto = Math.max(80, Math.min(caja.height - 24, (caja.width - 24) / ratio));
+  const l = document.querySelector(".lienzo");
+  l.style.height = alto + "px";
+  l.style.width = alto * ratio + "px";
+};
+addEventListener("resize", ajustar);
+addEventListener("orientationchange", () => setTimeout(ajustar, 250));
+
+/** Timecode de editor: mm:ss:ff. Los cuadros importan, los milisegundos no. */
+const tcode = (s) => {
+  const m = Math.floor(s / 60), seg = Math.floor(s % 60), f = Math.floor((s % 1) * FPS);
+  return [m, seg, f].map((n) => String(n).padStart(2, "0")).join(":");
+};
+
+v.addEventListener("loadedmetadata", () => {
+  c.width = v.videoWidth; c.height = v.videoHeight;
+  ajustar();
+  $("dur").textContent = "/ " + tcode(v.duration);
+  pintar(); dibujarTomas(); listar(); // relistar: las marcas necesitan v.duration
+});
+
+const refrescar = () => {
+  $("tc").textContent = tcode(v.currentTime);
+  if (v.duration) $("cabezal").style.left = (v.currentTime / v.duration) * 100 + "%";
+};
+v.addEventListener("timeupdate", refrescar);
+v.addEventListener("seeked", refrescar);
+v.addEventListener("play", () => ($("play").textContent = "❙❙"));
+v.addEventListener("pause", () => ($("play").textContent = "▶"));
+
+const irA = (s) => {
+  v.pause();
+  v.currentTime = Math.max(0, Math.min(v.duration || 0, s));
+  if (trazos.length) { trazos = []; tFijo = null; pintar(); avisar("Se movió el tiempo: el lienzo se limpió."); }
+};
+$("play").onclick = () => (v.paused ? v.play() : v.pause());
+$("inicio").onclick = () => irA(0);
+$("atras").onclick = () => irA(v.currentTime - 1 / FPS);
+$("adelante").onclick = () => irA(v.currentTime + 1 / FPS);
+
+// ---- linea de tiempo: las tomas salen de props.json, ya medidas por el render ----
+async function dibujarTomas() {
+  const { proyecto, tomas } = await (await fetch("/tomas")).json();
+  $("proyecto").textContent = proyecto;
+  document.title = "Revisión — " + proyecto;
+  const total = tomas.reduce((a, b) => a + b, 0);
+  if (!total) return;
+  let acum = 0;
+  $("tomas").innerHTML = "";
+  tomas.forEach((d, i) => {
+    const el = document.createElement("div");
+    el.className = "toma";
+    el.style.left = (acum / total) * 100 + "%";
+    el.style.width = (d / total) * 100 + "%";
+    el.textContent = i + 1;
+    $("tomas").append(el);
+    acum += d;
+  });
+}
+
+const desdePista = (e) => {
+  const r = $("pista").getBoundingClientRect();
+  return ((e.clientX - r.left) / r.width) * (v.duration || 0);
+};
+let arrastrando = false;
+$("pista").addEventListener("pointerdown", (e) => {
+  arrastrando = true; $("pista").setPointerCapture(e.pointerId); irA(desdePista(e));
+});
+$("pista").addEventListener("pointermove", (e) => { if (arrastrando) irA(desdePista(e)); });
+for (const ev of ["pointerup", "pointercancel"]) {
+  $("pista").addEventListener(ev, () => (arrastrando = false));
+}
+
+// ---- lienzo ----
+function pintar() {
+  ctx.clearRect(0, 0, c.width, c.height);
+  ctx.lineCap = ctx.lineJoin = "round";
+  for (const tr of trazos) {
+    ctx.strokeStyle = tr.color;
+    for (let i = 1; i < tr.puntos.length; i++) {
+      const a = tr.puntos[i - 1], b = tr.puntos[i];
+      ctx.lineWidth = Math.max(2, (c.width / 180) * (b.p || 0.5) * 2);
+      ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+    }
+  }
+  $("guardar").disabled = trazos.length === 0 && !$("nota").value.trim();
+}
+
+const aCanvas = (e) => {
+  const r = c.getBoundingClientRect();
+  return {
+    x: ((e.clientX - r.left) / r.width) * c.width,
+    y: ((e.clientY - r.top) / r.height) * c.height,
+    p: e.pressure > 0 ? e.pressure : 0.5,
+  };
+};
+
+// El dedo NO dibuja: asi se puede tocar los controles y apoyar la mano sin rayar.
+c.addEventListener("pointerdown", (e) => {
+  if (e.pointerType === "touch") return;
+  e.preventDefault();
+  c.setPointerCapture(e.pointerId);
+  if (!v.paused) v.pause();
+  if (trazos.length === 0) { tFijo = v.currentTime; avisar("Corrección en " + tcode(tFijo)); }
+  actual = { color: tinta, puntos: [aCanvas(e)] };
+  trazos.push(actual);
+});
+c.addEventListener("pointermove", (e) => {
+  if (!actual) return;
+  e.preventDefault();
+  actual.puntos.push(aCanvas(e));
+  pintar();
+});
+for (const ev of ["pointerup", "pointercancel", "pointerleave"]) {
+  c.addEventListener(ev, () => { actual = null; pintar(); });
+}
+
+$("deshacer").onclick = () => { trazos.pop(); pintar(); };
+$("limpiar").onclick = () => { trazos = []; tFijo = null; pintar(); avisar(""); };
+$("nota").oninput = pintar;
+const avisar = (m) => ($("aviso").textContent = m);
+
+$("guardar").onclick = async () => {
+  const texto = $("nota").value.trim();
+  if (!texto && !trazos.length) return;
+  $("guardar").disabled = true; avisar("Enviando...");
+
+  // El PNG lleva el cuadro y el trazo encima: es lo que VEGA mira para entender la nota.
+  const plano = document.createElement("canvas");
+  plano.width = c.width; plano.height = c.height;
+  const pctx = plano.getContext("2d");
+  pctx.drawImage(v, 0, 0, plano.width, plano.height);
+  pctx.drawImage(c, 0, 0);
+
+  const pct = (pt) => ({ x: +((pt.x / c.width) * 100).toFixed(1), y: +((pt.y / c.height) * 100).toFixed(1) });
+  const todos = trazos.flatMap((t) => t.puntos).map(pct);
+  const caja = todos.length ? {
+    x: Math.min(...todos.map((p) => p.x)), y: Math.min(...todos.map((p) => p.y)),
+    w: Math.max(...todos.map((p) => p.x)) - Math.min(...todos.map((p) => p.x)),
+    h: Math.max(...todos.map((p) => p.y)) - Math.min(...todos.map((p) => p.y)),
+  } : null;
+
+  const cuerpo = {
+    t_s: +(tFijo ?? v.currentTime).toFixed(2),
+    texto,
+    trazos: trazos.map((t) => ({ color: t.color, puntos: t.puntos.map(pct) })),
+    centro_pct: caja ? { x: +(caja.x + caja.w / 2).toFixed(1), y: +(caja.y + caja.h / 2).toFixed(1) } : null,
+    caja_pct: caja ? { x: +caja.x.toFixed(1), y: +caja.y.toFixed(1), w: +caja.w.toFixed(1), h: +caja.h.toFixed(1) } : null,
+    png: plano.toDataURL("image/png"),
+  };
+
+  try {
+    const r = await fetch("/notas", {
+      method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(cuerpo),
+    });
+    if (!r.ok) throw new Error(await r.text());
+    trazos = []; tFijo = null; $("nota").value = ""; pintar();
+    avisar("Guardada. Sigue con la siguiente.");
+    listar();
+  } catch (err) {
+    avisar("No se pudo guardar: " + err.message);
+    $("guardar").disabled = false;
+  }
+};
+
+async function listar() {
+  notas = await (await fetch("/notas")).json();
+  const l = $("lista");
+  l.innerHTML = "";
+  $("marcas").innerHTML = "";
+  if (!notas.length) { l.innerHTML = '<span class="vacio">Ninguna todavía.</span>'; return; }
+  for (const n of notas) {
+    const b = document.createElement("button");
+    b.className = "item" + (n.aplicada ? " hecha" : "");
+    b.onclick = () => irA(n.t_s);
+    const t = document.createElement("b"); t.textContent = tcode(n.t_s);
+    const d = document.createElement("span"); d.textContent = n.texto || "(solo dibujo)";
+    b.append(t, d); l.append(b);
+    if (v.duration) {
+      const m = document.createElement("div");
+      m.className = "hito" + (n.aplicada ? " hecha" : "");
+      m.style.left = (n.t_s / v.duration) * 100 + "%";
+      $("marcas").append(m);
+    }
+  }
+}
+listar();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node herramientas/estudio.mjs:*)",
+      "Bash(node ../herramientas/estudio.mjs:*)",
+      "Bash(node node_modules/@remotion/cli/remotion-cli.js render:*)",
+      "Bash(.venv/bin/python herramientas/revision.py:*)",
+      "Bash(ffprobe:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(avconvert:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git pull:*)",
+      "Bash(git fetch:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}
