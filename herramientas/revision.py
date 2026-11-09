@@ -2,7 +2,7 @@
 # con todas sus palabras ya en pantalla) y por texto en pantalla, mas el primero y el ultimo, con el texto
 # rotulado debajo.
 # Va despues de `render --borrador` (lee cache/props.json y cache/borrador.mp4). Necesita Pillow:
-#   python3 -m venv .venv && .venv/bin/pip install pillow          (Windows: .venv\Scripts\pip)
+#   python3 -m venv .venv && .venv/bin/pip install pillow          (Windows: .venv/Scripts/pip)
 #   .venv/bin/python herramientas/revision.py <carpeta del reel>...  ->  <carpeta>/cache/revision.jpg
 import json, math, os, subprocess, sys, tempfile, textwrap
 from PIL import Image, ImageDraw, ImageFont

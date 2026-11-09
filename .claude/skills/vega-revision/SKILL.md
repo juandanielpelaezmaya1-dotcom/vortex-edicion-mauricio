@@ -22,7 +22,7 @@ Un render que terminó sin error no prueba nada. Después de cada `render --borr
 1. Revisa que `cache/borrador.mp4` sea nuevo (su hora de modificación), no el de la vuelta
    anterior.
 2. Saca la hoja: `.venv/bin/python herramientas/revision.py <carpeta del proyecto>`
-   (Windows: `.venv\Scripts\python`). Mira `cache/revision.jpg` con la herramienta de
+   (Windows: `.venv/Scripts/python`). Mira `cache/revision.jpg` con la herramienta de
    leer imágenes.
 3. Busca en la hoja: texto que tapa una cara o una boca, texto fuera de la zona segura,
    frase en la toma equivocada, dos capas de texto a la vez, palabras mal escritas, cuadros

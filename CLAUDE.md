@@ -13,7 +13,7 @@ de Vortex: trae solo el estudio, sus reglas y el equipo de edición.
 
 ```
 CLAUDE.md                 ← este archivo
-LEEME.md                  ← instalación (lo lee Mauricio)
+README.md                 ← instalación (la hace Claude) y cómo se trabaja
 docs/
   manual-estudio.md       ← el manifest, los comandos y las trampas. Léelo antes de editar
   reglas-de-edicion.md    ← lo que JD ya corrigió una vez. Gana sobre cualquier tutorial
@@ -73,7 +73,9 @@ Si el pedido no dice a quién, empieza VEGA y reparte.
 
 ## Primera vez en un equipo nuevo
 
-Si `_render/node_modules/` no existe, sigue `LEEME.md`. Después corre
-`node herramientas/estudio.mjs test` desde la raíz: tiene que terminar en OK. Mira la RAM
-(Mac: `sysctl -n hw.memsize`; Windows: `systeminfo`) y ajusta `setConcurrency` en
-`_render/remotion.config.ts` según el comentario que tiene.
+Si `_render/node_modules/` no existe, sigue la sección «Instalación (para Claude)» de
+`README.md`. Si el estudio falla raro, `node herramientas/estudio.mjs test` desde la raíz es
+el primer comando a correr.
+
+En Windows, Claude Code corre en Git Bash: las rutas van con `/` (`.venv/Scripts/python`),
+nunca con `\`.

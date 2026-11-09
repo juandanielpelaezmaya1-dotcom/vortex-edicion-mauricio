@@ -5,6 +5,7 @@
       "Bash(node ../herramientas/estudio.mjs:*)",
       "Bash(node node_modules/@remotion/cli/remotion-cli.js render:*)",
       "Bash(.venv/bin/python herramientas/revision.py:*)",
+      "Bash(.venv/Scripts/python herramientas/revision.py:*)",
       "Bash(ffprobe:*)",
       "Bash(ffmpeg:*)",
       "Bash(avconvert:*)",

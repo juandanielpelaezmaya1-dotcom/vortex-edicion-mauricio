@@ -248,7 +248,7 @@ un cuadro); el primer trazo fija el segundo de la corrección y pausa el video.
 **Hoja de revisión.** Antes de mandar un borrador, mira el render, no el log:
 
 ```
-.venv/bin/python herramientas/revision.py <carpeta del proyecto>     (Windows: .venv\Scripts\python)
+.venv/bin/python herramientas/revision.py <carpeta del proyecto>     (Windows: .venv/Scripts/python)
 ```
 
 Deja `cache/revision.jpg`: un cuadro por página de subtítulos y por texto, con el texto
