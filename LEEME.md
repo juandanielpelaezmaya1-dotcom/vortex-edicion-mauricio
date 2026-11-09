@@ -15,7 +15,7 @@ Abre la app **Terminal** y pega, una por una:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install node ffmpeg git python
+brew install node ffmpeg git python gh
 curl -fsSL https://claude.ai/install.sh | bash
 ```
 
@@ -27,7 +27,7 @@ comandos de Apple, que el estudio necesita para compilar el transcriptor de voz.
 Abre **PowerShell** y pega, una por una:
 
 ```
-winget install OpenJS.NodeJS.LTS Gyan.FFmpeg Git.Git Python.Python.3.12
+winget install OpenJS.NodeJS.LTS Gyan.FFmpeg Git.Git GitHub.cli Python.Python.3.12
 irm https://claude.ai/install.ps1 | iex
 ```
 
@@ -38,18 +38,24 @@ Cierra PowerShell y ábrelo de nuevo para que reconozca los programas nuevos.
 - Instala **Visual Studio Code** (code.visualstudio.com) y, dentro de él, la extensión
   **Claude Code**.
 - Necesitas una cuenta de Claude con plan Pro o Max.
+- Necesitas una cuenta de GitHub. El repo es privado: acepta la invitación que JD te mandó
+  al correo (o en github.com/notifications).
 
 ## 2. Baja el estudio
 
 En la terminal, desde la carpeta donde quieras tenerlo (por ejemplo, Documentos):
 
 ```
-git clone <el enlace que te mandó JD>
+gh auth login
+gh repo clone juandanielpelaezmaya1-dotcom/vortex-edicion-mauricio
 cd vortex-edicion-mauricio/_render
 npm ci
 cd ..
 node herramientas/estudio.mjs test
 ```
+
+`gh auth login` abre el navegador para entrar a GitHub: elige GitHub.com, HTTPS y que
+autentique git.
 
 El último comando arma un video de prueba. Si termina con `OK render` y `OK revision`, el
 estudio funciona. Si falla, abre Claude (paso 3) y pégale el error.
