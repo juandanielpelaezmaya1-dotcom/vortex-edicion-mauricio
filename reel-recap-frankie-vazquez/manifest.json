@@ -1,0 +1,1023 @@
+{
+  "slug": "reel-recap-frankie-vazquez",
+  "fps": 30,
+  "formatos": [
+    "9x16"
+  ],
+  "clips": [
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 259.45,
+      "out_s": 261.3,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 50,
+          "y": 30
+        },
+        "intensidad": 1.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 119.5,
+      "out_s": 121.1,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.2
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 15.2,
+      "out_s": 16.1,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 122,
+      "out_s": 123.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 42.5,
+      "out_s": 43.4,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 124.4,
+      "out_s": 125.9,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "der",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 339.5,
+      "out_s": 340.4,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 236,
+      "out_s": 237.1,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 411.5,
+      "out_s": 412.4,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 128.8,
+      "out_s": 131.4,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "arriba",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 216,
+      "out_s": 216.9,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 80.5,
+      "out_s": 81.6,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 133.4,
+      "out_s": 135,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 297.5,
+      "out_s": 298.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "abajo",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 513.5,
+      "out_s": 514.5,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 137,
+      "out_s": 138,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 576.5,
+      "out_s": 577.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 139,
+      "out_s": 141.5,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.2
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 836,
+      "out_s": 837,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 142.5,
+      "out_s": 146,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "fijo",
+        "intensidad": 1.12
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 730,
+      "out_s": 731,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 147,
+      "out_s": 149,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "der",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 659,
+      "out_s": 660,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 150,
+      "out_s": 151.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 447.5,
+      "out_s": 448.5,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 474.5,
+      "out_s": 475.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "arriba",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 360.5,
+      "out_s": 361.7,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 525.5,
+      "out_s": 526.4,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 375,
+      "out_s": 376.2,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 556,
+      "out_s": 556.9,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "abajo",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 401,
+      "out_s": 402.2,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 673,
+      "out_s": 674,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 246.5,
+      "out_s": 247.7,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 591,
+      "out_s": 592,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "izq",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 851,
+      "out_s": 851.9,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 163,
+      "out_s": 165.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 690,
+      "out_s": 691,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 166.5,
+      "out_s": 168,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "der",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 434,
+      "out_s": 435,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 169,
+      "out_s": 170,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 170,
+      "out_s": 172,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.2
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 279.5,
+      "out_s": 280.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "arriba",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 733.5,
+      "out_s": 734.7,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 289.5,
+      "out_s": 290.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 175.2,
+      "out_s": 176.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 718,
+      "out_s": 719,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "abajo",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 489,
+      "out_s": 490.2,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 519.5,
+      "out_s": 520.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 179.7,
+      "out_s": 181,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 845,
+      "out_s": 846,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "izq",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 703,
+      "out_s": 704,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 640.5,
+      "out_s": 641.7,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 597,
+      "out_s": 598,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 185.2,
+      "out_s": 186.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "der",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 6,
+      "out_s": 7,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 870,
+      "out_s": 871.2,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 20.5,
+      "out_s": 21.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 189.7,
+      "out_s": 191,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "arriba",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 862,
+      "out_s": 863,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 192,
+      "out_s": 194,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 540,
+      "out_s": 541,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 195,
+      "out_s": 196.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "abajo",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 288.5,
+      "out_s": 289.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 197.5,
+      "out_s": 199.43,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 269.38,
+      "out_s": 273.4,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 50,
+          "y": 30
+        },
+        "intensidad": 1.12
+      },
+      "volumen": 0
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 275.8,
+      "out_s": 277.4,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      },
+      "volumen": 0
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 634,
+      "out_s": 635.3,
+      "velocidad": 0.5,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      },
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.08
+      },
+      "volumen": 0
+    }
+  ],
+  "pistas": [
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 259.45,
+      "out_s": 261.3,
+      "en_s": 0,
+      "volumen": 1,
+      "limpiar": false,
+      "fundido_s": [
+        0.03,
+        0.06
+      ]
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 119.5,
+      "out_s": 199.43,
+      "en_s": 1.85,
+      "volumen": 1,
+      "limpiar": false,
+      "fundido_s": [
+        0.02,
+        0.8
+      ]
+    },
+    {
+      "archivo": "material/IMG_7946.MOV",
+      "in_s": 269.38,
+      "out_s": 277.6,
+      "en_s": 81.78,
+      "volumen": 1,
+      "limpiar": false,
+      "fundido_s": [
+        0.06,
+        1.2
+      ]
+    }
+  ],
+  "efectos": [
+    {
+      "archivo": "audio/impacto.wav",
+      "en_s": 1.85,
+      "volumen": 0.4
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 6.63,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 11.03,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 17.23,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/impacto.wav",
+      "en_s": 21.35,
+      "volumen": 0.4
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 29.23,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 34.73,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 39.03,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 43.33,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 48.73,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/impacto.wav",
+      "en_s": 52.35,
+      "volumen": 0.4
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 54.23,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 58.73,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 63.23,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 67.43,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 71.93,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "audio/whoosh.wav",
+      "en_s": 77.23,
+      "volumen": 0.3
+    }
+  ],
+  "destellos": [
+    {
+      "en_s": 1.85,
+      "duracion_s": 0.25,
+      "color": "white",
+      "intensidad": 0.55
+    },
+    {
+      "en_s": 21.35,
+      "duracion_s": 0.25,
+      "color": "white",
+      "intensidad": 0.55
+    },
+    {
+      "en_s": 52.35,
+      "duracion_s": 0.25,
+      "color": "white",
+      "intensidad": 0.55
+    }
+  ],
+  "color": {
+    "contraste": 1.04,
+    "saturacion": 1.03
+  }
+}
