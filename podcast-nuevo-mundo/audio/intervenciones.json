@@ -1,0 +1,183 @@
+[
+ {
+  "desde": 0,
+  "quien": "presentacion",
+  "nota": "Natalia y Katherine presentan"
+ },
+ {
+  "desde": 3.36,
+  "quien": "presentacion",
+  "nota": ""
+ },
+ {
+  "desde": 8.16,
+  "quien": "presentacion",
+  "nota": ""
+ },
+ {
+  "desde": 12.24,
+  "quien": "presentacion",
+  "nota": "nombres de invitados"
+ },
+ {
+  "desde": 14.56,
+  "quien": "presentacion",
+  "nota": ""
+ },
+ {
+  "desde": 17.2,
+  "quien": "presentacion",
+  "nota": ""
+ },
+ {
+  "desde": 19.36,
+  "quien": "presentacion",
+  "nota": ""
+ },
+ {
+  "desde": 21.84,
+  "quien": "presentacion",
+  "nota": ""
+ },
+ {
+  "desde": 23.92,
+  "quien": "presentacion",
+  "nota": ""
+ },
+ {
+  "desde": 26.64,
+  "quien": "presentacion",
+  "nota": ""
+ },
+ {
+  "desde": 29.9,
+  "quien": "presentacion",
+  "nota": ""
+ },
+ {
+  "desde": 32.3,
+  "quien": "conductor",
+  "nota": "presentadora B"
+ },
+ {
+  "desde": 53.3,
+  "quien": "conductor",
+  "nota": "presentadora A"
+ },
+ {
+  "desde": 88.2,
+  "quien": "orientadora",
+  "nota": "respuesta 1"
+ },
+ {
+  "desde": 139.3,
+  "quien": "conductor",
+  "nota": "presentadora B"
+ },
+ {
+  "desde": 153.3,
+  "quien": "conductor",
+  "nota": "presentadora A, pregunta"
+ },
+ {
+  "desde": 161.0,
+  "quien": "orientadora",
+  "nota": "respuesta 2"
+ },
+ {
+  "desde": 253.2,
+  "quien": "conductor",
+  "nota": "presentadora A"
+ },
+ {
+  "desde": 290.3,
+  "quien": "estudiantes",
+  "nota": "estudiante 1"
+ },
+ {
+  "desde": 336.3,
+  "quien": "conductor",
+  "nota": "presentadora B, un momento"
+ },
+ {
+  "desde": 350.3,
+  "quien": "conductor",
+  "nota": "presentadora A, pregunta"
+ },
+ {
+  "desde": 354.3,
+  "quien": "estudiantes",
+  "nota": "estudiante, amistades"
+ },
+ {
+  "desde": 404.3,
+  "quien": "conductor",
+  "nota": "presentadora A, medicamentos"
+ },
+ {
+  "desde": 451.3,
+  "quien": "drogueria",
+  "nota": "se presenta: \"Soy la encargada...\" (sin pausa antes)",
+  "exacto": true
+ },
+ {
+  "desde": 493.3,
+  "quien": "conductor",
+  "nota": "presentadora A, pregunta"
+ },
+ {
+  "desde": 501.3,
+  "quien": "drogueria",
+  "nota": "respuesta 2"
+ },
+ {
+  "desde": 529.3,
+  "quien": "conductor",
+  "nota": "presentadora B"
+ },
+ {
+  "desde": 559.3,
+  "quien": "conductor",
+  "nota": "presentadora A"
+ },
+ {
+  "desde": 592.3,
+  "quien": "estudiantes",
+  "nota": "a quien acudir"
+ },
+ {
+  "desde": 617.3,
+  "quien": "conductor",
+  "nota": "pregunta"
+ },
+ {
+  "desde": 626.3,
+  "quien": "estudiantes",
+  "nota": "actividades"
+ },
+ {
+  "desde": 695.3,
+  "quien": "conductor",
+  "nota": "presentadora A"
+ },
+ {
+  "desde": 725.3,
+  "quien": "conductor",
+  "nota": "presentadora B"
+ },
+ {
+  "desde": 733.3,
+  "quien": "conductor",
+  "nota": "presentadora A"
+ },
+ {
+  "desde": 788.3,
+  "quien": "estudiantes",
+  "nota": "mensaje final"
+ },
+ {
+  "desde": 870.3,
+  "quien": "conductor",
+  "nota": "presentadora B, cierre"
+ }
+]
