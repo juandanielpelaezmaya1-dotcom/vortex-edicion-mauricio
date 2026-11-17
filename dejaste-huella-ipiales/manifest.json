@@ -1,0 +1,104 @@
+{
+  "slug": "dejaste-huella-ipiales",
+  "fps": 59.94,
+  "formatos": [
+    "9x16"
+  ],
+  "clips": [
+    {
+      "archivo": "material/final-sin-subtitulos.mp4",
+      "in_s": 0,
+      "out_s": 75.89
+    },
+    {
+      "archivo": "material/logo-animado-9x16.mp4",
+      "volumen": 0,
+      "transicion": {
+        "tipo": "disolver",
+        "duracion_s": 0.3
+      }
+    }
+  ],
+  "subtitulos": {
+    "activo": true,
+    "estilo": "editorial",
+    "sombra": true,
+    "frases": [
+      {
+        "texto": "hoy *Dejaste* / *Huella*",
+        "desde_s": 2.0,
+        "hasta_s": 3.95,
+        "y": 52
+      },
+      {
+        "texto": "se va de _viaje_",
+        "desde_s": 4.1,
+        "hasta_s": 6.35,
+        "y": 64
+      },
+      {
+        "texto": "empezamos / en _Pasto_",
+        "desde_s": 12.3,
+        "hasta_s": 15.0,
+        "y": 64
+      },
+      {
+        "texto": "y hoy llegamos / a *Ipiales*",
+        "desde_s": 23.0,
+        "hasta_s": 24.88,
+        "y": 60
+      },
+      {
+        "texto": "nunca _imaginamos_",
+        "y": 52
+      },
+      {
+        "texto": "que esto iba a ser / tan *grande*",
+        "y": 52
+      },
+      {
+        "texto": "en menos / de dos meses",
+        "y": 52
+      },
+      {
+        "texto": "esto fue una _realidad_",
+        "y": 52
+      },
+      {
+        "texto": "nuestra segunda sede",
+        "y": 52
+      },
+      {
+        "texto": "aquí en _Ipiales_",
+        "y": 52
+      },
+      {
+        "texto": "con el mismo / _cariño_ de siempre",
+        "y": 45
+      },
+      {
+        "texto": "ahora más cerca",
+        "y": 45
+      },
+      {
+        "texto": "de las familias / _del sur_",
+        "hasta_s": 68.78,
+        "y": 45
+      }
+    ]
+  },
+  "pistas": [
+    {
+      "archivo": "material/final-sin-subtitulos.mp4",
+      "in_s": 75.89,
+      "out_s": 80.44,
+      "en_s": 75.89,
+      "limpiar": false,
+      "nivel_lufs": -16.2,
+      "fundido_s": [
+        0.01,
+        2.5
+      ]
+    }
+  ]
+}
