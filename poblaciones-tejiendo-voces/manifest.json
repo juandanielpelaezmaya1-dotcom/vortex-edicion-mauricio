@@ -320,15 +320,113 @@
     },
     {
       "archivo": "material/atlasaudio-chill-ambient-625687.mp3",
-      "in_s": 21.700000000000003,
-      "out_s": 86.9,
-      "en_s": 21.700000000000003,
+      "in_s": 21.7,
+      "out_s": 24.6,
+      "en_s": 21.7,
       "volumen": 0.8,
       "limpiar": false,
       "ganancia_db": -2.6,
       "fundido_s": [
         0.9,
+        1.2
+      ]
+    },
+    {
+      "archivo": "material/atlasaudio-chill-ambient-625687.mp3",
+      "in_s": 23.4,
+      "out_s": 72.4,
+      "en_s": 23.4,
+      "volumen": 0.22,
+      "limpiar": false,
+      "ganancia_db": -2.6,
+      "fundido_s": [
+        1.2,
+        1.5
+      ]
+    },
+    {
+      "archivo": "material/atlasaudio-chill-ambient-625687.mp3",
+      "in_s": 70.9,
+      "out_s": 86.9,
+      "en_s": 70.9,
+      "volumen": 0.8,
+      "limpiar": false,
+      "ganancia_db": -2.6,
+      "fundido_s": [
+        1.5,
         0.06
+      ]
+    },
+    {
+      "archivo": "voz-off/guia2-01.wav",
+      "in_s": 0,
+      "out_s": 5.2,
+      "en_s": 24.89,
+      "volumen": 1,
+      "limpiar": false,
+      "fundido_s": [
+        0.02,
+        0.15
+      ]
+    },
+    {
+      "archivo": "voz-off/guia2-02.wav",
+      "in_s": 0,
+      "out_s": 5.9,
+      "en_s": 32.18,
+      "volumen": 1,
+      "limpiar": false,
+      "fundido_s": [
+        0.02,
+        0.15
+      ]
+    },
+    {
+      "archivo": "voz-off/guia2-03.wav",
+      "in_s": 0,
+      "out_s": 4.1,
+      "en_s": 40.17,
+      "volumen": 1,
+      "limpiar": false,
+      "fundido_s": [
+        0.02,
+        0.15
+      ]
+    },
+    {
+      "archivo": "voz-off/guia2-04.wav",
+      "in_s": 0,
+      "out_s": 6.4,
+      "en_s": 46.47,
+      "volumen": 1,
+      "limpiar": false,
+      "fundido_s": [
+        0.02,
+        0.15
+      ]
+    },
+    {
+      "archivo": "voz-off/guia2-05.wav",
+      "in_s": 0,
+      "out_s": 10.5,
+      "en_s": 55.28,
+      "volumen": 1,
+      "limpiar": false,
+      "fundido_s": [
+        0.02,
+        0.15
+      ]
+    },
+    {
+      "archivo": "voz-off/guia2-06.wav",
+      "in_s": 0,
+      "out_s": 2.9,
+      "en_s": 68.38,
+      "volumen": 1,
+      "limpiar": false,
+      "fundido_s": [
+        0.02,
+        0.15
       ]
     }
   ],
@@ -342,13 +440,6 @@
     }
   ],
   "textos": [
-    {
-      "texto": "Daniela de la Cruz | Secretaria de Salud de Pasto",
-      "desde_s": 0.4,
-      "hasta_s": 4.2,
-      "estilo": "credencial",
-      "posicion": "abajo"
-    },
     {
       "texto": "II ENCUENTRO",
       "desde_s": 4.4799999999999995,
@@ -460,54 +551,144 @@
       "animacion": "subir"
     },
     {
-      "texto": "Un espacio donde la diversidad se hace visible",
-      "desde_s": 35.8,
-      "hasta_s": 39.1,
+      "texto": "Así se vivió el segundo encuentro",
+      "desde_s": 25.0,
+      "hasta_s": 27.16,
       "pos": {
         "x": 50,
         "y": 70
       },
-      "animacion": "subir"
+      "animacion": "fundido"
     },
     {
-      "texto": "Donde las voces cobran protagonismo",
-      "desde_s": 52.6,
-      "hasta_s": 56.1,
+      "texto": "Tejiendo voces, construyendo vida",
+      "desde_s": 27.34,
+      "hasta_s": 30.19,
       "pos": {
         "x": 50,
         "y": 70
       },
-      "animacion": "subir"
+      "animacion": "fundido"
     },
     {
-      "texto": "Y cada experiencia nos recuerda",
-      "desde_s": 67.6,
-      "hasta_s": 70.6,
+      "texto": "Una jornada en la que cada grupo poblacional",
+      "desde_s": 32.3,
+      "hasta_s": 35.23,
       "pos": {
         "x": 50,
         "y": 70
       },
-      "animacion": "subir"
+      "animacion": "fundido"
     },
     {
-      "texto": "que el bienestar, la inclusión y la transformación social",
-      "desde_s": 71.0,
-      "hasta_s": 73.6,
+      "texto": "llegó, participó y se hizo escuchar",
+      "desde_s": 35.23,
+      "hasta_s": 38.08,
       "pos": {
         "x": 50,
         "y": 70
       },
-      "animacion": "subir"
+      "animacion": "fundido"
     },
     {
-      "texto": "se construyen colectivamente",
-      "desde_s": 74.1,
-      "hasta_s": 78.1,
+      "texto": "La participación de todos",
+      "desde_s": 40.3,
+      "hasta_s": 41.87,
       "pos": {
         "x": 50,
         "y": 70
       },
-      "animacion": "subir"
+      "animacion": "fundido"
+    },
+    {
+      "texto": "hizo de este encuentro un éxito",
+      "desde_s": 41.87,
+      "hasta_s": 44.27,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "fundido"
+    },
+    {
+      "texto": "Seguimos trabajando para mejorar cada día",
+      "desde_s": 46.6,
+      "hasta_s": 49.23,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "fundido"
+    },
+    {
+      "texto": "y llevar una mejor atención en salud",
+      "desde_s": 49.23,
+      "hasta_s": 51.39,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "fundido"
+    },
+    {
+      "texto": "a cada territorio",
+      "desde_s": 51.39,
+      "hasta_s": 52.87,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "fundido"
+    },
+    {
+      "texto": "Una estrategia del Plan de Intervenciones Colectivas",
+      "desde_s": 55.41,
+      "hasta_s": 58.87,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "fundido"
+    },
+    {
+      "texto": "y Ciudad Bienestar,",
+      "desde_s": 58.87,
+      "hasta_s": 60.4,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "fundido"
+    },
+    {
+      "texto": "de la Secretaría de Salud de Pasto,",
+      "desde_s": 60.4,
+      "hasta_s": 62.78,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "fundido"
+    },
+    {
+      "texto": "en articulación con la ESE Pasto Salud",
+      "desde_s": 62.78,
+      "hasta_s": 65.78,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "fundido"
+    },
+    {
+      "texto": "El bienestar se construye entre todos",
+      "desde_s": 68.5,
+      "hasta_s": 71.38,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "fundido"
     },
     {
       "texto": "II ENCUENTRO",
