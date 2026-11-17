@@ -1,0 +1,533 @@
+{
+  "slug": "poblaciones-tejiendo-voces",
+  "fps": 30,
+  "formatos": [
+    "9x16"
+  ],
+  "acento": "#ffffff",
+  "clips": [
+    {
+      "archivo": "material/cine/IMG_6875.mp4",
+      "in_s": 14.1,
+      "out_s": 18.48,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6828.mp4",
+      "in_s": 0.5,
+      "out_s": 3.1,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6837.mp4",
+      "in_s": 4.2,
+      "out_s": 6.67,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6836.mp4",
+      "in_s": 10.6,
+      "out_s": 12.0,
+      "volumen": 0
+    },
+    {
+      "archivo": "material/cine/IMG_6890.mp4",
+      "in_s": 34.0,
+      "out_s": 36.3,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6896.mp4",
+      "in_s": 7.0,
+      "out_s": 9.07,
+      "volumen": 0
+    },
+    {
+      "archivo": "material/cine/IMG_6837.mp4",
+      "in_s": 12.6,
+      "out_s": 13.78,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6917.mp4",
+      "in_s": 3.9,
+      "out_s": 5.75,
+      "volumen": 0
+    },
+    {
+      "archivo": "material/cine/IMG_6838.mp4",
+      "in_s": 2.0,
+      "out_s": 3.3,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6852.mp4",
+      "in_s": 3.7,
+      "out_s": 4.95,
+      "volumen": 0
+    },
+    {
+      "archivo": "material/cine/IMG_6859.mp4",
+      "in_s": 0.0,
+      "out_s": 2.2,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6822.mp4",
+      "in_s": 0.0,
+      "out_s": 2.0,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6904.mp4",
+      "in_s": 30.0,
+      "out_s": 34.0,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6880.mp4",
+      "in_s": 12.8,
+      "out_s": 16.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6925.mp4",
+      "in_s": 21.9,
+      "out_s": 24.6,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6897.mp4",
+      "in_s": 9.6,
+      "out_s": 13.4,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6862.mp4",
+      "in_s": 11.0,
+      "out_s": 14.5,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6896.mp4",
+      "in_s": 11.0,
+      "out_s": 14.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6855.mp4",
+      "in_s": 4.0,
+      "out_s": 6.5,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6901.mp4",
+      "in_s": 13.0,
+      "out_s": 16.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6919.mp4",
+      "in_s": 18.5,
+      "out_s": 22.5,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6860.mp4",
+      "in_s": 6.5,
+      "out_s": 10.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6909.mp4",
+      "in_s": 0.0,
+      "out_s": 2.8,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6923.mp4",
+      "in_s": 0.3,
+      "out_s": 4.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6897.mp4",
+      "in_s": 33.0,
+      "out_s": 36.5,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6908.mp4",
+      "in_s": 3.0,
+      "out_s": 6.0,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6919.mp4",
+      "in_s": 24.0,
+      "out_s": 28.5,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6925.mp4",
+      "in_s": 0.3,
+      "out_s": 4.3,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/cine/IMG_6890.mp4",
+      "in_s": 44.0,
+      "out_s": 47.8,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    }
+  ],
+  "pistas": [
+    {
+      "archivo": "material/IMG_6875.MOV",
+      "in_s": 14.1,
+      "out_s": 35.85,
+      "en_s": 0,
+      "volumen": 1,
+      "fundido_s": [
+        0.03,
+        0.2
+      ]
+    },
+    {
+      "archivo": "material/atlasaudio-chill-ambient-625687.mp3",
+      "in_s": 0,
+      "out_s": 22.6,
+      "en_s": 0,
+      "volumen": 0.2,
+      "limpiar": false,
+      "ganancia_db": -2.6,
+      "fundido_s": [
+        0.5,
+        0.9
+      ]
+    },
+    {
+      "archivo": "material/atlasaudio-chill-ambient-625687.mp3",
+      "in_s": 21.700000000000003,
+      "out_s": 86.9,
+      "en_s": 21.700000000000003,
+      "volumen": 0.8,
+      "limpiar": false,
+      "ganancia_db": -2.6,
+      "fundido_s": [
+        0.9,
+        0.06
+      ]
+    }
+  ],
+  "velos": [
+    {
+      "desde_s": 82.4,
+      "hasta_s": 86.0,
+      "opacidad": 0.45,
+      "desenfoque": 6,
+      "color": "#000000"
+    }
+  ],
+  "textos": [
+    {
+      "texto": "Daniela de la Cruz | Secretaria de Salud de Pasto",
+      "desde_s": 0.4,
+      "hasta_s": 4.2,
+      "estilo": "credencial",
+      "posicion": "abajo"
+    },
+    {
+      "texto": "II ENCUENTRO",
+      "desde_s": 4.4799999999999995,
+      "hasta_s": 6.91,
+      "estilo": "antetitulo",
+      "pos": {
+        "x": 50,
+        "y": 22
+      }
+    },
+    {
+      "texto": "Tejiendo voces, construyendo vida",
+      "desde_s": 4.48,
+      "hasta_s": 6.91,
+      "pos": {
+        "x": 50,
+        "y": 30
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Personas mayores",
+      "desde_s": 6.98,
+      "hasta_s": 9.38,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Pueblos indígenas",
+      "desde_s": 9.5,
+      "hasta_s": 10.78,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Pueblo Rrom · Habitantes de calle",
+      "desde_s": 10.9,
+      "hasta_s": 13.08,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Víctimas del conflicto armado",
+      "desde_s": 13.2,
+      "hasta_s": 15.15,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Población afro",
+      "desde_s": 15.25,
+      "hasta_s": 16.33,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Personas con discapacidad",
+      "desde_s": 16.45,
+      "hasta_s": 18.18,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Campesinos",
+      "desde_s": 18.3,
+      "hasta_s": 19.48,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Población LGBTIQ+ y OSIEGD",
+      "desde_s": 19.58,
+      "hasta_s": 20.73,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Migrantes",
+      "desde_s": 20.85,
+      "hasta_s": 22.93,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Un espacio donde la diversidad se hace visible",
+      "desde_s": 35.8,
+      "hasta_s": 39.1,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Donde las voces cobran protagonismo",
+      "desde_s": 52.6,
+      "hasta_s": 56.1,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "Y cada experiencia nos recuerda",
+      "desde_s": 67.6,
+      "hasta_s": 70.6,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "que el bienestar, la inclusión y la transformación social",
+      "desde_s": 71.0,
+      "hasta_s": 73.6,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "se construyen colectivamente",
+      "desde_s": 74.1,
+      "hasta_s": 78.1,
+      "pos": {
+        "x": 50,
+        "y": 70
+      },
+      "animacion": "subir"
+    },
+    {
+      "texto": "II ENCUENTRO",
+      "desde_s": 82.6,
+      "hasta_s": 86.0,
+      "estilo": "antetitulo",
+      "pos": {
+        "x": 50,
+        "y": 40
+      }
+    },
+    {
+      "texto": "Tejiendo voces, construyendo vida",
+      "desde_s": 82.6,
+      "hasta_s": 86.0,
+      "pos": {
+        "x": 50,
+        "y": 48
+      },
+      "animacion": "subir"
+    }
+  ]
+}

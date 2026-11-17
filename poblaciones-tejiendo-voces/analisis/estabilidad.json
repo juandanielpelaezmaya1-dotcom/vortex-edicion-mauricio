@@ -1,0 +1,330 @@
+{
+ "material/IMG_6822.MOV": {
+  "dur": 56.8,
+  "mov_medio": 2.05,
+  "quietos": [
+   [
+    0.0,
+    2.0
+   ],
+   [
+    54.8,
+    56.8
+   ]
+  ]
+ },
+ "material/IMG_6828.MOV": {
+  "dur": 13.5,
+  "mov_medio": 2.01,
+  "quietos": []
+ },
+ "material/IMG_6835.MOV": {
+  "dur": 8.7,
+  "mov_medio": 5.09,
+  "quietos": []
+ },
+ "material/IMG_6836.MOV": {
+  "dur": 35.9,
+  "mov_medio": 2.87,
+  "quietos": [
+   [
+    29.7,
+    34.9
+   ]
+  ]
+ },
+ "material/IMG_6837.MOV": {
+  "dur": 18.2,
+  "mov_medio": 4.12,
+  "quietos": []
+ },
+ "material/IMG_6838.MOV": {
+  "dur": 6.7,
+  "mov_medio": 4.53,
+  "quietos": []
+ },
+ "material/IMG_6839.MOV": {
+  "dur": 13.6,
+  "mov_medio": 3.36,
+  "quietos": []
+ },
+ "material/IMG_6840.MOV": {
+  "dur": 19.8,
+  "mov_medio": 0.72,
+  "quietos": [
+   [
+    7.5,
+    16.0
+   ]
+  ]
+ },
+ "material/IMG_6845.MOV": {
+  "dur": 19.2,
+  "mov_medio": 4.73,
+  "quietos": []
+ },
+ "material/IMG_6848.MOV": {
+  "dur": 41.6,
+  "mov_medio": 3.1,
+  "quietos": []
+ },
+ "material/IMG_6852.MOV": {
+  "dur": 9.3,
+  "mov_medio": 0.37,
+  "quietos": [
+   [
+    3.7,
+    8.7
+   ]
+  ]
+ },
+ "material/IMG_6855.MOV": {
+  "dur": 20.2,
+  "mov_medio": 2.55,
+  "quietos": []
+ },
+ "material/IMG_6859.MOV": {
+  "dur": 20.4,
+  "mov_medio": 0.41,
+  "quietos": [
+   [
+    0.0,
+    6.4
+   ],
+   [
+    9.0,
+    11.0
+   ],
+   [
+    17.2,
+    20.4
+   ]
+  ]
+ },
+ "material/IMG_6860.MOV": {
+  "dur": 11.0,
+  "mov_medio": 2.03,
+  "quietos": []
+ },
+ "material/IMG_6862.MOV": {
+  "dur": 17.2,
+  "mov_medio": 0.7,
+  "quietos": [
+   [
+    7.9,
+    17.2
+   ]
+  ]
+ },
+ "material/IMG_6870.MOV": {
+  "dur": 44.7,
+  "mov_medio": 1.95,
+  "quietos": [
+   [
+    30.1,
+    40.0
+   ]
+  ]
+ },
+ "material/IMG_6871.MOV": {
+  "dur": 9.4,
+  "mov_medio": 1.79,
+  "quietos": []
+ },
+ "material/IMG_6872.MOV": {
+  "dur": 8.5,
+  "mov_medio": 2.43,
+  "quietos": []
+ },
+ "material/IMG_6874.MOV": {
+  "dur": 9.5,
+  "mov_medio": 2.87,
+  "quietos": []
+ },
+ "material/IMG_6875.MOV": {
+  "dur": 42.2,
+  "mov_medio": 0.99,
+  "quietos": [
+   [
+    0.0,
+    9.1
+   ],
+   [
+    18.5,
+    21.0
+   ]
+  ]
+ },
+ "material/IMG_6880.MOV": {
+  "dur": 43.8,
+  "mov_medio": 2.22,
+  "quietos": [
+   [
+    12.8,
+    17.0
+   ]
+  ]
+ },
+ "material/IMG_6889.MOV": {
+  "dur": 8.8,
+  "mov_medio": 5.73,
+  "quietos": []
+ },
+ "material/IMG_6890.MOV": {
+  "dur": 48.1,
+  "mov_medio": 1.34,
+  "quietos": [
+   [
+    25.4,
+    28.0
+   ],
+   [
+    30.7,
+    38.1
+   ],
+   [
+    41.9,
+    48.1
+   ]
+  ]
+ },
+ "material/IMG_6895.MOV": {
+  "dur": 11.2,
+  "mov_medio": 2.2,
+  "quietos": []
+ },
+ "material/IMG_6896.MOV": {
+  "dur": 15.3,
+  "mov_medio": 1.29,
+  "quietos": [
+   [
+    6.2,
+    10.1
+   ],
+   [
+    10.8,
+    15.3
+   ]
+  ]
+ },
+ "material/IMG_6897.MOV": {
+  "dur": 43.0,
+  "mov_medio": 1.21,
+  "quietos": [
+   [
+    9.6,
+    13.5
+   ],
+   [
+    19.8,
+    22.0
+   ],
+   [
+    33.0,
+    36.4
+   ]
+  ]
+ },
+ "material/IMG_6898.MOV": {
+  "dur": 9.7,
+  "mov_medio": 0.77,
+  "quietos": [
+   [
+    0.0,
+    3.9
+   ]
+  ]
+ },
+ "material/IMG_6901.MOV": {
+  "dur": 22.4,
+  "mov_medio": 2.1,
+  "quietos": []
+ },
+ "material/IMG_6904.MOV": {
+  "dur": 34.0,
+  "mov_medio": 1.62,
+  "quietos": [
+   [
+    31.4,
+    34.0
+   ]
+  ]
+ },
+ "material/IMG_6908.MOV": {
+  "dur": 16.6,
+  "mov_medio": 1.21,
+  "quietos": [
+   [
+    2.7,
+    9.6
+   ]
+  ]
+ },
+ "material/IMG_6909.MOV": {
+  "dur": 8.7,
+  "mov_medio": 1.16,
+  "quietos": [
+   [
+    0.0,
+    2.6
+   ]
+  ]
+ },
+ "material/IMG_6910.MOV": {
+  "dur": 6.3,
+  "mov_medio": 1.82,
+  "quietos": []
+ },
+ "material/IMG_6917.MOV": {
+  "dur": 20.4,
+  "mov_medio": 2.16,
+  "quietos": []
+ },
+ "material/IMG_6918.MOV": {
+  "dur": 10.9,
+  "mov_medio": 2.18,
+  "quietos": []
+ },
+ "material/IMG_6919.MOV": {
+  "dur": 28.6,
+  "mov_medio": 1.11,
+  "quietos": [
+   [
+    15.4,
+    18.2
+   ],
+   [
+    19.3,
+    28.6
+   ]
+  ]
+ },
+ "material/IMG_6923.MOV": {
+  "dur": 8.1,
+  "mov_medio": 1.07,
+  "quietos": [
+   [
+    0.0,
+    4.8
+   ]
+  ]
+ },
+ "material/IMG_6925.MOV": {
+  "dur": 27.7,
+  "mov_medio": 0.88,
+  "quietos": [
+   [
+    0.0,
+    7.8
+   ],
+   [
+    21.9,
+    24.6
+   ],
+   [
+    25.6,
+    27.7
+   ]
+  ]
+ }
+}
