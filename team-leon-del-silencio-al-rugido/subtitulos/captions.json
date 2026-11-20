@@ -1,0 +1,799 @@
+[
+ {
+  "text": " esta",
+  "startMs": 470,
+  "endMs": 790,
+  "timestampMs": null,
+  "confidence": null,
+  "corte": true
+ },
+ {
+  "text": " campana",
+  "startMs": 790,
+  "endMs": 1390,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " sonará",
+  "startMs": 1390,
+  "endMs": 1790,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 12",
+  "startMs": 1790,
+  "endMs": 2050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " veces",
+  "startMs": 2370,
+  "endMs": 2670,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " este",
+  "startMs": 2670,
+  "endMs": 2970,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 12",
+  "startMs": 2970,
+  "endMs": 3170,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 3170,
+  "endMs": 3250,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " diciembre",
+  "startMs": 3250,
+  "endMs": 4000,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " acompáñenme",
+  "startMs": 3930,
+  "endMs": 4410,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 4410,
+  "endMs": 4600,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ver",
+  "startMs": 4830,
+  "endMs": 5110,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cómo",
+  "startMs": 5110,
+  "endMs": 5350,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " viviremos",
+  "startMs": 5350,
+  "endMs": 5770,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " esta",
+  "startMs": 5770,
+  "endMs": 6050,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " noche",
+  "startMs": 6050,
+  "endMs": 6150,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " esta",
+  "startMs": 12043,
+  "endMs": 12443,
+  "timestampMs": null,
+  "confidence": null,
+  "corte": true
+ },
+ {
+  "text": " es",
+  "startMs": 12503,
+  "endMs": 12643,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " la",
+  "startMs": 12643,
+  "endMs": 12843,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " zona",
+  "startMs": 12843,
+  "endMs": 13243,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " general,",
+  "startMs": 13323,
+  "endMs": 13903,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " aquí",
+  "startMs": 13903,
+  "endMs": 14083,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " podrás",
+  "startMs": 14083,
+  "endMs": 14383,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " andar",
+  "startMs": 14383,
+  "endMs": 14483,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " con",
+  "startMs": 14483,
+  "endMs": 14723,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tu",
+  "startMs": 14723,
+  "endMs": 14943,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " parche,",
+  "startMs": 14943,
+  "endMs": 15553,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " disfrutar",
+  "startMs": 15623,
+  "endMs": 15863,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 15863,
+  "endMs": 16003,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " las",
+  "startMs": 16003,
+  "endMs": 16203,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " peleas",
+  "startMs": 16203,
+  "endMs": 16443,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " toda",
+  "startMs": 16443,
+  "endMs": 16623,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " la",
+  "startMs": 16623,
+  "endMs": 16783,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " noche",
+  "startMs": 16783,
+  "endMs": 17033,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " esta,",
+  "startMs": 17603,
+  "endMs": 18023,
+  "timestampMs": null,
+  "confidence": null,
+  "corte": true
+ },
+ {
+  "text": " será",
+  "startMs": 18023,
+  "endMs": 18143,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " la",
+  "startMs": 18143,
+  "endMs": 18383,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " zona",
+  "startMs": 18383,
+  "endMs": 18783,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " VIP",
+  "startMs": 18883,
+  "endMs": 19213,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " aquí",
+  "startMs": 19603,
+  "endMs": 19863,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tendrás",
+  "startMs": 19863,
+  "endMs": 20543,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " más",
+  "startMs": 20563,
+  "endMs": 20893,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " comodidad",
+  "startMs": 21003,
+  "endMs": 21263,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " con",
+  "startMs": 21263,
+  "endMs": 21423,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tu",
+  "startMs": 21423,
+  "endMs": 21663,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " propia",
+  "startMs": 21663,
+  "endMs": 21823,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " silla",
+  "startMs": 21823,
+  "endMs": 22293,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " estarás",
+  "startMs": 22563,
+  "endMs": 22883,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " más",
+  "startMs": 22883,
+  "endMs": 23063,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " cerca",
+  "startMs": 23063,
+  "endMs": 23203,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " del",
+  "startMs": 23203,
+  "endMs": 23403,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " octágono",
+  "startMs": 23403,
+  "endMs": 24083,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " y",
+  "startMs": 24223,
+  "endMs": 24363,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " podrás",
+  "startMs": 24363,
+  "endMs": 24743,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " escuchar",
+  "startMs": 24743,
+  "endMs": 25063,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " todos",
+  "startMs": 25063,
+  "endMs": 25223,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " los",
+  "startMs": 25223,
+  "endMs": 25403,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " golpes",
+  "startMs": 25403,
+  "endMs": 25633,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " esta",
+  "startMs": 25743,
+  "endMs": 25863,
+  "timestampMs": null,
+  "confidence": null,
+  "corte": true
+ },
+ {
+  "text": " es",
+  "startMs": 25863,
+  "endMs": 25923,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " la",
+  "startMs": 25923,
+  "endMs": 26123,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " zona",
+  "startMs": 26123,
+  "endMs": 26443,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " palcos,",
+  "startMs": 26443,
+  "endMs": 27053,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " si",
+  "startMs": 27343,
+  "endMs": 27563,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tu",
+  "startMs": 27563,
+  "endMs": 27783,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " plan",
+  "startMs": 27783,
+  "endMs": 28043,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " es",
+  "startMs": 28043,
+  "endMs": 28283,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " venir",
+  "startMs": 28283,
+  "endMs": 28423,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " con",
+  "startMs": 28423,
+  "endMs": 28603,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tu",
+  "startMs": 28603,
+  "endMs": 28863,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " familia,",
+  "startMs": 28963,
+  "endMs": 29163,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " con",
+  "startMs": 29163,
+  "endMs": 29383,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tus",
+  "startMs": 29383,
+  "endMs": 29713,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " amigos,",
+  "startMs": 29783,
+  "endMs": 30203,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tener",
+  "startMs": 30203,
+  "endMs": 30363,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " la",
+  "startMs": 30363,
+  "endMs": 30583,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mejor",
+  "startMs": 30583,
+  "endMs": 30823,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vista",
+  "startMs": 30823,
+  "endMs": 30983,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 30983,
+  "endMs": 31103,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " la",
+  "startMs": 31103,
+  "endMs": 31363,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " noche,",
+  "startMs": 31643,
+  "endMs": 32183,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " esta",
+  "startMs": 32263,
+  "endMs": 32443,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " será",
+  "startMs": 32443,
+  "endMs": 32583,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " tu",
+  "startMs": 32583,
+  "endMs": 32763,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " zona",
+  "startMs": 32763,
+  "endMs": 33083,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Y",
+  "startMs": 33603,
+  "endMs": 33793,
+  "timestampMs": null,
+  "confidence": null,
+  "corte": true
+ },
+ {
+  "text": " aquí",
+  "startMs": 34083,
+  "endMs": 34243,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " en",
+  "startMs": 34243,
+  "endMs": 34423,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " este",
+  "startMs": 34423,
+  "endMs": 34623,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " octágono",
+  "startMs": 34623,
+  "endMs": 35373,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " disfrutaremos",
+  "startMs": 35443,
+  "endMs": 36123,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 36123,
+  "endMs": 36323,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " 12",
+  "startMs": 36323,
+  "endMs": 36583,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " combates",
+  "startMs": 36663,
+  "endMs": 37343,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " de",
+  "startMs": 37343,
+  "endMs": 37563,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " artes",
+  "startMs": 37563,
+  "endMs": 37823,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " marciales",
+  "startMs": 37823,
+  "endMs": 38503,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " con",
+  "startMs": 38503,
+  "endMs": 38623,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " el",
+  "startMs": 38623,
+  "endMs": 38803,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " mejor",
+  "startMs": 38803,
+  "endMs": 39043,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " talento",
+  "startMs": 39043,
+  "endMs": 39653,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " nacional",
+  "startMs": 39723,
+  "endMs": 40163,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " e",
+  "startMs": 40163,
+  "endMs": 40353,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " internacional,",
+  "startMs": 40683,
+  "endMs": 41243,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " los",
+  "startMs": 41243,
+  "endMs": 41543,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " esperamos.",
+  "startMs": 41543,
+  "endMs": 41883,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " Y",
+  "startMs": 43100,
+  "endMs": 43290,
+  "timestampMs": null,
+  "confidence": null,
+  "corte": true
+ },
+ {
+  "text": " tú,",
+  "startMs": 43480,
+  "endMs": 43620,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " ¿dónde",
+  "startMs": 43620,
+  "endMs": 43980,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " lo",
+  "startMs": 43980,
+  "endMs": 44120,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vas",
+  "startMs": 44120,
+  "endMs": 44280,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 44280,
+  "endMs": 44400,
+  "timestampMs": null,
+  "confidence": null
+ },
+ {
+  "text": " vivir?",
+  "startMs": 44400,
+  "endMs": 44750,
+  "timestampMs": null,
+  "confidence": null
+ }
+]

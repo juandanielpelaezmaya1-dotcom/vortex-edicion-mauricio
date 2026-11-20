@@ -36,10 +36,27 @@ export const Subtitulos: React.FC<{
   const { fps, width, height } = useVideoConfig();
   const ms = (frame / fps) * 1000;
 
-  const { pages } = useMemo(
-    () => createTikTokStyleCaptions({ captions: unirPalabras(captions), combineTokensWithinMilliseconds: 900 }),
-    [captions],
-  );
+  // Se pagina por tramos de voz: un silencio de mas de 0,45 s (una toma de apoyo, un corte)
+  // cierra el tramo. Sin esto una pagina juntaba la ultima palabra de una toma con la
+  // primera de la siguiente y se quedaba en pantalla encima de la toma de apoyo.
+  const pages = useMemo(() => {
+    const palabras = unirPalabras(captions);
+    const tramos: Caption[][] = [];
+    palabras.forEach((c, i) => {
+      // `corte: true` en captions.json marca la primera palabra de una toma: cuando alguien
+      // habla hasta el corte, el silencio no alcanza para separar las paginas.
+      const corte = (c as Caption & { corte?: boolean }).corte;
+      if (i === 0 || corte || c.startMs - palabras[i - 1].endMs > 450) tramos.push([]);
+      tramos[tramos.length - 1].push(c);
+    });
+    return tramos.flatMap((tramo) => {
+      const fin = tramo[tramo.length - 1].endMs + 350;
+      return createTikTokStyleCaptions({ captions: tramo, combineTokensWithinMilliseconds: 900 }).pages.map((p) => ({
+        ...p,
+        durationMs: Math.min(p.durationMs, fin - p.startMs),
+      }));
+    });
+  }, [captions]);
 
   const pagina = pages.find((p) => ms >= p.startMs && ms < p.startMs + p.durationMs);
   if (!pagina) return null;

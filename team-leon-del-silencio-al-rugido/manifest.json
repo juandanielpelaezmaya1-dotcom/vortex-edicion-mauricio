@@ -1,0 +1,326 @@
+{
+  "slug": "team-leon-del-silencio-al-rugido",
+  "fps": 29.97,
+  "formatos": [
+    "9x16"
+  ],
+  "acento": "#E8772E",
+  "progreso": true,
+  "clips": [
+    {
+      "archivo": "material/C20261119_5640.MP4",
+      "in_s": 2.45,
+      "out_s": 8.6,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.08
+      }
+    },
+    {
+      "archivo": "material/C20261119_5640.MP4",
+      "in_s": 8.6,
+      "out_s": 12.6,
+      "velocidad": 2,
+      "volumen": 0.6,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/plano-general-espacio.MP4",
+      "in_s": 1.5,
+      "out_s": 4.5,
+      "velocidad": 1.5,
+      "volumen": 0.4
+    },
+    {
+      "archivo": "material/C20261119_5671.MP4",
+      "in_s": 1.0,
+      "out_s": 3.0,
+      "velocidad": 1.5,
+      "volumen": 0
+    },
+    {
+      "archivo": "material/C20261119_5642.MP4",
+      "in_s": 2.0,
+      "out_s": 7.55,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      },
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 50,
+          "y": 35
+        },
+        "intensidad": 1.1
+      }
+    },
+    {
+      "archivo": "material/C20261119_5646.MP4",
+      "in_s": 2.15,
+      "out_s": 10.75,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      },
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.1
+      }
+    },
+    {
+      "archivo": "material/C20261119_5647.MP4",
+      "in_s": 1.95,
+      "out_s": 4.9,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      },
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 50,
+          "y": 40
+        },
+        "intensidad": 1.08
+      }
+    },
+    {
+      "archivo": "material/C20261119_5672.MP4",
+      "in_s": 5.2,
+      "out_s": 6.9,
+      "volumen": 0
+    },
+    {
+      "archivo": "material/C20261119_5647.MP4",
+      "in_s": 6.6,
+      "out_s": 9.4,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 50,
+          "y": 40
+        },
+        "intensidad": 1.15
+      }
+    },
+    {
+      "archivo": "material/C20261119_5662.MP4",
+      "in_s": 1.7,
+      "out_s": 6.9,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.13
+      }
+    },
+    {
+      "archivo": "material/C20261119_5670.MP4",
+      "in_s": 0.8,
+      "out_s": 2.8,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.1
+      }
+    },
+    {
+      "archivo": "material/C20261119_5662.MP4",
+      "in_s": 8.9,
+      "out_s": 10.5,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 50,
+          "y": 30
+        },
+        "intensidad": 1.12
+      }
+    },
+    {
+      "archivo": "material/plano-general-espacio.MP4",
+      "in_s": 9.0,
+      "out_s": 13.5,
+      "velocidad": 0.75,
+      "volumen": 0.3
+    }
+  ],
+  "pistas": [
+    {
+      "archivo": "material/C20261119_5640.MP4",
+      "in_s": 2.45,
+      "out_s": 8.6,
+      "en_s": 0
+    },
+    {
+      "archivo": "material/C20261119_5642.MP4",
+      "in_s": 2.0,
+      "out_s": 7.55,
+      "en_s": 11.483
+    },
+    {
+      "archivo": "material/C20261119_5646.MP4",
+      "in_s": 2.15,
+      "out_s": 10.75,
+      "en_s": 17.033
+    },
+    {
+      "archivo": "material/C20261119_5647.MP4",
+      "in_s": 1.95,
+      "out_s": 9.4,
+      "en_s": 25.633
+    },
+    {
+      "archivo": "material/C20261119_5662.MP4",
+      "in_s": 1.7,
+      "out_s": 10.5,
+      "en_s": 33.083
+    },
+    {
+      "archivo": "material/voz-off-profe-01.mp3",
+      "in_s": 0.9,
+      "out_s": 2.75,
+      "en_s": 42.9
+    }
+  ],
+  "efectos": [
+    {
+      "archivo": "material/sonido/campana.wav",
+      "en_s": 0.0,
+      "volumen": 0.5
+    },
+    {
+      "archivo": "material/sonido/campana-triple.wav",
+      "en_s": 41.9,
+      "volumen": 0.55
+    }
+  ],
+  "destellos": [
+    {
+      "en_s": 41.88,
+      "duracion_s": 0.3,
+      "color": "#E8772E",
+      "intensidad": 0.55
+    }
+  ],
+  "velos": [
+    {
+      "desde_s": 42.3,
+      "hasta_s": 47.9,
+      "opacidad": 0.6,
+      "desenfoque": 10,
+      "color": "#0b0b0b"
+    }
+  ],
+  "textos": [
+    {
+      "texto": "GENERAL",
+      "desde_s": 11.9,
+      "hasta_s": 16.95,
+      "pos": {
+        "x": 50,
+        "y": 16
+      },
+      "animacion": "resorte",
+      "color": "#E8772E",
+      "escala": 1.7
+    },
+    {
+      "texto": "VIP",
+      "desde_s": 17.4,
+      "hasta_s": 25.55,
+      "pos": {
+        "x": 50,
+        "y": 16
+      },
+      "animacion": "resorte",
+      "color": "#E8772E",
+      "escala": 1.7
+    },
+    {
+      "texto": "PALCOS",
+      "desde_s": 26.0,
+      "hasta_s": 28.5,
+      "pos": {
+        "x": 50,
+        "y": 16
+      },
+      "animacion": "resorte",
+      "color": "#E8772E",
+      "escala": 1.7
+    },
+    {
+      "texto": "12 PELEAS · MUAY THAI Y MMA",
+      "desde_s": 35.0,
+      "hasta_s": 38.2,
+      "pos": {
+        "x": 50,
+        "y": 14
+      },
+      "animacion": "resorte",
+      "color": "#E8772E",
+      "escala": 0.9
+    },
+    {
+      "texto": "TEAM LEÓN FIGHT NIGHT",
+      "desde_s": 43.0,
+      "hasta_s": 47.9,
+      "pos": {
+        "x": 50,
+        "y": 34
+      },
+      "animacion": "resorte",
+      "color": "#E8772E",
+      "escala": 1.35
+    },
+    {
+      "texto": "SÁBADO 12 DE DICIEMBRE",
+      "desde_s": 43.4,
+      "hasta_s": 47.9,
+      "pos": {
+        "x": 50,
+        "y": 45
+      },
+      "animacion": "subir",
+      "escala": 0.72
+    },
+    {
+      "texto": "BOULEVARD PLAZA",
+      "desde_s": 43.6,
+      "hasta_s": 47.9,
+      "pos": {
+        "x": 50,
+        "y": 49.5
+      },
+      "animacion": "subir",
+      "escala": 0.72
+    },
+    {
+      "texto": "Boletas en la boletería de VORTEX y puntos autorizados",
+      "desde_s": 43.8,
+      "hasta_s": 47.9,
+      "pos": {
+        "x": 50,
+        "y": 58
+      },
+      "animacion": "subir",
+      "escala": 0.6
+    }
+  ],
+  "subtitulos": {
+    "activo": true,
+    "acento": "#E8772E",
+    "pos": {
+      "y": 66
+    }
+  }
+}
