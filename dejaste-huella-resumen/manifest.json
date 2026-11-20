@@ -6,68 +6,33 @@
   ],
   "clips": [
     {
-      "archivo": "material/full.mp4",
-      "in_s": 170.61,
-      "out_s": 178.6,
+      "archivo": "material/gancho-gris.mp4",
+      "in_s": 0.61,
+      "out_s": 8.6,
       "zoom": {
         "tipo": "in",
         "hacia": {
           "x": 74,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       }
     },
     {
-      "archivo": "material/full.mp4",
-      "in_s": 183.8,
-      "out_s": 186.79,
+      "archivo": "material/gancho-gris.mp4",
+      "in_s": 13.8,
+      "out_s": 16.79,
       "zoom": {
         "tipo": "fijo",
         "hacia": {
           "x": 74,
           "y": 40
         },
-        "intensidad": 2.2
+        "intensidad": 1.65
       },
       "transicion": {
         "tipo": "desenfoque",
         "duracion_s": 0.15
-      }
-    },
-    {
-      "archivo": "material/full.mp4",
-      "in_s": 0,
-      "out_s": 1.9,
-      "zoom": {
-        "tipo": "fijo",
-        "hacia": {
-          "x": 33,
-          "y": 40
-        },
-        "intensidad": 2
-      },
-      "transicion": {
-        "tipo": "deslizar",
-        "desde": "izq",
-        "duracion_s": 0.3
-      }
-    },
-    {
-      "archivo": "material/full.mp4",
-      "in_s": 2.3,
-      "out_s": 4.49,
-      "zoom": {
-        "tipo": "fijo",
-        "hacia": {
-          "x": 74,
-          "y": 40
-        },
-        "intensidad": 2
-      },
-      "transicion": {
-        "tipo": "escala",
-        "duracion_s": 0.25
       }
     },
     {
@@ -80,7 +45,7 @@
           "x": 33,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "escala",
@@ -97,7 +62,7 @@
           "x": 74,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "escala",
@@ -114,7 +79,7 @@
           "x": 74,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "desenfoque",
@@ -131,7 +96,7 @@
           "x": 74,
           "y": 40
         },
-        "intensidad": 2.2
+        "intensidad": 1.65
       },
       "transicion": {
         "tipo": "desenfoque",
@@ -148,7 +113,7 @@
           "x": 33,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "deslizar",
@@ -166,7 +131,7 @@
           "x": 74,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "deslizar",
@@ -184,7 +149,7 @@
           "x": 74,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "desenfoque",
@@ -201,7 +166,7 @@
           "x": 74,
           "y": 40
         },
-        "intensidad": 2.2
+        "intensidad": 1.65
       },
       "transicion": {
         "tipo": "desenfoque",
@@ -218,7 +183,7 @@
           "x": 74,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "desenfoque",
@@ -235,7 +200,7 @@
           "x": 74,
           "y": 40
         },
-        "intensidad": 2.2
+        "intensidad": 1.65
       },
       "transicion": {
         "tipo": "desenfoque",
@@ -252,7 +217,7 @@
           "x": 33,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "escala",
@@ -269,7 +234,7 @@
           "x": 33,
           "y": 40
         },
-        "intensidad": 2.2
+        "intensidad": 1.65
       },
       "transicion": {
         "tipo": "desenfoque",
@@ -286,7 +251,7 @@
           "x": 33,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "desenfoque",
@@ -303,7 +268,7 @@
           "x": 74,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "escala",
@@ -320,7 +285,7 @@
           "x": 33,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "escala",
@@ -337,7 +302,7 @@
           "x": 74,
           "y": 40
         },
-        "intensidad": 2
+        "intensidad": 1.5
       },
       "transicion": {
         "tipo": "escala",
@@ -356,7 +321,7 @@
   ],
   "destellos": [
     {
-      "en_s": 10.98,
+      "en_s": 10.979999999999961,
       "duracion_s": 0.3,
       "color": "white",
       "intensidad": 0.55
@@ -389,18 +354,6 @@
         "hasta_s": 7.95
       },
       {
-        "texto": "¿y cómo llegó / _Sam_ a tu vida?",
-        "palabras": 7,
-        "y": 60,
-        "hasta_s": 12.84
-      },
-      {
-        "texto": "Sam llegó cuando / yo tenía 10 años",
-        "palabras": 7,
-        "y": 60,
-        "hasta_s": 15.03
-      },
-      {
         "texto": "¿y qué era lo que / él hacía",
         "palabras": 7,
         "y": 60
@@ -409,7 +362,7 @@
         "texto": "cuando llegabas / a casa?",
         "palabras": 4,
         "y": 60,
-        "hasta_s": 17.67
+        "hasta_s": 13.58
       },
       {
         "texto": "cuando llegaba, / sabes que",
@@ -430,7 +383,7 @@
         "texto": "él ya estaba / en la _puerta_",
         "palabras": 6,
         "y": 56,
-        "hasta_s": 25.92
+        "hasta_s": 21.83
       },
       {
         "texto": "cuando nosotros / le hablábamos",
@@ -441,7 +394,7 @@
         "texto": "él movía / sus _cejas_",
         "palabras": 4,
         "y": 56,
-        "hasta_s": 30.07
+        "hasta_s": 25.98
       },
       {
         "texto": "y era como",
@@ -467,7 +420,7 @@
         "texto": "en tu día a día?",
         "palabras": 5,
         "y": 60,
-        "hasta_s": 35.68
+        "hasta_s": 31.59
       },
       {
         "texto": "creo que escuchar / sus _paticas_",
@@ -483,7 +436,7 @@
         "texto": "en el apartamento",
         "palabras": 3,
         "y": 60,
-        "hasta_s": 41.9
+        "hasta_s": 37.81
       },
       {
         "texto": "estábamos solos",
@@ -499,7 +452,7 @@
         "texto": "y fue como algo / muy *íntimo*",
         "palabras": 6,
         "y": 56,
-        "hasta_s": 49.32
+        "hasta_s": 45.23
       },
       {
         "texto": "ya no, no se volvió / a _parar_",
@@ -510,7 +463,7 @@
         "texto": "yo ya *sabía*",
         "palabras": 3,
         "y": 60,
-        "hasta_s": 54.97
+        "hasta_s": 50.88
       },
       {
         "texto": "ya era / el _momento_",
@@ -526,19 +479,19 @@
         "texto": "por todos / y por ambos",
         "palabras": 7,
         "y": 56,
-        "hasta_s": 62.43
+        "hasta_s": 58.34
       },
       {
         "texto": "y su _mirada_ / lo decía",
         "palabras": 5,
         "y": 60,
-        "hasta_s": 64.33
+        "hasta_s": 60.24
       },
       {
         "texto": "es un *acto de amor* / lo que hacemos",
         "palabras": 8,
         "y": 60,
-        "hasta_s": 66.4
+        "hasta_s": 62.31
       },
       {
         "texto": "duele / _muy profundo_",
@@ -549,13 +502,13 @@
         "texto": "¿qué sentiste / cuando llegaste / aquí ese día?",
         "palabras": 7,
         "y": 60,
-        "hasta_s": 71.66
+        "hasta_s": 67.57
       },
       {
         "texto": "que le estaba dando / la despedida / que _merecía_",
         "palabras": 8,
         "y": 60,
-        "hasta_s": 74.11
+        "hasta_s": 70.02
       },
       {
         "texto": "y que Sam / se sintió _acompañado_",
@@ -576,7 +529,7 @@
         "texto": "y se sintió / *tan amado*",
         "palabras": 6,
         "y": 56,
-        "hasta_s": 80.86
+        "hasta_s": 76.77
       },
       {
         "texto": "Sam era / la razón",
@@ -597,9 +550,10 @@
         "texto": "para su *despedida*",
         "palabras": 3,
         "y": 56,
-        "hasta_s": 89.6
+        "hasta_s": 85.51
       }
-    ]
+    ],
+    "cursiva_oro": true
   },
   "musica": {
     "archivo": "material/musica-alegre.wav",

@@ -4,14 +4,17 @@
 
 Re mayor a 112 BPM, I-V-vi-IV (D A Bm G): ukelele rasgueado, bajo redondo, bombo y
 palmas suaves, shaker, y una campanita con la melodia en los tramos con menos voz.
-El compas 5 cae en 10,98 s, donde termina el gancho y empieza la historia: ahi entra el
-ritmo completo. Despues de la ultima palabra (89,7 s) la musica sube y cierra con el logo
-en un acorde de Re.
+El compas 5 cae donde termina el gancho (las dos primeras tomas) y empieza la historia:
+ahi entra el ritmo completo. Cuando termina la ultima toma con voz (entra el logo) la
+musica sube y cierra en un acorde de Re.
 
+Los tiempos salen de manifest.json: si cambian los cortes, basta volver a correrlo.
 Los niveles van horneados en el archivo (el manifest la usa con volumen 1): cama a
-~-25 LUFS bajo la voz, 3 dB menos mientras alguien habla (se mide sobre cache/borrador.mp4)
-y -16 LUFS al final. Deja material/musica-alegre.wav (material/ no viaja por git).
+~-27 LUFS bajo la voz, 3 dB menos mientras alguien habla (envolvente medida sobre el audio
+de las tomas tal como quedan en la linea de tiempo) y -16 LUFS al final.
+Deja material/musica-alegre.wav (material/ no viaja por git).
 """
+import json
 import os
 import subprocess
 import sys
@@ -21,17 +24,19 @@ from scipy.signal import fftconvolve
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 PROY = os.path.dirname(AQUI)
+M = json.load(open(os.path.join(PROY, "manifest.json"), encoding="utf-8"))
+CLIPS = [(c["archivo"], c.get("in_s", 0), c["out_s"]) for c in M["clips"]]
 SR = 48000
-T = 94.6
+T = sum(b - a for _, a, b in CLIPS) + 0.1
 N = int(T * SR)
 rng = np.random.default_rng(11)
 
 BPM = 112.0
 PULSO = 60.0 / BPM
 COMPAS = 4 * PULSO
-INICIO_HISTORIA = 10.98
+INICIO_HISTORIA = sum(b - a for _, a, b in CLIPS[:2])
 T0 = INICIO_HISTORIA - 5 * COMPAS  # el compas 5 cae donde empieza la historia
-ULTIMA_PALABRA = 89.7
+ULTIMA_PALABRA = sum(b - a for _, a, b in CLIPS[:-1])  # el ultimo clip es el logo
 
 
 def ff(*args):
@@ -228,15 +233,19 @@ db = np.where(t < 0.6, 2.5 - 30 * (0.6 - t) / 0.6, db)  # entrada suave
 sube = np.clip((t - (ULTIMA_PALABRA + 0.15)) / 0.8, 0, 1)
 db = db * (1 - sube) - 1.5 * sube
 
-# Ducking: -3 dB mientras alguien habla. Se mide sobre un borrador SIN musica (si se mide
-# sobre uno con musica, la propia cama cuenta como voz): render sin `musica` y copialo como
-# cache/borrador-sin-musica.mp4 si cambian los tiempos.
-borr = os.path.join(PROY, "cache", "borrador-sin-musica.mp4")
-vozw = os.path.join(PROY, "cache", "_voz_env.wav")
-ff("-i", borr, "-vn", "-ac", "1", "-ar", "1000", "-c:a", "pcm_s16le", vozw)
+# Ducking: -3 dB mientras alguien habla. La voz se arma con el audio de cada toma del
+# manifest, en orden y con su duracion exacta (el logo cuenta como silencio).
 import wave
-with wave.open(vozw) as w:
-    v = np.frombuffer(w.readframes(w.getnframes()), dtype="<i2").astype(float) / 32768
+vozw = os.path.join(PROY, "cache", "_voz_env.wav")
+trozos = []
+for archivo, a, b in CLIPS[:-1]:
+    ff("-ss", f"{a}", "-to", f"{b}", "-i", os.path.join(PROY, archivo), "-vn", "-ac", "1", "-ar", "1000",
+       "-c:a", "pcm_s16le", vozw)
+    with wave.open(vozw) as w:
+        x = np.frombuffer(w.readframes(w.getnframes()), dtype="<i2").astype(float) / 32768
+    n = int(round((b - a) * 1000))
+    trozos.append(np.pad(x, (0, max(0, n - len(x))))[:n])
+v = np.concatenate(trozos)
 ventana = 150  # ms
 rms = np.sqrt(np.convolve(v**2, np.ones(ventana) / ventana, mode="same"))
 habla = (20 * np.log10(rms + 1e-9) > -32).astype(float)

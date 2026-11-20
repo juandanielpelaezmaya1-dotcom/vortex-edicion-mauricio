@@ -190,1401 +190,1303 @@
   },
   {
     "text": " ¿y",
-    "startMs": 11140,
-    "endMs": 11400,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " cómo",
-    "startMs": 11500,
-    "endMs": 11760,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " llegó",
-    "startMs": 11760,
-    "endMs": 11960,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " Sam",
-    "startMs": 11960,
-    "endMs": 12100,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " a",
-    "startMs": 12100,
-    "endMs": 12180,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " tu",
-    "startMs": 12180,
-    "endMs": 12360,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " vida?",
-    "startMs": 12360,
-    "endMs": 12830,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " Sam",
-    "startMs": 13100,
-    "endMs": 13220,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " llegó",
-    "startMs": 13220,
-    "endMs": 13440,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " cuando",
-    "startMs": 13440,
-    "endMs": 13580,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " yo",
-    "startMs": 13580,
-    "endMs": 13800,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " tenía",
-    "startMs": 13800,
-    "endMs": 14080,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " 10",
-    "startMs": 14080,
-    "endMs": 14340,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " años",
-    "startMs": 14380,
-    "endMs": 14780,
-    "timestampMs": null,
-    "confidence": null
-  },
-  {
-    "text": " ¿y",
-    "startMs": 15460,
-    "endMs": 15580,
+    "startMs": 11370,
+    "endMs": 11490,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " qué",
-    "startMs": 15580,
-    "endMs": 15700,
+    "startMs": 11490,
+    "endMs": 11610,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " era",
-    "startMs": 15700,
-    "endMs": 15860,
+    "startMs": 11610,
+    "endMs": 11770,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " lo",
-    "startMs": 15860,
-    "endMs": 16020,
+    "startMs": 11770,
+    "endMs": 11930,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " que",
-    "startMs": 16020,
-    "endMs": 16180,
+    "startMs": 11930,
+    "endMs": 12090,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " le",
-    "startMs": 16180,
-    "endMs": 16260,
+    "startMs": 12090,
+    "endMs": 12170,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " hacía",
-    "startMs": 16260,
-    "endMs": 16580,
+    "startMs": 12170,
+    "endMs": 12490,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " cuando",
-    "startMs": 16580,
-    "endMs": 16760,
+    "startMs": 12490,
+    "endMs": 12670,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " llegabas",
-    "startMs": 16760,
-    "endMs": 17040,
+    "startMs": 12670,
+    "endMs": 12950,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " a",
-    "startMs": 17040,
-    "endMs": 17230,
+    "startMs": 12950,
+    "endMs": 13140,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " casa?",
-    "startMs": 17280,
-    "endMs": 17720,
+    "startMs": 13190,
+    "endMs": 13630,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " cuando",
-    "startMs": 17720,
-    "endMs": 17920,
+    "startMs": 13630,
+    "endMs": 13830,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " llegaba,",
-    "startMs": 17920,
-    "endMs": 18600,
+    "startMs": 13830,
+    "endMs": 14510,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " sabes",
-    "startMs": 18740,
-    "endMs": 19020,
+    "startMs": 14650,
+    "endMs": 14930,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " que",
-    "startMs": 19020,
-    "endMs": 19350,
+    "startMs": 14930,
+    "endMs": 15260,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " siempre",
-    "startMs": 20260,
-    "endMs": 20560,
+    "startMs": 16170,
+    "endMs": 16470,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " que",
-    "startMs": 20560,
-    "endMs": 20890,
+    "startMs": 16470,
+    "endMs": 16800,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " o",
-    "startMs": 21300,
-    "endMs": 21490,
+    "startMs": 17210,
+    "endMs": 17400,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " escuchaba",
-    "startMs": 21560,
-    "endMs": 21900,
+    "startMs": 17470,
+    "endMs": 17810,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " el",
-    "startMs": 21900,
-    "endMs": 22080,
+    "startMs": 17810,
+    "endMs": 17990,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " timbre",
-    "startMs": 22080,
-    "endMs": 22620,
+    "startMs": 17990,
+    "endMs": 18530,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " o",
-    "startMs": 22680,
-    "endMs": 22870,
+    "startMs": 18590,
+    "endMs": 18780,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " ya",
-    "startMs": 23160,
-    "endMs": 23420,
+    "startMs": 19070,
+    "endMs": 19330,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " sentía",
-    "startMs": 23720,
-    "endMs": 24000,
+    "startMs": 19630,
+    "endMs": 19910,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " las",
-    "startMs": 24000,
-    "endMs": 24140,
+    "startMs": 19910,
+    "endMs": 20050,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " llaves",
-    "startMs": 24140,
-    "endMs": 24680,
+    "startMs": 20050,
+    "endMs": 20590,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " él",
-    "startMs": 24920,
-    "endMs": 25040,
+    "startMs": 20830,
+    "endMs": 20950,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " ya",
-    "startMs": 25040,
-    "endMs": 25160,
+    "startMs": 20950,
+    "endMs": 21070,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " estaba",
-    "startMs": 25160,
-    "endMs": 25240,
+    "startMs": 21070,
+    "endMs": 21150,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " en",
-    "startMs": 25240,
-    "endMs": 25320,
+    "startMs": 21150,
+    "endMs": 21230,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " la",
-    "startMs": 25320,
-    "endMs": 25520,
+    "startMs": 21230,
+    "endMs": 21430,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " puerta",
-    "startMs": 25520,
-    "endMs": 26020,
+    "startMs": 21430,
+    "endMs": 21930,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " cuando",
-    "startMs": 26020,
-    "endMs": 26500,
+    "startMs": 21930,
+    "endMs": 22410,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " él,",
-    "startMs": 26500,
-    "endMs": 26830,
+    "startMs": 22410,
+    "endMs": 22740,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " nosotros",
-    "startMs": 27080,
-    "endMs": 27380,
+    "startMs": 22990,
+    "endMs": 23290,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " le",
-    "startMs": 27380,
-    "endMs": 27640,
+    "startMs": 23290,
+    "endMs": 23550,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " hablábamos,",
-    "startMs": 28000,
-    "endMs": 28890,
+    "startMs": 23910,
+    "endMs": 24800,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " él",
-    "startMs": 28920,
-    "endMs": 29080,
+    "startMs": 24830,
+    "endMs": 24990,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " movía",
-    "startMs": 29080,
-    "endMs": 29380,
+    "startMs": 24990,
+    "endMs": 25290,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " sus",
-    "startMs": 29380,
-    "endMs": 29540,
+    "startMs": 25290,
+    "endMs": 25450,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " cejas",
-    "startMs": 29540,
-    "endMs": 30010,
+    "startMs": 25450,
+    "endMs": 25920,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " era",
-    "startMs": 30120,
-    "endMs": 30450,
+    "startMs": 26030,
+    "endMs": 26360,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " como...",
-    "startMs": 30460,
-    "endMs": 31000,
+    "startMs": 26370,
+    "endMs": 26910,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " como",
-    "startMs": 31000,
-    "endMs": 31200,
+    "startMs": 26910,
+    "endMs": 27110,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " lo",
-    "startMs": 31200,
-    "endMs": 31360,
+    "startMs": 27110,
+    "endMs": 27270,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " hacía,",
-    "startMs": 31360,
-    "endMs": 31680,
+    "startMs": 27270,
+    "endMs": 27590,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " o",
-    "startMs": 31680,
-    "endMs": 31780,
+    "startMs": 27590,
+    "endMs": 27690,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " sea,",
-    "startMs": 31780,
-    "endMs": 32060,
+    "startMs": 27690,
+    "endMs": 27970,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " como",
-    "startMs": 32060,
-    "endMs": 32300,
+    "startMs": 27970,
+    "endMs": 28210,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " me",
-    "startMs": 32300,
-    "endMs": 32420,
+    "startMs": 28210,
+    "endMs": 28330,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " entiende",
-    "startMs": 32420,
-    "endMs": 33100,
+    "startMs": 28330,
+    "endMs": 29010,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " ¿y",
-    "startMs": 33380,
-    "endMs": 33640,
+    "startMs": 29290,
+    "endMs": 29550,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " qué",
-    "startMs": 33760,
-    "endMs": 33840,
+    "startMs": 29670,
+    "endMs": 29750,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " es",
-    "startMs": 33840,
-    "endMs": 33920,
+    "startMs": 29750,
+    "endMs": 29830,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " lo",
-    "startMs": 33920,
-    "endMs": 34000,
+    "startMs": 29830,
+    "endMs": 29910,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " que",
-    "startMs": 34000,
-    "endMs": 34160,
+    "startMs": 29910,
+    "endMs": 30070,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " más",
-    "startMs": 34160,
-    "endMs": 34400,
+    "startMs": 30070,
+    "endMs": 30310,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " extrañas",
-    "startMs": 34400,
-    "endMs": 34680,
+    "startMs": 30310,
+    "endMs": 30590,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " en",
-    "startMs": 34680,
-    "endMs": 34800,
+    "startMs": 30590,
+    "endMs": 30710,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " tu",
-    "startMs": 34800,
-    "endMs": 34940,
+    "startMs": 30710,
+    "endMs": 30850,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " día",
-    "startMs": 34940,
-    "endMs": 35080,
+    "startMs": 30850,
+    "endMs": 30990,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " a",
-    "startMs": 35080,
-    "endMs": 35140,
+    "startMs": 30990,
+    "endMs": 31050,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " día?",
-    "startMs": 35140,
-    "endMs": 35540,
+    "startMs": 31050,
+    "endMs": 31450,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " creo",
-    "startMs": 35740,
-    "endMs": 35960,
+    "startMs": 31650,
+    "endMs": 31870,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " que",
-    "startMs": 35960,
-    "endMs": 36290,
+    "startMs": 31870,
+    "endMs": 32200,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " escuchar",
-    "startMs": 36440,
-    "endMs": 37120,
+    "startMs": 32350,
+    "endMs": 33030,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " sus",
-    "startMs": 37280,
-    "endMs": 37520,
+    "startMs": 33190,
+    "endMs": 33430,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " paticas",
-    "startMs": 37520,
-    "endMs": 38100,
+    "startMs": 33430,
+    "endMs": 34010,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " cuando",
-    "startMs": 38100,
-    "endMs": 38640,
+    "startMs": 34010,
+    "endMs": 34550,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " se",
-    "startMs": 39180,
-    "endMs": 39400,
+    "startMs": 35090,
+    "endMs": 35310,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " corrieron",
-    "startMs": 39400,
-    "endMs": 39760,
+    "startMs": 35310,
+    "endMs": 35670,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " de",
-    "startMs": 39760,
-    "endMs": 40020,
+    "startMs": 35670,
+    "endMs": 35930,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " un",
-    "startMs": 40060,
-    "endMs": 40260,
+    "startMs": 35970,
+    "endMs": 36170,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " lado",
-    "startMs": 40260,
-    "endMs": 40460,
+    "startMs": 36170,
+    "endMs": 36370,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " a",
-    "startMs": 40460,
-    "endMs": 40580,
+    "startMs": 36370,
+    "endMs": 36490,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " otro",
-    "startMs": 40580,
-    "endMs": 40680,
+    "startMs": 36490,
+    "endMs": 36590,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " en",
-    "startMs": 40680,
-    "endMs": 40760,
+    "startMs": 36590,
+    "endMs": 36670,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " el",
-    "startMs": 40760,
-    "endMs": 40900,
+    "startMs": 36670,
+    "endMs": 36810,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " apartamento",
-    "startMs": 40900,
-    "endMs": 41790,
+    "startMs": 36810,
+    "endMs": 37700,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " estaba",
-    "startMs": 42080,
-    "endMs": 42460,
+    "startMs": 37990,
+    "endMs": 38370,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " solo",
-    "startMs": 42460,
-    "endMs": 42820,
+    "startMs": 38370,
+    "endMs": 38730,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " si",
-    "startMs": 42820,
-    "endMs": 43080,
+    "startMs": 38730,
+    "endMs": 38990,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " él",
-    "startMs": 44060,
-    "endMs": 44200,
+    "startMs": 39970,
+    "endMs": 40110,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " se",
-    "startMs": 44200,
-    "endMs": 44320,
+    "startMs": 40110,
+    "endMs": 40230,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " acercó",
-    "startMs": 44320,
-    "endMs": 44660,
+    "startMs": 40230,
+    "endMs": 40570,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " a",
-    "startMs": 44660,
-    "endMs": 44780,
+    "startMs": 40570,
+    "endMs": 40690,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " mí",
-    "startMs": 44780,
-    "endMs": 45040,
+    "startMs": 40690,
+    "endMs": 40950,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " y",
-    "startMs": 46560,
-    "endMs": 46700,
+    "startMs": 42470,
+    "endMs": 42610,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " fue",
-    "startMs": 46700,
-    "endMs": 46900,
+    "startMs": 42610,
+    "endMs": 42810,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " como",
-    "startMs": 46900,
-    "endMs": 47180,
+    "startMs": 42810,
+    "endMs": 43090,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " algo",
-    "startMs": 47180,
-    "endMs": 47580,
+    "startMs": 43090,
+    "endMs": 43490,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " muy",
-    "startMs": 47580,
-    "endMs": 47910,
+    "startMs": 43490,
+    "endMs": 43820,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " íntimo",
-    "startMs": 48800,
-    "endMs": 49340,
+    "startMs": 44710,
+    "endMs": 45250,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " cuando",
-    "startMs": 49340,
-    "endMs": 49620,
+    "startMs": 45250,
+    "endMs": 45530,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " ya",
-    "startMs": 49620,
-    "endMs": 49880,
+    "startMs": 45530,
+    "endMs": 45790,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " no",
-    "startMs": 50220,
-    "endMs": 50480,
+    "startMs": 46130,
+    "endMs": 46390,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " se",
-    "startMs": 50840,
-    "endMs": 51000,
+    "startMs": 46750,
+    "endMs": 46910,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " volvió",
-    "startMs": 51000,
-    "endMs": 51200,
+    "startMs": 46910,
+    "endMs": 47110,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " a",
-    "startMs": 51200,
-    "endMs": 51390,
+    "startMs": 47110,
+    "endMs": 47300,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " parar",
-    "startMs": 51580,
-    "endMs": 52050,
+    "startMs": 47490,
+    "endMs": 47960,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " no",
-    "startMs": 54000,
-    "endMs": 54160,
+    "startMs": 49910,
+    "endMs": 50070,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " ya",
-    "startMs": 54160,
-    "endMs": 54380,
+    "startMs": 50070,
+    "endMs": 50290,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " sabía,",
-    "startMs": 54380,
-    "endMs": 54920,
+    "startMs": 50290,
+    "endMs": 50830,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " ya",
-    "startMs": 55040,
-    "endMs": 55120,
+    "startMs": 50950,
+    "endMs": 51030,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " era",
-    "startMs": 55120,
-    "endMs": 55200,
+    "startMs": 51030,
+    "endMs": 51110,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " el",
-    "startMs": 55200,
-    "endMs": 55460,
+    "startMs": 51110,
+    "endMs": 51370,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " momento",
-    "startMs": 55500,
-    "endMs": 56110,
+    "startMs": 51410,
+    "endMs": 52020,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " y",
-    "startMs": 57080,
-    "endMs": 57270,
+    "startMs": 52990,
+    "endMs": 53180,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " yo",
-    "startMs": 57480,
-    "endMs": 57600,
+    "startMs": 53390,
+    "endMs": 53510,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " toqué",
-    "startMs": 57600,
-    "endMs": 57800,
+    "startMs": 53510,
+    "endMs": 53710,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " la",
-    "startMs": 57800,
-    "endMs": 57980,
+    "startMs": 53710,
+    "endMs": 53890,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " decisión",
-    "startMs": 57980,
-    "endMs": 58540,
+    "startMs": 53890,
+    "endMs": 54450,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " por...",
-    "startMs": 58540,
-    "endMs": 59080,
+    "startMs": 54450,
+    "endMs": 54990,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " por",
-    "startMs": 60260,
-    "endMs": 60440,
+    "startMs": 56170,
+    "endMs": 56350,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " todos",
-    "startMs": 60440,
-    "endMs": 60910,
+    "startMs": 56350,
+    "endMs": 56820,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " y",
-    "startMs": 61300,
-    "endMs": 61480,
+    "startMs": 57210,
+    "endMs": 57390,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " por",
-    "startMs": 61480,
-    "endMs": 61700,
+    "startMs": 57390,
+    "endMs": 57610,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " ambos,",
-    "startMs": 61700,
-    "endMs": 62120,
+    "startMs": 57610,
+    "endMs": 58030,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " hoy",
-    "startMs": 62120,
-    "endMs": 62450,
+    "startMs": 58030,
+    "endMs": 58360,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " y",
-    "startMs": 62700,
-    "endMs": 62890,
+    "startMs": 58610,
+    "endMs": 58800,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " su",
-    "startMs": 62940,
-    "endMs": 63120,
+    "startMs": 58850,
+    "endMs": 59030,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " mirada",
-    "startMs": 63120,
-    "endMs": 63400,
+    "startMs": 59030,
+    "endMs": 59310,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " lo",
-    "startMs": 63400,
-    "endMs": 63660,
+    "startMs": 59310,
+    "endMs": 59570,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " decía",
-    "startMs": 63720,
-    "endMs": 64190,
+    "startMs": 59630,
+    "endMs": 60100,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " es",
-    "startMs": 64480,
-    "endMs": 64640,
+    "startMs": 60390,
+    "endMs": 60550,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " un",
-    "startMs": 64640,
-    "endMs": 64800,
+    "startMs": 60550,
+    "endMs": 60710,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " acto",
-    "startMs": 64800,
-    "endMs": 64960,
+    "startMs": 60710,
+    "endMs": 60870,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " de",
-    "startMs": 64960,
-    "endMs": 65100,
+    "startMs": 60870,
+    "endMs": 61010,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " amor",
-    "startMs": 65100,
-    "endMs": 65300,
+    "startMs": 61010,
+    "endMs": 61210,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " lo",
-    "startMs": 65300,
-    "endMs": 65400,
+    "startMs": 61210,
+    "endMs": 61310,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " que",
-    "startMs": 65400,
-    "endMs": 65730,
+    "startMs": 61310,
+    "endMs": 61640,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " hacemos",
-    "startMs": 65740,
-    "endMs": 66350,
+    "startMs": 61650,
+    "endMs": 62260,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " duele,",
-    "startMs": 66480,
-    "endMs": 67020,
+    "startMs": 62390,
+    "endMs": 62930,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " muy",
-    "startMs": 67900,
-    "endMs": 68140,
+    "startMs": 63810,
+    "endMs": 64050,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " profundo",
-    "startMs": 68140,
-    "endMs": 68820,
+    "startMs": 64050,
+    "endMs": 64730,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " ¿qué",
-    "startMs": 68960,
-    "endMs": 69280,
+    "startMs": 64870,
+    "endMs": 65190,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " sentiste",
-    "startMs": 69280,
-    "endMs": 69960,
+    "startMs": 65190,
+    "endMs": 65870,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " cuando",
-    "startMs": 69980,
-    "endMs": 70220,
+    "startMs": 65890,
+    "endMs": 66130,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " llegaste",
-    "startMs": 70220,
-    "endMs": 70600,
+    "startMs": 66130,
+    "endMs": 66510,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " aquí",
-    "startMs": 70600,
-    "endMs": 70740,
+    "startMs": 66510,
+    "endMs": 66650,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " ese",
-    "startMs": 70740,
-    "endMs": 70940,
+    "startMs": 66650,
+    "endMs": 66850,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " día?",
-    "startMs": 70940,
-    "endMs": 71340,
+    "startMs": 66850,
+    "endMs": 67250,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " que",
-    "startMs": 71700,
-    "endMs": 71800,
+    "startMs": 67610,
+    "endMs": 67710,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " él",
-    "startMs": 71800,
-    "endMs": 72020,
+    "startMs": 67710,
+    "endMs": 67930,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " estaba",
-    "startMs": 72020,
-    "endMs": 72240,
+    "startMs": 67930,
+    "endMs": 68150,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " dando",
-    "startMs": 72240,
-    "endMs": 72460,
+    "startMs": 68150,
+    "endMs": 68370,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " la",
-    "startMs": 72460,
-    "endMs": 72620,
+    "startMs": 68370,
+    "endMs": 68530,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " despedida",
-    "startMs": 72620,
-    "endMs": 73040,
+    "startMs": 68530,
+    "endMs": 68950,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " que",
-    "startMs": 73040,
-    "endMs": 73200,
+    "startMs": 68950,
+    "endMs": 69110,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " merecía",
-    "startMs": 73200,
-    "endMs": 73810,
+    "startMs": 69110,
+    "endMs": 69720,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " y",
-    "startMs": 74180,
-    "endMs": 74360,
+    "startMs": 70090,
+    "endMs": 70270,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " que",
-    "startMs": 74360,
-    "endMs": 74580,
+    "startMs": 70270,
+    "endMs": 70490,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " Sam",
-    "startMs": 74580,
-    "endMs": 74740,
+    "startMs": 70490,
+    "endMs": 70650,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " se",
-    "startMs": 74740,
-    "endMs": 74920,
+    "startMs": 70650,
+    "endMs": 70830,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " sintió",
-    "startMs": 74920,
-    "endMs": 75260,
+    "startMs": 70830,
+    "endMs": 71170,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " acompañado",
-    "startMs": 75260,
-    "endMs": 75780,
+    "startMs": 71170,
+    "endMs": 71690,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " hasta",
-    "startMs": 75780,
-    "endMs": 76200,
+    "startMs": 71690,
+    "endMs": 72110,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " el",
-    "startMs": 76200,
-    "endMs": 76460,
+    "startMs": 72110,
+    "endMs": 72370,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " último",
-    "startMs": 76460,
-    "endMs": 76780,
+    "startMs": 72370,
+    "endMs": 72690,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " momento,",
-    "startMs": 76780,
-    "endMs": 76980,
+    "startMs": 72690,
+    "endMs": 72890,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " hasta",
-    "startMs": 76980,
-    "endMs": 77080,
+    "startMs": 72890,
+    "endMs": 72990,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " el",
-    "startMs": 77080,
-    "endMs": 77280,
+    "startMs": 72990,
+    "endMs": 73190,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " último",
-    "startMs": 77280,
-    "endMs": 77800,
+    "startMs": 73190,
+    "endMs": 73710,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " segundo",
-    "startMs": 77800,
-    "endMs": 78120,
+    "startMs": 73710,
+    "endMs": 74030,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " y",
-    "startMs": 78120,
-    "endMs": 78310,
+    "startMs": 74030,
+    "endMs": 74220,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " fue,",
-    "startMs": 79120,
-    "endMs": 79520,
+    "startMs": 75030,
+    "endMs": 75430,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " se",
-    "startMs": 79560,
-    "endMs": 79760,
+    "startMs": 75470,
+    "endMs": 75670,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " sintió",
-    "startMs": 79760,
-    "endMs": 80100,
+    "startMs": 75670,
+    "endMs": 76010,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " tan",
-    "startMs": 80100,
-    "endMs": 80320,
+    "startMs": 76010,
+    "endMs": 76230,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " amado",
-    "startMs": 80320,
-    "endMs": 80790,
+    "startMs": 76230,
+    "endMs": 76700,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " era",
-    "startMs": 81540,
-    "endMs": 81740,
+    "startMs": 77450,
+    "endMs": 77650,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " la",
-    "startMs": 81740,
-    "endMs": 82000,
+    "startMs": 77650,
+    "endMs": 77910,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " razón",
-    "startMs": 82020,
-    "endMs": 82380,
+    "startMs": 77930,
+    "endMs": 78290,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " porque",
-    "startMs": 82380,
-    "endMs": 82900,
+    "startMs": 78290,
+    "endMs": 78810,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " nosotros",
-    "startMs": 82900,
-    "endMs": 83320,
+    "startMs": 78810,
+    "endMs": 79230,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " estuvimos",
-    "startMs": 83320,
-    "endMs": 83880,
+    "startMs": 79230,
+    "endMs": 79790,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " juntos",
-    "startMs": 83880,
-    "endMs": 84420,
+    "startMs": 79790,
+    "endMs": 80330,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " entonces,",
-    "startMs": 85660,
-    "endMs": 86260,
+    "startMs": 81570,
+    "endMs": 82170,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " ¿cómo",
-    "startMs": 86260,
-    "endMs": 86660,
+    "startMs": 82170,
+    "endMs": 82570,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " no",
-    "startMs": 86660,
-    "endMs": 86860,
+    "startMs": 82570,
+    "endMs": 82770,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " estar",
-    "startMs": 86860,
-    "endMs": 87140,
+    "startMs": 82770,
+    "endMs": 83050,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " con",
-    "startMs": 87140,
-    "endMs": 87340,
+    "startMs": 83050,
+    "endMs": 83250,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " él",
-    "startMs": 87340,
-    "endMs": 87600,
+    "startMs": 83250,
+    "endMs": 83510,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " para",
-    "startMs": 88460,
-    "endMs": 88620,
+    "startMs": 84370,
+    "endMs": 84530,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " su",
-    "startMs": 88620,
-    "endMs": 88820,
+    "startMs": 84530,
+    "endMs": 84730,
     "timestampMs": null,
     "confidence": null
   },
   {
     "text": " despedida?",
-    "startMs": 88820,
-    "endMs": 89640,
+    "startMs": 84730,
+    "endMs": 85550,
     "timestampMs": null,
     "confidence": null
   }
