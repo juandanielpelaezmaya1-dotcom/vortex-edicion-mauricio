@@ -600,5 +600,9 @@
         "hasta_s": 89.6
       }
     ]
+  },
+  "musica": {
+    "archivo": "material/musica-alegre.wav",
+    "volumen": 1
   }
 }
