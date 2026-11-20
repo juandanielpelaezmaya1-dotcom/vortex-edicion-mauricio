@@ -114,685 +114,685 @@
  },
  {
   "text": " esta",
-  "startMs": 12043,
-  "endMs": 12443,
+  "startMs": 8710,
+  "endMs": 9110,
   "timestampMs": null,
   "confidence": null,
   "corte": true
  },
  {
   "text": " es",
-  "startMs": 12503,
-  "endMs": 12643,
+  "startMs": 9170,
+  "endMs": 9310,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " la",
-  "startMs": 12643,
-  "endMs": 12843,
+  "startMs": 9310,
+  "endMs": 9510,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " zona",
-  "startMs": 12843,
-  "endMs": 13243,
+  "startMs": 9510,
+  "endMs": 9910,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " general,",
-  "startMs": 13323,
-  "endMs": 13903,
+  "startMs": 9990,
+  "endMs": 10570,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " aquí",
-  "startMs": 13903,
-  "endMs": 14083,
+  "startMs": 10570,
+  "endMs": 10750,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " podrás",
-  "startMs": 14083,
-  "endMs": 14383,
+  "startMs": 10750,
+  "endMs": 11050,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " andar",
-  "startMs": 14383,
-  "endMs": 14483,
+  "startMs": 11050,
+  "endMs": 11150,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " con",
-  "startMs": 14483,
-  "endMs": 14723,
+  "startMs": 11150,
+  "endMs": 11390,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tu",
-  "startMs": 14723,
-  "endMs": 14943,
+  "startMs": 11390,
+  "endMs": 11610,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " parche,",
-  "startMs": 14943,
-  "endMs": 15553,
+  "startMs": 11610,
+  "endMs": 12220,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " disfrutar",
-  "startMs": 15623,
-  "endMs": 15863,
+  "startMs": 12290,
+  "endMs": 12530,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " de",
-  "startMs": 15863,
-  "endMs": 16003,
+  "startMs": 12530,
+  "endMs": 12670,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " las",
-  "startMs": 16003,
-  "endMs": 16203,
+  "startMs": 12670,
+  "endMs": 12870,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " peleas",
-  "startMs": 16203,
-  "endMs": 16443,
+  "startMs": 12870,
+  "endMs": 13110,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " toda",
-  "startMs": 16443,
-  "endMs": 16623,
+  "startMs": 13110,
+  "endMs": 13290,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " la",
-  "startMs": 16623,
-  "endMs": 16783,
+  "startMs": 13290,
+  "endMs": 13450,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " noche",
-  "startMs": 16783,
-  "endMs": 17033,
+  "startMs": 13450,
+  "endMs": 13700,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " esta,",
-  "startMs": 17603,
-  "endMs": 18023,
+  "startMs": 14270,
+  "endMs": 14690,
   "timestampMs": null,
   "confidence": null,
   "corte": true
  },
  {
   "text": " será",
-  "startMs": 18023,
-  "endMs": 18143,
+  "startMs": 14690,
+  "endMs": 14810,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " la",
-  "startMs": 18143,
-  "endMs": 18383,
+  "startMs": 14810,
+  "endMs": 15050,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " zona",
-  "startMs": 18383,
-  "endMs": 18783,
+  "startMs": 15050,
+  "endMs": 15450,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " VIP",
-  "startMs": 18883,
-  "endMs": 19213,
+  "startMs": 15550,
+  "endMs": 15880,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " aquí",
-  "startMs": 19603,
-  "endMs": 19863,
+  "startMs": 16270,
+  "endMs": 16530,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tendrás",
-  "startMs": 19863,
-  "endMs": 20543,
+  "startMs": 16530,
+  "endMs": 17210,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " más",
-  "startMs": 20563,
-  "endMs": 20893,
+  "startMs": 17230,
+  "endMs": 17560,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " comodidad",
-  "startMs": 21003,
-  "endMs": 21263,
+  "startMs": 17670,
+  "endMs": 17930,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " con",
-  "startMs": 21263,
-  "endMs": 21423,
+  "startMs": 17930,
+  "endMs": 18090,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tu",
-  "startMs": 21423,
-  "endMs": 21663,
+  "startMs": 18090,
+  "endMs": 18330,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " propia",
-  "startMs": 21663,
-  "endMs": 21823,
+  "startMs": 18330,
+  "endMs": 18490,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " silla",
-  "startMs": 21823,
-  "endMs": 22293,
+  "startMs": 18490,
+  "endMs": 18960,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " estarás",
-  "startMs": 22563,
-  "endMs": 22883,
+  "startMs": 19230,
+  "endMs": 19550,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " más",
-  "startMs": 22883,
-  "endMs": 23063,
+  "startMs": 19550,
+  "endMs": 19730,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " cerca",
-  "startMs": 23063,
-  "endMs": 23203,
+  "startMs": 19730,
+  "endMs": 19870,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " del",
-  "startMs": 23203,
-  "endMs": 23403,
+  "startMs": 19870,
+  "endMs": 20070,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " octágono",
-  "startMs": 23403,
-  "endMs": 24083,
+  "startMs": 20070,
+  "endMs": 20750,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " y",
-  "startMs": 24223,
-  "endMs": 24363,
+  "startMs": 20890,
+  "endMs": 21030,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " podrás",
-  "startMs": 24363,
-  "endMs": 24743,
+  "startMs": 21030,
+  "endMs": 21410,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " escuchar",
-  "startMs": 24743,
-  "endMs": 25063,
+  "startMs": 21410,
+  "endMs": 21730,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " todos",
-  "startMs": 25063,
-  "endMs": 25223,
+  "startMs": 21730,
+  "endMs": 21890,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " los",
-  "startMs": 25223,
-  "endMs": 25403,
+  "startMs": 21890,
+  "endMs": 22070,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " golpes",
-  "startMs": 25403,
-  "endMs": 25633,
+  "startMs": 22070,
+  "endMs": 22300,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " esta",
-  "startMs": 25743,
-  "endMs": 25863,
+  "startMs": 22410,
+  "endMs": 22530,
   "timestampMs": null,
   "confidence": null,
   "corte": true
  },
  {
   "text": " es",
-  "startMs": 25863,
-  "endMs": 25923,
+  "startMs": 22530,
+  "endMs": 22590,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " la",
-  "startMs": 25923,
-  "endMs": 26123,
+  "startMs": 22590,
+  "endMs": 22790,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " zona",
-  "startMs": 26123,
-  "endMs": 26443,
+  "startMs": 22790,
+  "endMs": 23110,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " palcos,",
-  "startMs": 26443,
-  "endMs": 27053,
+  "startMs": 23110,
+  "endMs": 23720,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " si",
-  "startMs": 27343,
-  "endMs": 27563,
+  "startMs": 24010,
+  "endMs": 24230,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tu",
-  "startMs": 27563,
-  "endMs": 27783,
+  "startMs": 24230,
+  "endMs": 24450,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " plan",
-  "startMs": 27783,
-  "endMs": 28043,
+  "startMs": 24450,
+  "endMs": 24710,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " es",
-  "startMs": 28043,
-  "endMs": 28283,
+  "startMs": 24710,
+  "endMs": 24950,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " venir",
-  "startMs": 28283,
-  "endMs": 28423,
+  "startMs": 24950,
+  "endMs": 25090,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " con",
-  "startMs": 28423,
-  "endMs": 28603,
+  "startMs": 25090,
+  "endMs": 25270,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tu",
-  "startMs": 28603,
-  "endMs": 28863,
+  "startMs": 25270,
+  "endMs": 25530,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " familia,",
-  "startMs": 28963,
-  "endMs": 29163,
+  "startMs": 25630,
+  "endMs": 25830,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " con",
-  "startMs": 29163,
-  "endMs": 29383,
+  "startMs": 25830,
+  "endMs": 26050,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tus",
-  "startMs": 29383,
-  "endMs": 29713,
+  "startMs": 26050,
+  "endMs": 26380,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " amigos,",
-  "startMs": 29783,
-  "endMs": 30203,
+  "startMs": 26450,
+  "endMs": 26870,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tener",
-  "startMs": 30203,
-  "endMs": 30363,
+  "startMs": 26870,
+  "endMs": 27030,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " la",
-  "startMs": 30363,
-  "endMs": 30583,
+  "startMs": 27030,
+  "endMs": 27250,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " mejor",
-  "startMs": 30583,
-  "endMs": 30823,
+  "startMs": 27250,
+  "endMs": 27490,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " vista",
-  "startMs": 30823,
-  "endMs": 30983,
+  "startMs": 27490,
+  "endMs": 27650,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " de",
-  "startMs": 30983,
-  "endMs": 31103,
+  "startMs": 27650,
+  "endMs": 27770,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " la",
-  "startMs": 31103,
-  "endMs": 31363,
+  "startMs": 27770,
+  "endMs": 28030,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " noche,",
-  "startMs": 31643,
-  "endMs": 32183,
+  "startMs": 28310,
+  "endMs": 28850,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " esta",
-  "startMs": 32263,
-  "endMs": 32443,
+  "startMs": 28930,
+  "endMs": 29110,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " será",
-  "startMs": 32443,
-  "endMs": 32583,
+  "startMs": 29110,
+  "endMs": 29250,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " tu",
-  "startMs": 32583,
-  "endMs": 32763,
+  "startMs": 29250,
+  "endMs": 29430,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " zona",
-  "startMs": 32763,
-  "endMs": 33083,
+  "startMs": 29430,
+  "endMs": 29750,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " Y",
-  "startMs": 33603,
-  "endMs": 33793,
+  "startMs": 33270,
+  "endMs": 33460,
   "timestampMs": null,
   "confidence": null,
   "corte": true
  },
  {
   "text": " aquí",
-  "startMs": 34083,
-  "endMs": 34243,
+  "startMs": 33750,
+  "endMs": 33910,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " en",
-  "startMs": 34243,
-  "endMs": 34423,
+  "startMs": 33910,
+  "endMs": 34090,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " este",
-  "startMs": 34423,
-  "endMs": 34623,
+  "startMs": 34090,
+  "endMs": 34290,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " octágono",
-  "startMs": 34623,
-  "endMs": 35373,
+  "startMs": 34290,
+  "endMs": 35040,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " disfrutaremos",
-  "startMs": 35443,
-  "endMs": 36123,
+  "startMs": 35110,
+  "endMs": 35790,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " de",
-  "startMs": 36123,
-  "endMs": 36323,
+  "startMs": 35790,
+  "endMs": 35990,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " 12",
-  "startMs": 36323,
-  "endMs": 36583,
+  "startMs": 35990,
+  "endMs": 36250,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " combates",
-  "startMs": 36663,
-  "endMs": 37343,
+  "startMs": 36330,
+  "endMs": 37010,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " de",
-  "startMs": 37343,
-  "endMs": 37563,
+  "startMs": 37010,
+  "endMs": 37230,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " artes",
-  "startMs": 37563,
-  "endMs": 37823,
+  "startMs": 37230,
+  "endMs": 37490,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " marciales",
-  "startMs": 37823,
-  "endMs": 38503,
+  "startMs": 37490,
+  "endMs": 38170,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " con",
-  "startMs": 38503,
-  "endMs": 38623,
+  "startMs": 38170,
+  "endMs": 38290,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " el",
-  "startMs": 38623,
-  "endMs": 38803,
+  "startMs": 38290,
+  "endMs": 38470,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " mejor",
-  "startMs": 38803,
-  "endMs": 39043,
+  "startMs": 38470,
+  "endMs": 38710,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " talento",
-  "startMs": 39043,
-  "endMs": 39653,
+  "startMs": 38710,
+  "endMs": 39320,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " nacional",
-  "startMs": 39723,
-  "endMs": 40163,
+  "startMs": 39390,
+  "endMs": 39830,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " e",
-  "startMs": 40163,
-  "endMs": 40353,
+  "startMs": 39830,
+  "endMs": 40020,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " internacional,",
-  "startMs": 40683,
-  "endMs": 41243,
+  "startMs": 40350,
+  "endMs": 40910,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " los",
-  "startMs": 41243,
-  "endMs": 41543,
+  "startMs": 40910,
+  "endMs": 41210,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " esperamos.",
-  "startMs": 41543,
-  "endMs": 41883,
+  "startMs": 41210,
+  "endMs": 41550,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " Y",
-  "startMs": 43100,
-  "endMs": 43290,
+  "startMs": 42767,
+  "endMs": 42957,
   "timestampMs": null,
   "confidence": null,
   "corte": true
  },
  {
   "text": " tú,",
-  "startMs": 43480,
-  "endMs": 43620,
+  "startMs": 43147,
+  "endMs": 43287,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " ¿dónde",
-  "startMs": 43620,
-  "endMs": 43980,
+  "startMs": 43287,
+  "endMs": 43647,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " lo",
-  "startMs": 43980,
-  "endMs": 44120,
+  "startMs": 43647,
+  "endMs": 43787,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " vas",
-  "startMs": 44120,
-  "endMs": 44280,
+  "startMs": 43787,
+  "endMs": 43947,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " a",
-  "startMs": 44280,
-  "endMs": 44400,
+  "startMs": 43947,
+  "endMs": 44067,
   "timestampMs": null,
   "confidence": null
  },
  {
   "text": " vivir?",
-  "startMs": 44400,
-  "endMs": 44750,
+  "startMs": 44067,
+  "endMs": 44417,
   "timestampMs": null,
   "confidence": null
  }

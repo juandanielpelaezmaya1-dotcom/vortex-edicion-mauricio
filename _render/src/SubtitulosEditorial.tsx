@@ -7,6 +7,9 @@ import playfair from "./fuentes/playfair-display-italic.woff2";
 import poppins from "./fuentes/poppins-semibold.woff2";
 import fjalla from "./fuentes/fjalla-one.ttf";
 import marker from "./fuentes/permanent-marker.ttf";
+// Inter y Montserrat (OFL): la sans de Team Leon y los titulos neon.
+import inter from "./fuentes/inter.ttf";
+import montserrat from "./fuentes/montserrat.ttf";
 
 /**
  * Subtitulos "editorial": frases cortas escritas por el editor, con dos familias. La sans
@@ -37,6 +40,10 @@ type Marca = {
   base: number; grande: number; chica: number; cinta: number;
   anchoEm: { sans: number; serif: number }; espaciado: { sans: string; serif: string };
   oro: "texto" | "cinta"; acento: string; inclinar: number;
+  /** Corre cada linea a la derecha de la anterior, en veces `base` (escalera). 0 = centrado. */
+  escalon?: number;
+  /** Sombra propia de la marca (con `subtitulos.sombra`). Team Leon va sobre chaquetas de colores. */
+  sombra?: string;
 };
 const MARCAS: Record<string, Marca> = {
   "dejaste-huella": {
@@ -56,6 +63,16 @@ const MARCAS: Record<string, Marca> = {
     anchoEm: { sans: 0.43, serif: 0.62 }, espaciado: { sans: "0.01em", serif: "0.02em" },
     oro: "cinta", acento: "#F24405", inclinar: -4,
   },
+  // Referencia del cliente (video de la academia, nov-2026): sans blanca liviana y chica, la frase
+  // clave en serif italica negra en naranja, mas grande, y las lineas en escalera hacia la derecha.
+  "team-leon": {
+    sans: '"Inter", "Helvetica Neue", sans-serif', serif: '"Playfair Display", Georgia, serif',
+    pesoSans: 500, pesoSerif: 800, italica: true, mayusculas: false,
+    base: 0.056, grande: 1.5, chica: 0.9, cinta: 1.5,
+    anchoEm: { sans: 0.55, serif: 0.5 }, espaciado: { sans: "-0.01em", serif: "-0.01em" },
+    oro: "texto", acento: "#E8772E", inclinar: 0, escalon: 1.3,
+    sombra: "0 0.03em 0.1em rgba(0,0,0,0.9), 0 0 0.3em rgba(0,0,0,0.7), 0 0 0.8em rgba(0,0,0,0.45)",
+  },
 };
 const marcaDe = (nombre?: string) => {
   if (nombre && !MARCAS[nombre]) throw new Error(`subtitulos.marca "${nombre}" no existe. Hay: ${Object.keys(MARCAS).join(", ")}`);
@@ -71,6 +88,8 @@ export const useFuentes = () => {
       new FontFace("Poppins", `url(${poppins}) format("woff2")`, { weight: "600" }),
       new FontFace("Fjalla One", `url(${fjalla}) format("truetype")`),
       new FontFace("Permanent Marker", `url(${marker}) format("truetype")`),
+      new FontFace("Inter", `url(${inter}) format("truetype")`, { weight: "100 900" }),
+      new FontFace("Montserrat", `url(${montserrat}) format("truetype")`, { weight: "100 900" }),
     ];
     Promise.all(fuentes.map((f) => f.load()))
       .then(() => {
@@ -149,7 +168,11 @@ export const BloqueEditorial: React.FC<{ lineas: Pieza[][]; ms: number; y: numbe
               whiteSpace: "nowrap",
               lineHeight: tieneSerif ? 0.96 : tieneCinta ? 1.3 : 1.12,
               // La linea con cinta va torcida entera, como la etiqueta pegada de los posts.
-              transform: tieneCinta && m.inclinar ? `rotate(${m.inclinar * 0.6}deg)` : undefined,
+              // Con `escalon`, cada linea se corre a la derecha de la anterior (centro del bloque fijo).
+              transform: [
+                m.escalon && lineas.length > 1 ? `translateX(${(i - (lineas.length - 1) / 2) * m.escalon * base}px)` : "",
+                tieneCinta && m.inclinar ? `rotate(${m.inclinar * 0.6}deg)` : "",
+              ].join(" ").trim() || undefined,
             }}
           >
             {linea.map((p, j) => {
@@ -179,7 +202,7 @@ export const BloqueEditorial: React.FC<{ lineas: Pieza[][]; ms: number; y: numbe
                     filter: a < 1 ? `blur(${(1 - a) * 6}px)` : undefined,
                     // Opcional: sin ella el blanco se pierde en paredes y ventanas claras (Ray-Ban).
                     // La cinta no la necesita: el fondo ya le da el contraste.
-                    textShadow: sombra && !cinta ? "0 0.04em 0.2em rgba(0,0,0,0.6), 0 0 0.06em rgba(0,0,0,0.35)" : undefined,
+                    textShadow: sombra && !cinta ? m.sombra ?? "0 0.04em 0.2em rgba(0,0,0,0.6), 0 0 0.06em rgba(0,0,0,0.35)" : undefined,
                   }}
                 >
                   {p.texto}
