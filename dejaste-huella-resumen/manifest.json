@@ -1,0 +1,604 @@
+{
+  "slug": "dejaste-huella-resumen",
+  "fps": 59.94,
+  "formatos": [
+    "9x16"
+  ],
+  "clips": [
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 170.61,
+      "out_s": 178.6,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 183.8,
+      "out_s": 186.79,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2.2
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 0,
+      "out_s": 1.9,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 33,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "izq",
+        "duracion_s": 0.3
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 2.3,
+      "out_s": 4.49,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.25
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 51.71,
+      "out_s": 54.35,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 33,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.25
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 54.75,
+      "out_s": 63,
+      "zoom": {
+        "tipo": "out",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.25
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 107,
+      "out_s": 111.15,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 117.45,
+      "out_s": 120.79,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2.2
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 140.05,
+      "out_s": 142.32,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 33,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "izq",
+        "duracion_s": 0.3
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 143.33,
+      "out_s": 149.55,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "deslizar",
+        "desde": "der",
+        "duracion_s": 0.3
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 195.72,
+      "out_s": 203.14,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 220.5,
+      "out_s": 226.15,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2.2
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 241.2,
+      "out_s": 248.66,
+      "zoom": {
+        "tipo": "out",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 250.44,
+      "out_s": 252.34,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2.2
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 310.51,
+      "out_s": 312.58,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 33,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.25
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 319.29,
+      "out_s": 321.87,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 33,
+          "y": 40
+        },
+        "intensidad": 2.2
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 325.35,
+      "out_s": 328.03,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 33,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.15
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 328.68,
+      "out_s": 331.13,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.25
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 386.35,
+      "out_s": 393.1,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 33,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.25
+      }
+    },
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 422.85,
+      "out_s": 431.65,
+      "zoom": {
+        "tipo": "out",
+        "hacia": {
+          "x": 74,
+          "y": 40
+        },
+        "intensidad": 2
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.25
+      }
+    },
+    {
+      "archivo": "material/logo-animado-9x16.mp4",
+      "in_s": 0,
+      "out_s": 4.8,
+      "transicion": {
+        "tipo": "disolver",
+        "duracion_s": 0.3
+      }
+    }
+  ],
+  "destellos": [
+    {
+      "en_s": 10.98,
+      "duracion_s": 0.3,
+      "color": "white",
+      "intensidad": 0.55
+    }
+  ],
+  "subtitulos": {
+    "activo": true,
+    "estilo": "editorial",
+    "sombra": true,
+    "frases": [
+      {
+        "texto": "el médico / me dijo",
+        "palabras": 6,
+        "y": 56
+      },
+      {
+        "texto": "que no había / nada que hacer",
+        "palabras": 9,
+        "y": 56
+      },
+      {
+        "texto": "que era solamente / _tres meses_ / de vida",
+        "palabras": 7,
+        "y": 56
+      },
+      {
+        "texto": "entonces nos duró / *dos años*",
+        "palabras": 5,
+        "y": 60,
+        "hasta_s": 7.95
+      },
+      {
+        "texto": "¿y cómo llegó / _Sam_ a tu vida?",
+        "palabras": 7,
+        "y": 60,
+        "hasta_s": 12.84
+      },
+      {
+        "texto": "Sam llegó cuando / yo tenía 10 años",
+        "palabras": 7,
+        "y": 60,
+        "hasta_s": 15.03
+      },
+      {
+        "texto": "¿y qué era lo que / él hacía",
+        "palabras": 7,
+        "y": 60
+      },
+      {
+        "texto": "cuando llegabas / a casa?",
+        "palabras": 4,
+        "y": 60,
+        "hasta_s": 17.67
+      },
+      {
+        "texto": "cuando llegaba, / sabes que",
+        "palabras": 4,
+        "y": 56
+      },
+      {
+        "texto": "siempre que / escuchaba el _timbre_",
+        "palabras": 6,
+        "y": 56
+      },
+      {
+        "texto": "o ya sentía / las _llaves_",
+        "palabras": 5,
+        "y": 56
+      },
+      {
+        "texto": "él ya estaba / en la _puerta_",
+        "palabras": 6,
+        "y": 56,
+        "hasta_s": 25.92
+      },
+      {
+        "texto": "cuando nosotros / le hablábamos",
+        "palabras": 5,
+        "y": 56
+      },
+      {
+        "texto": "él movía / sus _cejas_",
+        "palabras": 4,
+        "y": 56,
+        "hasta_s": 30.07
+      },
+      {
+        "texto": "y era como",
+        "palabras": 2,
+        "y": 60
+      },
+      {
+        "texto": "¿cómo lo haces?",
+        "palabras": 3,
+        "y": 60
+      },
+      {
+        "texto": "o sea, ¿cómo me / *entiendes?*",
+        "palabras": 5,
+        "y": 60
+      },
+      {
+        "texto": "¿y qué es lo que / más _extrañas_",
+        "palabras": 7,
+        "y": 60
+      },
+      {
+        "texto": "en tu día a día?",
+        "palabras": 5,
+        "y": 60,
+        "hasta_s": 35.68
+      },
+      {
+        "texto": "creo que escuchar / sus _paticas_",
+        "palabras": 5,
+        "y": 60
+      },
+      {
+        "texto": "cuando se está / corriendo / de un lado a otro",
+        "palabras": 8,
+        "y": 60
+      },
+      {
+        "texto": "en el apartamento",
+        "palabras": 3,
+        "y": 60,
+        "hasta_s": 41.9
+      },
+      {
+        "texto": "estábamos solos",
+        "palabras": 3,
+        "y": 56
+      },
+      {
+        "texto": "y él se acercó / a mí",
+        "palabras": 5,
+        "y": 56
+      },
+      {
+        "texto": "y fue como algo / muy *íntimo*",
+        "palabras": 6,
+        "y": 56,
+        "hasta_s": 49.32
+      },
+      {
+        "texto": "ya no, no se volvió / a _parar_",
+        "palabras": 7,
+        "y": 60
+      },
+      {
+        "texto": "yo ya *sabía*",
+        "palabras": 3,
+        "y": 60,
+        "hasta_s": 54.97
+      },
+      {
+        "texto": "ya era / el _momento_",
+        "palabras": 4,
+        "y": 56
+      },
+      {
+        "texto": "y yo tomé / la decisión",
+        "palabras": 5,
+        "y": 56
+      },
+      {
+        "texto": "por todos / y por ambos",
+        "palabras": 7,
+        "y": 56,
+        "hasta_s": 62.43
+      },
+      {
+        "texto": "y su _mirada_ / lo decía",
+        "palabras": 5,
+        "y": 60,
+        "hasta_s": 64.33
+      },
+      {
+        "texto": "es un *acto de amor* / lo que hacemos",
+        "palabras": 8,
+        "y": 60,
+        "hasta_s": 66.4
+      },
+      {
+        "texto": "duele / _muy profundo_",
+        "palabras": 3,
+        "y": 60
+      },
+      {
+        "texto": "¿qué sentiste / cuando llegaste / aquí ese día?",
+        "palabras": 7,
+        "y": 60,
+        "hasta_s": 71.66
+      },
+      {
+        "texto": "que le estaba dando / la despedida / que _merecía_",
+        "palabras": 8,
+        "y": 60,
+        "hasta_s": 74.11
+      },
+      {
+        "texto": "y que Sam / se sintió _acompañado_",
+        "palabras": 6,
+        "y": 56
+      },
+      {
+        "texto": "hasta el último / momento",
+        "palabras": 4,
+        "y": 56
+      },
+      {
+        "texto": "hasta el último / segundo",
+        "palabras": 4,
+        "y": 56
+      },
+      {
+        "texto": "y se sintió / *tan amado*",
+        "palabras": 6,
+        "y": 56,
+        "hasta_s": 80.86
+      },
+      {
+        "texto": "Sam era / la razón",
+        "palabras": 3,
+        "y": 56
+      },
+      {
+        "texto": "porque nosotros / estuvimos *juntos*",
+        "palabras": 4,
+        "y": 56
+      },
+      {
+        "texto": "entonces, ¿cómo no / estar con él",
+        "palabras": 6,
+        "y": 56
+      },
+      {
+        "texto": "para su *despedida*",
+        "palabras": 3,
+        "y": 56,
+        "hasta_s": 89.6
+      }
+    ]
+  }
+}
