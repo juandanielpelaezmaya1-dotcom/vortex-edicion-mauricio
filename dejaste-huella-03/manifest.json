@@ -1,0 +1,351 @@
+{
+  "slug": "dejaste-huella-03",
+  "fps": 59.94,
+  "formatos": [
+    "9x16"
+  ],
+  "clips": [
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 0,
+      "out_s": 82.86
+    },
+    {
+      "archivo": "material/logo-contactos-9x16.mp4",
+      "in_s": 0,
+      "out_s": 7.04,
+      "transicion": {
+        "tipo": "disolver",
+        "duracion_s": 0.3
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "archivo": "material/banda-oscura.png",
+      "en_s": 53.69,
+      "duracion_s": 29.17
+    },
+    {
+      "archivo": "material/destello-oro.mp4",
+      "en_s": 19.67,
+      "mezcla": "screen",
+      "opacidad": 0.85,
+      "encima": true
+    },
+    {
+      "archivo": "material/destello-oro.mp4",
+      "en_s": 33.53,
+      "mezcla": "screen",
+      "opacidad": 0.85,
+      "encima": true
+    },
+    {
+      "archivo": "material/destello-oro.mp4",
+      "en_s": 50.18,
+      "mezcla": "screen",
+      "opacidad": 0.85,
+      "encima": true
+    },
+    {
+      "archivo": "material/destello-oro.mp4",
+      "en_s": 53.34,
+      "mezcla": "screen",
+      "opacidad": 0.85,
+      "encima": true
+    },
+    {
+      "archivo": "material/destello-oro.mp4",
+      "en_s": 67.17,
+      "mezcla": "screen",
+      "opacidad": 0.85,
+      "encima": true
+    },
+    {
+      "archivo": "material/destello-oro.mp4",
+      "en_s": 82.51,
+      "mezcla": "screen",
+      "opacidad": 0.85,
+      "encima": true
+    }
+  ],
+  "destellos": [
+    {
+      "en_s": 19.98,
+      "duracion_s": 0.35,
+      "color": "white",
+      "intensidad": 0.45
+    },
+    {
+      "en_s": 33.84,
+      "duracion_s": 0.35,
+      "color": "white",
+      "intensidad": 0.45
+    },
+    {
+      "en_s": 50.49,
+      "duracion_s": 0.35,
+      "color": "white",
+      "intensidad": 0.45
+    },
+    {
+      "en_s": 53.65,
+      "duracion_s": 0.35,
+      "color": "white",
+      "intensidad": 0.45
+    },
+    {
+      "en_s": 67.48,
+      "duracion_s": 0.35,
+      "color": "white",
+      "intensidad": 0.45
+    },
+    {
+      "en_s": 82.82,
+      "duracion_s": 0.35,
+      "color": "white",
+      "intensidad": 0.45
+    }
+  ],
+  "subtitulos": {
+    "activo": true,
+    "estilo": "editorial",
+    "sombra": true,
+    "frases": [
+      {
+        "texto": "llevo / _cinco años_",
+        "y": 66
+      },
+      {
+        "texto": "acompañando / a más de",
+        "y": 66
+      },
+      {
+        "texto": "**dos mil** / familias",
+        "y": 66
+      },
+      {
+        "texto": "en las / despedidas",
+        "y": 66
+      },
+      {
+        "texto": "de sus / _mascoticas_",
+        "y": 66
+      },
+      {
+        "texto": "y lo más / _difícil_",
+        "y": 66
+      },
+      {
+        "texto": "y *doloroso*",
+        "y": 66
+      },
+      {
+        "texto": "no es solo / ver su llanto",
+        "y": 66
+      },
+      {
+        "texto": "y la _tristeza_",
+        "y": 66
+      },
+      {
+        "texto": "sino que / en ese momento",
+        "y": 66
+      },
+      {
+        "texto": "tienen que / hacer _llamadas,_",
+        "y": 66
+      },
+      {
+        "texto": "cuentas y un / _montón_ de cosas",
+        "y": 66
+      },
+      {
+        "texto": "para poderle dar",
+        "y": 66
+      },
+      {
+        "texto": "la despedida / que se **merece**",
+        "y": 66
+      },
+      {
+        "texto": "por eso creamos",
+        "y": 66
+      },
+      {
+        "texto": "nuestro plan de / _previsión exequial_",
+        "y": 66
+      },
+      {
+        "texto": "porque además / de prever / ese momento",
+        "y": 66
+      },
+      {
+        "texto": "lo que haces / es **ahorrar**",
+        "y": 66
+      },
+      {
+        "texto": "en _veterinarias,_",
+        "y": 66
+      },
+      {
+        "texto": "en peluquerías, / en guarderías",
+        "y": 66
+      },
+      {
+        "texto": "y en todo / lo que tu",
+        "y": 66
+      },
+      {
+        "texto": "_mascotica_ / necesite",
+        "y": 66
+      },
+      {
+        "texto": "para darle la / _mejor atención_",
+        "y": 66
+      },
+      {
+        "texto": "y la mejor / calidad de _vida_",
+        "y": 66
+      },
+      {
+        "texto": "hasta que ese / momento llegue",
+        "y": 66
+      },
+      {
+        "texto": "por eso creamos / nuestro plan",
+        "y": 66
+      },
+      {
+        "texto": "de **previsión** / **exequial**",
+        "y": 66
+      },
+      {
+        "texto": "para que tú / no tengas que / _preocuparte_",
+        "y": 66
+      },
+      {
+        "texto": "por _absolutamente_ / nada más",
+        "y": 66
+      },
+      {
+        "texto": "que cuidar / a tu _mascotica_",
+        "y": 66
+      },
+      {
+        "texto": "dándole la / mejor calidad / de vida",
+        "y": 66
+      },
+      {
+        "texto": "con _descuentos_ / en veterinarias,",
+        "y": 66
+      },
+      {
+        "texto": "peluquerías, / guarderías, / hoteles",
+        "y": 66
+      },
+      {
+        "texto": "y todo lo que / él necesite",
+        "y": 66
+      },
+      {
+        "texto": "y también tiene / descuentos",
+        "y": 66
+      },
+      {
+        "texto": "**para ti**",
+        "y": 66
+      },
+      {
+        "texto": "así puedes / *ahorrar*",
+        "y": 66
+      },
+      {
+        "texto": "mientras / lo _cuidas_",
+        "y": 66
+      },
+      {
+        "texto": "y cuando ese / momento llegue",
+        "y": 66
+      },
+      {
+        "texto": "que esperamos / que sea",
+        "y": 66
+      },
+      {
+        "texto": "dentro de / _mucho tiempo_",
+        "y": 66
+      },
+      {
+        "texto": "ya todo va a / estar _preparado,_",
+        "y": 66
+      },
+      {
+        "texto": "su sala / de *velación*",
+        "y": 66
+      },
+      {
+        "texto": "su / **homenaje**",
+        "y": 66
+      },
+      {
+        "texto": "para que no / tengas que / preocuparte",
+        "y": 66
+      },
+      {
+        "texto": "por nada más / que _estar con él_",
+        "y": 66
+      },
+      {
+        "texto": "esta oferta / es por / _tiempo limitado_",
+        "y": 66
+      },
+      {
+        "texto": "hasta el mes de / _diciembre_",
+        "y": 66
+      },
+      {
+        "texto": "por / **$14.900**",
+        "palabras": 2,
+        "y": 66
+      },
+      {
+        "texto": "para mascoticas",
+        "y": 66
+      },
+      {
+        "texto": "menores a / los *9 años*",
+        "y": 66
+      },
+      {
+        "texto": "y si tu _peludito_",
+        "y": 66
+      },
+      {
+        "texto": "tiene más / de 9 años",
+        "y": 66
+      },
+      {
+        "texto": "también lo / **afiliamos**",
+        "y": 66
+      },
+      {
+        "texto": "_escríbenos_ / y te enviamos",
+        "y": 66
+      },
+      {
+        "texto": "toda la / _información_",
+        "y": 66
+      },
+      {
+        "texto": "¿qué / **esperas?**",
+        "hasta_s": 82.86,
+        "y": 66
+      }
+    ]
+  },
+  "musica": {
+    "archivo": "material/musica-ambiental.wav",
+    "volumen": 1
+  }
+}
