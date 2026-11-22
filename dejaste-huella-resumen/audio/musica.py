@@ -238,7 +238,17 @@ db = db * (1 - sube) - 1.5 * sube
 import wave
 vozw = os.path.join(PROY, "cache", "_voz_env.wav")
 trozos = []
-for archivo, a, b in CLIPS[:-1]:
+# Una toma muda (apoyo, `volumen: 0`) suena con la pista de voz que entra en su segundo.
+inicio = 0.0
+VOZ = []
+for c, (archivo, a, b) in zip(M["clips"][:-1], CLIPS[:-1]):
+    if c.get("volumen") == 0:
+        p = next(p for p in M.get("pistas", []) if abs(p["en_s"] - inicio) < 0.05)
+        archivo, a = p["archivo"], p["in_s"] + (a - c.get("in_s", 0))
+        b = a + (c["out_s"] - c.get("in_s", 0))
+    VOZ.append((archivo, a, b))
+    inicio += c["out_s"] - c.get("in_s", 0)
+for archivo, a, b in VOZ:
     ff("-ss", f"{a}", "-to", f"{b}", "-i", os.path.join(PROY, archivo), "-vn", "-ac", "1", "-ar", "1000",
        "-c:a", "pcm_s16le", vozw)
     with wave.open(vozw) as w:

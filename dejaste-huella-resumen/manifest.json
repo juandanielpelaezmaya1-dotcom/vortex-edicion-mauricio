@@ -31,8 +31,8 @@
         "intensidad": 1.65
       },
       "transicion": {
-        "tipo": "desenfoque",
-        "duracion_s": 0.15
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -48,8 +48,8 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "escala",
-        "duracion_s": 0.25
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -65,8 +65,8 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "escala",
-        "duracion_s": 0.25
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -82,8 +82,8 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "desenfoque",
-        "duracion_s": 0.15
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -99,8 +99,8 @@
         "intensidad": 1.65
       },
       "transicion": {
-        "tipo": "desenfoque",
-        "duracion_s": 0.15
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -116,9 +116,8 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "deslizar",
-        "desde": "izq",
-        "duracion_s": 0.3
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -134,9 +133,8 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "deslizar",
-        "desde": "der",
-        "duracion_s": 0.3
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -152,8 +150,8 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "desenfoque",
-        "duracion_s": 0.15
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -169,14 +167,14 @@
         "intensidad": 1.65
       },
       "transicion": {
-        "tipo": "desenfoque",
-        "duracion_s": 0.15
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
-      "archivo": "material/full.mp4",
-      "in_s": 241.2,
-      "out_s": 248.66,
+      "archivo": "material/toma-decision.mp4",
+      "in_s": 0.5,
+      "out_s": 7.96,
       "zoom": {
         "tipo": "out",
         "hacia": {
@@ -186,8 +184,8 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "desenfoque",
-        "duracion_s": 0.15
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -203,8 +201,8 @@
         "intensidad": 1.65
       },
       "transicion": {
-        "tipo": "desenfoque",
-        "duracion_s": 0.15
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -220,8 +218,8 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "escala",
-        "duracion_s": 0.25
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -237,8 +235,8 @@
         "intensidad": 1.65
       },
       "transicion": {
-        "tipo": "desenfoque",
-        "duracion_s": 0.15
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -254,8 +252,8 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "desenfoque",
-        "duracion_s": 0.15
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -271,8 +269,8 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "escala",
-        "duracion_s": 0.25
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
@@ -288,14 +286,14 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "escala",
-        "duracion_s": 0.25
+        "tipo": "fundido",
+        "duracion_s": 0.4
       }
     },
     {
       "archivo": "material/full.mp4",
       "in_s": 422.85,
-      "out_s": 431.65,
+      "out_s": 426.64,
       "zoom": {
         "tipo": "out",
         "hacia": {
@@ -305,8 +303,26 @@
         "intensidad": 1.5
       },
       "transicion": {
-        "tipo": "escala",
-        "duracion_s": 0.25
+        "tipo": "fundido",
+        "duracion_s": 0.4
+      }
+    },
+    {
+      "archivo": "material/apoyo-4338.mp4",
+      "in_s": 0,
+      "out_s": 5.01,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 50,
+          "y": 50
+        },
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "fundido",
+        "duracion_s": 0.5
       }
     },
     {
@@ -314,11 +330,40 @@
       "in_s": 0,
       "out_s": 4.8,
       "transicion": {
-        "tipo": "disolver",
-        "duracion_s": 0.3
+        "tipo": "fundido",
+        "duracion_s": 0.5
       }
     }
   ],
+  "pistas": [
+    {
+      "archivo": "material/full.mp4",
+      "in_s": 426.64,
+      "out_s": 431.65,
+      "en_s": 80.6,
+      "limpiar": false,
+      "ganancia_db": 0,
+      "fundido_s": 0.02
+    }
+  ],
+  "overlays": [
+    {
+      "archivo": "material/vineta.png",
+      "en_s": 0,
+      "duracion_s": 85.61
+    },
+    {
+      "archivo": "material/banda-apoyo.png",
+      "en_s": 80.9,
+      "duracion_s": 4.75,
+      "fundido_s": 0.4
+    }
+  ],
+  "color": {
+    "contraste": 1.25,
+    "saturacion": 0.95,
+    "brillo": 1.1
+  },
   "destellos": [
     {
       "en_s": 10.979999999999961,
