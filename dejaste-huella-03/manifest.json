@@ -8,7 +8,184 @@
     {
       "archivo": "material/dejaste-huella-03.mp4",
       "in_s": 0,
-      "out_s": 82.86
+      "out_s": 6.2,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 50,
+          "y": 32
+        },
+        "intensidad": 1.12
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 6.2,
+      "out_s": 10.3,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 50,
+          "y": 32
+        },
+        "intensidad": 1.2
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 10.3,
+      "out_s": 17.45,
+      "zoom": {
+        "tipo": "out",
+        "hacia": {
+          "x": 50,
+          "y": 32
+        },
+        "intensidad": 1.12
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 17.45,
+      "out_s": 20.02,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 50,
+          "y": 32
+        },
+        "intensidad": 1.1
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 20.02,
+      "out_s": 29.86,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 50,
+          "y": 32
+        },
+        "intensidad": 1.1
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 29.86,
+      "out_s": 33.88,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 50,
+          "y": 32
+        },
+        "intensidad": 1.18
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 33.88,
+      "out_s": 38.9,
+      "zoom": {
+        "tipo": "out",
+        "hacia": {
+          "x": 50,
+          "y": 32
+        },
+        "intensidad": 1.12
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 38.9,
+      "out_s": 43.58,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 50,
+          "y": 32
+        },
+        "intensidad": 1.15
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 43.58,
+      "out_s": 50.53,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 50,
+          "y": 32
+        },
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 50.53,
+      "out_s": 53.69,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 50,
+          "y": 32
+        },
+        "intensidad": 1.15
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 53.69,
+      "out_s": 61.66,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 40,
+          "y": 38
+        },
+        "intensidad": 1.12
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 61.66,
+      "out_s": 67.52,
+      "zoom": {
+        "tipo": "fijo",
+        "hacia": {
+          "x": 40,
+          "y": 38
+        },
+        "intensidad": 1.18
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 67.52,
+      "out_s": 75.3,
+      "zoom": {
+        "tipo": "in",
+        "hacia": {
+          "x": 50,
+          "y": 36
+        },
+        "intensidad": 1.1
+      }
+    },
+    {
+      "archivo": "material/dejaste-huella-03.mp4",
+      "in_s": 75.3,
+      "out_s": 82.86,
+      "zoom": {
+        "tipo": "out",
+        "hacia": {
+          "x": 50,
+          "y": 36
+        },
+        "intensidad": 1.12
+      }
     },
     {
       "archivo": "material/logo-contactos-9x16.mp4",
@@ -22,9 +199,75 @@
   ],
   "overlays": [
     {
+      "archivo": "material/vineta.png",
+      "en_s": 0,
+      "duracion_s": 82.86
+    },
+    {
+      "archivo": "material/polvo-oro.mp4",
+      "en_s": 0,
+      "mezcla": "screen",
+      "opacidad": 0.55
+    },
+    {
       "archivo": "material/banda-oscura.png",
       "en_s": 53.69,
       "duracion_s": 29.17
+    },
+    {
+      "archivo": "material/mg/huellas-gancho.webm",
+      "en_s": 0.9,
+      "encima": true
+    },
+    {
+      "archivo": "material/mg/llamadas.webm",
+      "en_s": 12.1,
+      "encima": true
+    },
+    {
+      "archivo": "material/mg/servicios.webm",
+      "en_s": 24.75,
+      "encima": true
+    },
+    {
+      "archivo": "material/mg/vida.webm",
+      "en_s": 29.9,
+      "encima": true
+    },
+    {
+      "archivo": "material/mg/huellas-mascotica.webm",
+      "en_s": 40.2,
+      "encima": true
+    },
+    {
+      "archivo": "material/mg/descuentos.webm",
+      "en_s": 43.65,
+      "encima": true
+    },
+    {
+      "archivo": "material/mg/ahorro.webm",
+      "en_s": 51.55,
+      "encima": true
+    },
+    {
+      "archivo": "material/mg/velacion.webm",
+      "en_s": 61.7,
+      "encima": true
+    },
+    {
+      "archivo": "material/mg/oferta.webm",
+      "en_s": 68.35,
+      "encima": true
+    },
+    {
+      "archivo": "material/mg/precio.webm",
+      "en_s": 71.9,
+      "encima": true
+    },
+    {
+      "archivo": "material/mg/cta.webm",
+      "en_s": 77.95,
+      "encima": true
     },
     {
       "archivo": "material/destello-oro.mp4",
@@ -107,6 +350,11 @@
       "intensidad": 0.45
     }
   ],
+  "color": {
+    "contraste": 1.22,
+    "saturacion": 1.15,
+    "brillo": 0.98
+  },
   "subtitulos": {
     "activo": true,
     "estilo": "editorial",
