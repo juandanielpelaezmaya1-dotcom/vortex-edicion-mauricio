@@ -29,7 +29,7 @@ T = sum(b - a for _, a, b in CLIPS) + 0.1
 N = int(T * SR)
 rng = np.random.default_rng(23)
 
-CORTES = [20.02, 33.88, 50.53, 53.69, 67.52]
+CORTES = [20.02, 33.88, 37.04, 48.56]  # borrador 3: sin la toma repetida ni la cuenta regresiva
 BPM = 100.0
 PULSO = 60.0 / BPM
 COMPAS = 4 * PULSO
