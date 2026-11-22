@@ -19,15 +19,12 @@ const z = (tipo, hacia, intensidad) => ({ tipo, hacia, intensidad });
 // [in_s, out_s, zoom, corte real?] en segundos del video de Mauricio. Los cortes de adentro de
 // una toma (punch-ins) llevan un desenfoque corto; los reales, desenfoque + fuga de luz.
 const TOMAS = [
-  [0, 6.2, z("in", DE_PIE, 1.12)],
-  [6.2, 10.3, z("fijo", DE_PIE, 1.2)], // lo mas dificil y doloroso
-  [10.3, 17.45, z("out", DE_PIE, 1.12)],
-  [17.45, 20.02, z("fijo", DE_PIE, 1.1)],
+  // Borrador 4: sin los punch-ins de 6,2 / 10,3 / 17,45 (Mauricio): un acercamiento lento entero.
+  [0, 20.02, z("in", DE_PIE, 1.1)],
   [20.02, 29.86, z("out", DE_PIE, 1.1), true], // sale del 1,1 de la toma anterior: el salto se nota menos
   [29.86, 33.88, z("fijo", DE_PIE, 1.15)], // la mejor calidad de vida
   [50.53, 53.69, z("in", DE_PIE, 1.1), true], // asi puedes ahorrar mientras lo cuidas
-  [56.0, 61.66, z("in", SOFA1, 1.12), true], // sin la cuenta regresiva (53,7-55,3)
-  [61.66, 67.52, z("fijo", SOFA1, 1.18)], // sala de velacion, homenaje
+  [56.0, 67.52, z("in", SOFA1, 1.12), true], // sin la cuenta regresiva (53,7-55,3) ni el punch-in de 61,66
   [67.52, 75.3, z("in", SOFA2, 1.1), true],
   [75.3, 82.86, z("out", SOFA2, 1.12)],
 ];
@@ -45,7 +42,7 @@ const aLinea = (s) => {
   const t = LINEA.find((t) => s >= t.a && s < t.b);
   return t ? t.en + (s - t.a) : null;
 };
-const SOFA_DESDE = +LINEA[7].en.toFixed(2);
+const SOFA_DESDE = +aLinea(56.0).toFixed(2);
 
 // Subtitulos: whisper del video entero -> linea nueva (lo que cae en lo quitado se va)
 const fuente = JSON.parse(fs.readFileSync("subtitulos/captions-fuente.json", "utf8"));
@@ -83,7 +80,7 @@ const F = [
   OCULTA(14), // en veterinarias, en peluquerias, en guarderias y en todo lo que tu mascotica necesite -> tarjetas
   "para darle la / _mejor atención_",
   "y la mejor / calidad de _vida_",
-  { texto: "hasta que ese / momento llegue", hasta_s: +LINEA[5].en.toFixed(2) + (33.88 - 29.86) - 0.03 },
+  { texto: "hasta que ese / momento llegue", hasta_s: +aLinea(33.85).toFixed(2) },
   "así puedes / *ahorrar*",
   { texto: "mientras / lo _cuidas_", hasta_s: SOFA_DESDE - 0.03 },
   "y cuando ese / momento llegue",
