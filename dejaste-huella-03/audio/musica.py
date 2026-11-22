@@ -155,7 +155,7 @@ K = bombo()
 RIM = ruido(0.08, 1800, 6000, 0.018)
 SH = ruido(0.06, 6500, 15000, 0.015)
 ocho = PULSO / 2
-c = 0
+c = -1  # borrador 4: un compas antes del 0, para que la musica ya suene en el primer cuadro
 while True:
     t_c = T0 + c * COMPAS
     if t_c > T - 0.3:
@@ -165,7 +165,7 @@ while True:
     pad_n, arp_n, raiz = ACORDES[nombre]
     if t_c + COMPAS > 0:
         poner(pads, pad(pad_n, COMPAS + 0.9), t_c - 0.2, vol=0.9)
-    if c >= 4:  # arpegio desde el compas 4; antes, solo el pad
+    if True:  # arpegio desde el inicio (Mauricio: los primeros segundos no se oia musica)
         for k, m in enumerate(arp_n):
             poner(arps, piano(m), t_c + k * ocho, pan=0.35 * np.sin(k), vol=0.32 if k % 2 == 0 else 0.22)
     if t_c >= GROOVE - 0.05:
@@ -198,7 +198,7 @@ poner(campanas, campana(84, 3.0), t_fin + 0.2, pan=0.2, vol=0.16)
 sos = butter(2, 1800, btype="low", fs=SR, output="sos")
 oscuro = np.stack([sosfilt(sos, pads[:, i]) for i in range(2)], axis=1)
 tt = np.arange(N) / SR
-abre = np.clip((tt - 4) / (GROOVE - 4), 0, 1)[:, None]
+abre = np.clip(tt / 6.0, 0, 1)[:, None]  # el filtro abre en 6 s, no a los 20
 pads = oscuro * (1 - abre) + pads * abre
 
 mezcla = pads * 0.55 + arps + graves * 0.8 + ritmo * 0.85 + campanas
@@ -214,8 +214,9 @@ escribir(tmp, mezcla / (np.abs(mezcla).max() + 1e-9) * 0.7)
 mezcla = mezcla / (np.abs(mezcla).max() + 1e-9) * 0.7 * 10 ** ((-16 - lufs(tmp)) / 20)
 
 # Curva de nivel: cama a -9 dB bajo la voz, entrada suave, sube a -1 en el logo, sale al final
-db = np.full(N, -9.0)
-db = np.where(tt < 1.0, -9 - 30 * (1.0 - tt), db)
+db = np.where(tt < GROOVE, -6.0, -9.0)  # antes del ritmo hay menos instrumentos: la cama va 3 dB arriba
+db = np.where((tt >= GROOVE - 1.5) & (tt < GROOVE), -6.0 - 3.0 * (tt - (GROOVE - 1.5)) / 1.5, db)
+db = np.where(tt < 0.15, db - 20 * (0.15 - tt) / 0.15, db)  # sin clic en el primer cuadro
 sube = np.clip((tt - (ULTIMA_PALABRA + 0.15)) / 0.8, 0, 1)
 db = db * (1 - sube) - 1.0 * sube
 db -= np.clip((tt - (T - 1.5)) / 1.5, 0, 1) * 30
