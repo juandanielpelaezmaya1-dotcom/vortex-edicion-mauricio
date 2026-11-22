@@ -553,7 +553,8 @@
         "hasta_s": 85.51
       }
     ],
-    "cursiva_oro": true
+    "cursiva_oro": true,
+    "compacto": true
   },
   "musica": {
     "archivo": "material/musica-alegre.wav",
