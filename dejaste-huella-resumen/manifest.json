@@ -16,7 +16,8 @@
           "y": 40
         },
         "intensidad": 1.5
-      }
+      },
+      "volumen": 0
     },
     {
       "archivo": "material/gancho-gris.mp4",
@@ -33,7 +34,8 @@
       "transicion": {
         "tipo": "fundido",
         "duracion_s": 0.4
-      }
+      },
+      "volumen": 0
     },
     {
       "archivo": "material/full.mp4",
@@ -337,6 +339,18 @@
   ],
   "pistas": [
     {
+      "archivo": "material/gancho-megafono.wav",
+      "in_s": 0,
+      "out_s": 11.48,
+      "en_s": 0,
+      "limpiar": false,
+      "fundido_s": [
+        0.02,
+        0.3
+      ],
+      "ganancia_db": 8
+    },
+    {
       "archivo": "material/full.mp4",
       "in_s": 426.64,
       "out_s": 431.65,
@@ -602,7 +616,54 @@
     "compacto": true
   },
   "musica": {
-    "archivo": "material/musica-alegre.wav",
+    "archivo": "material/musica-melancolica.wav",
     "volumen": 1
-  }
+  },
+  "efectos": [
+    {
+      "archivo": "material/sfx/golpe.wav",
+      "en_s": 0,
+      "volumen": 0.55
+    },
+    {
+      "archivo": "material/sfx/megafono.wav",
+      "en_s": 0.05,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "material/sfx/subida.wav",
+      "en_s": 9.38,
+      "volumen": 0.35
+    },
+    {
+      "archivo": "material/sfx/brillo.wav",
+      "en_s": 10.98,
+      "volumen": 0.35
+    },
+    {
+      "archivo": "material/sfx/soplo.wav",
+      "en_s": 37.4,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "material/sfx/soplo.wav",
+      "en_s": 59.83,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "material/sfx/soplo.wav",
+      "en_s": 76.36,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "material/sfx/soplo.wav",
+      "en_s": 80.15,
+      "volumen": 0.3
+    },
+    {
+      "archivo": "material/sfx/brillo.wav",
+      "en_s": 85.81,
+      "volumen": 0.4
+    }
+  ]
 }
