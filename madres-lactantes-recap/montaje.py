@@ -18,9 +18,9 @@ M = "material/C20261122_{}.MP4"
 
 # Voz: (in_s, out_s, en_s) del archivo 5748
 VOZ = [
-    (2.82, 19.62, 4.0),    # Angelica Sanchez ... celebrando el dia de la escucha a la gestante. Hemos convocado mas de 150 gestantes, las hemos dividido en dos grupos,
-    (23.88, 37.06, 21.2),  # ya cerca de 60 gestantes ... el plan de parto humanizado,
-    (37.70, 78.22, 34.7),  # Ademas han salido premiadas ... animacion para sus bebes.
+    (7.98, 19.62, 4.0),    # (pedido de Mauricio: arranca en "estamos hoy aqui") estamos hoy aqui en la Universidad Autonoma ... celebrando el dia de la escucha a la gestante. Hemos convocado mas de 150 gestantes, las hemos dividido en dos grupos,
+    (23.88, 37.06, 16.2),  # ya cerca de 60 gestantes ... el plan de parto humanizado,
+    (37.70, 78.22, 29.7),  # Ademas han salido premiadas ... animacion para sus bebes.
 ]
 
 # (toma, in_s, duracion en la linea de tiempo, zoom, transicion de entrada)
@@ -32,17 +32,16 @@ TOMAS = [
     ("5683", 1.5, 1.0, "out", "escala"),
     ("5686", 2.0, 1.0, "in", D),
     ("5697", 1.5, 1.0, "out", D),
-    # --- Angelica se presenta (sincronia labial: mismo rango que la voz)
-    ("5748", 2.82, 5.5, "in", "escala"),
+    # --- Angelica en camara al arrancar su voz (sincronia labial: mismo rango que la voz)
+    ("5748", 7.98, 2.5, "in", "escala"),
     # --- "estamos hoy aqui ... celebrando el dia de la escucha a la gestante"
     ("5674", 10.0, 1.5, "out", "deslizar-izq"),
     ("5699", 1.0, 1.5, "in", D),
     ("5677", 2.0, 1.5, None, D),
-    ("5676", 1.5, 1.5, "out", D),
+    ("5676", 1.5, 1.0, "out", D),
     # --- "hemos convocado mas de 150 gestantes, las hemos dividido en dos grupos"
-    ("5680", 0.3, 1.5, "in", D),
+    ("5680", 0.3, 1.0, "in", D),
     ("5730", 1.0, 1.5, "out", D),
-    ("5693", 1.5, 1.0, "in", D),
     ("5692", 2.0, 1.5, None, D),
     # --- "cerca de 60 gestantes en este primer grupo, fortaleciendo los temas importantes..."
     ("5700", 1.5, 1.5, "in", "deslizar-der"),
@@ -124,6 +123,8 @@ for toma, i, dur, z, tr in TOMAS:
             capitulos.append(round(t, 3))
     t += dur
 TOTAL = round(t, 3)
+# capitulos con nombre (los usa la musica): premiadas, "finalmente", el cierre sin voz
+FIESTA, FINALMENTE, CIERRE = capitulos[4], capitulos[7], capitulos[8]
 assert TOTAL <= 90, TOTAL
 assert len({x[0] for x in TOMAS}) == len(TOMAS), "una toma repetida (R3)"
 
@@ -131,15 +132,14 @@ manifest = {
     "slug": "madres-lactantes-recap",
     "fps": 29.97,
     "formatos": ["9x16"],
-    "_nota": "Generado por montaje.py (no editar a mano). Audio: audio/mezcla.py -> material/mezcla.wav (voz 5748 + musica original 120 BPM + whooshes). Motion: _render/src/GestanteMotion.tsx -> material/mg/*.webm",
+    "_nota": "Generado por montaje.py (no editar a mano). Audio: audio/mezcla.py -> material/mezcla-sin-musica.wav (voz 5748 + whooshes; Mauricio pidio quitar la musica. Con musica: material/mezcla.wav). Motion: _render/src/GestanteMotion.tsx -> material/mg/*.webm",
     "clips": clips,
-    "pistas": [{"archivo": "material/mezcla.wav", "in_s": 0, "out_s": TOTAL, "en_s": 0, "volumen": 1,
+    "pistas": [{"archivo": "material/mezcla-sin-musica.wav", "in_s": 0, "out_s": TOTAL, "en_s": 0, "volumen": 1,
                 "limpiar": False, "ganancia_db": 0, "fundido_s": [0.01, 0.01]}],
-    "destellos": [{"en_s": c, "duracion_s": 0.3, "color": "#FFF1DC", "intensidad": 0.55} for c in (34.5, 64.5)],
+    "destellos": [{"en_s": c, "duracion_s": 0.3, "color": "#FFF1DC", "intensidad": 0.55} for c in (FIESTA, FINALMENTE)],
     "overlays": [
         {"archivo": "material/mg/titulo.webm", "en_s": 0.15, "encima": True},
-        {"archivo": "material/mg/credencial.webm", "en_s": 4.45, "encima": True},
-        {"archivo": "material/mg/cierre.webm", "en_s": 75.4, "encima": True},
+        {"archivo": "material/mg/cierre.webm", "en_s": CIERRE + 0.4, "encima": True},
     ],
     "progreso": False,
 }
@@ -147,5 +147,6 @@ with open(os.path.join(AQUI, "manifest.json"), "w", encoding="utf-8") as f:
     json.dump(manifest, f, ensure_ascii=False, indent=2)
 os.makedirs(os.path.join(AQUI, "cache"), exist_ok=True)
 with open(os.path.join(AQUI, "cache", "cortes.json"), "w") as f:
-    json.dump({"total": TOTAL, "cortes": cortes, "capitulos": capitulos, "voz": VOZ}, f)
+    json.dump({"fiesta": FIESTA, "cierre": CIERRE, "total": TOTAL, "cortes": cortes, "capitulos": capitulos, "voz": VOZ,
+               "tomas": [[M.format(x[0]), x[1], round(sum(y[2] for y in TOMAS[:k]), 3), x[2]] for k, x in enumerate(TOMAS)]}, f)
 print(f"{len(clips)} tomas, {TOTAL} s; capitulos en {capitulos}")

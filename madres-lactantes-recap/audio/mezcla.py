@@ -5,9 +5,9 @@
 Lee cache/cortes.json (lo escribe montaje.py): total, cortes, capitulos y los tramos de voz.
 Musica: Fa mayor, 120 BPM (pulso 0,5 s, compas 2 s), feliz y tierna. Progresion F - C - Dm - Bb.
   - 0-4      gancho sin voz: marimba con la melodia, campanita, palmas y bombo. Sube al golpe de 4 s.
-  - 4-75     bajo la voz: bombo suave en 1 y 3, palmas en 2 y 4, shaker, bajo, arpegio de marimba y
-             colchon. A los 34,5 (premiadas) entran pandereta y la campanita: la fiesta del evento.
-  - 75-80    cierre sin voz: vuelve la melodia completa y termina en un acorde de Fa que suena hasta 80.
+  - 4-CIERRE bajo la voz: bombo suave en 1 y 3, palmas en 2 y 4, shaker, bajo, arpegio de marimba y
+             colchon. En FIESTA (premiadas) entran pandereta y la campanita: la fiesta del evento.
+  - CIERRE-fin cierre sin voz: vuelve la melodia completa y termina en un acorde de Fa que suena hasta 80.
 Efectos: whoosh suave en cada cambio de capitulo (no en todos los cortes: a un corte por segundo
 cansaria); un brillo de campanitas en el titulo y en el cierre.
 Niveles: cama -25 LUFS bajo la voz, +13 dB sin voz; mezcla a -14 LUFS con la ganancia de la VOZ SOLA.
@@ -33,9 +33,9 @@ BPM = 120
 PULSO = 60 / BPM
 COMPAS = 4 * PULSO
 OCHO = PULSO / 2
-FIESTA = 34.5      # premiadas: entra la pandereta
-CIERRE = 75.0      # sin voz
-ACORDE_FINAL = 78.0
+FIESTA = CFG["fiesta"]      # premiadas: entra la pandereta
+CIERRE = CFG["cierre"]      # sin voz
+ACORDE_FINAL = CIERRE + 3.0
 
 
 def ff(*args):
@@ -292,6 +292,34 @@ def limitar(x, techo=0.89):
 
 
 escribir(os.path.join(PROY, "material", "mezcla.wav"), limitar((voz + musica + efx_n) * g))
-escribir(os.path.join(PROY, "material", "mezcla-sin-musica.wav"), limitar((voz + efx_n) * g))
+
+
+# --- ambiente de las mismas tomas en los vacios sin voz (pedido de Mauricio al quitar la musica) ---
+# Solo en el gancho (0-4) y el cierre: cada toma suena con su propio audio, nivelada a -21 LUFS
+# (la voz va a -14), con fundidos de 40 ms en cada corte para que no haga clic.
+AMB_LUFS = -21
+ambiente = np.zeros((N, 2))
+for arch, ins, en, dur in CFG["tomas"]:
+    if not (en < 4.0 - 0.01 or en >= CIERRE - 0.01):
+        continue
+    tmp = os.path.join(PROY, "cache", "_amb.raw")
+    ff("-ss", f"{ins}", "-t", f"{dur + 0.04}", "-i", os.path.join(PROY, arch), "-vn", "-ac", "2", "-ar", str(SR),
+       "-af", "highpass=f=70", "-f", "f32le", tmp)
+    x = np.fromfile(tmp, dtype="<f4").reshape(-1, 2).astype(float)
+    os.remove(tmp)
+    x = x * 10 ** ((AMB_LUFS - lufs_de(x)) / 20)
+    f = int(0.04 * SR)
+    x[:f] *= np.linspace(0, 1, f)[:, None]
+    x[-f:] *= np.linspace(1, 0, f)[:, None]
+    poner(ambiente, x, en - 0.02)
+# entra la voz: el ambiente se va en 0,15 s; el final se apaga en el ultimo segundo
+amb_env = np.ones(N)
+a, b = int(4.0 * SR), int(4.15 * SR)
+amb_env[a:b] = np.linspace(1, 0, b - a)
+amb_env[b:int((CIERRE - 0.1) * SR)] = 0
+amb_env[int((CIERRE - 0.1) * SR):int(CIERRE * SR)] = np.linspace(0, 1, int(0.1 * SR))
+amb_env[N - SR:] *= np.linspace(1, 0, SR)
+ambiente *= amb_env[:, None]
+escribir(os.path.join(PROY, "material", "mezcla-sin-musica.wav"), limitar((voz + efx_n + ambiente / g) * g))
 escribir(os.path.join(PROY, "cache", "musica-sola.wav"), limitar(musica * g))
 print("listo")
