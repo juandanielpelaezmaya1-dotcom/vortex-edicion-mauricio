@@ -206,5 +206,38 @@
       "en_s": 22.98,
       "encima": true
     }
-  ]
+  ],
+  "subtitulos": {
+    "activo": true,
+    "estilo": "editorial",
+    "marca": "accion-juridica",
+    "sombra": true,
+    "pos": {
+      "y": 60
+    },
+    "frases": [
+      "Los bienes / recibidos",
+      "en **herencias**",
+      "o **donaciones**",
+      "durante el / _matrimonio_",
+      "o la _unión / marital de hecho_",
+      {
+        "texto": "",
+        "palabras": 10,
+        "_nota": "no se dividen en caso de separacion. Son 100% tuyos: lo dice la tarjeta de motion (T1)"
+      },
+      "En **Acción** / **Jurídica**",
+      "contamos / con los / _especialistas_",
+      "en _Derecho / de Familia_",
+      "para asesorarte / en tu _divorcio_",
+      "o en la / _separación_",
+      "de la unión / marital de hecho",
+      "para que de / esta manera",
+      "protejas tu / **patrimonio**",
+      {
+        "texto": "y el de tu / _familia_",
+        "hasta_s": 22.86
+      }
+    ]
+  }
 }
