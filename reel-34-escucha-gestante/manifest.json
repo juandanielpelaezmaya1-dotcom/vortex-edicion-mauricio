@@ -1,0 +1,124 @@
+{
+  "slug": "reel-34-escucha-gestante",
+  "fps": 59.94,
+  "formatos": [
+    "9x16"
+  ],
+  "_nota": "Reel 34 ya montado por Mauricio (Descargas). Solo se le ponen subtitulos.",
+  "clips": [
+    {
+      "archivo": "material/reel34.mp4",
+      "in_s": 0,
+      "out_s": 81.1
+    }
+  ],
+  "progreso": false,
+  "subtitulos": {
+    "activo": true,
+    "estilo": "editorial",
+    "marca": "secretaria-salud",
+    "sombra": true,
+    "pos": {
+      "y": 58
+    },
+    "frases": [
+      {
+        "texto": "estamos hoy aquí / en la _Universidad Autónoma_"
+      },
+      {
+        "texto": "celebrando el / _Día de la Escucha_"
+      },
+      {
+        "texto": "a la _Gestante_"
+      },
+      {
+        "texto": "hemos convocado / más de _150 gestantes_"
+      },
+      {
+        "texto": "las hemos dividido / en dos grupos"
+      },
+      {
+        "texto": "ya cerca de / _60 gestantes_"
+      },
+      {
+        "texto": "estuvieron en / este primer grupo"
+      },
+      {
+        "texto": "fortaleciendo / todos los temas"
+      },
+      {
+        "texto": "_importantes_ para ellas"
+      },
+      {
+        "texto": "la atención / _preconcepcional_"
+      },
+      {
+        "texto": "los derechos de / _salud sexual y reproductiva_",
+        "y": 66
+      },
+      {
+        "texto": "el plan de / _parto humanizado_"
+      },
+      {
+        "texto": "además, han salido / _premiadas_"
+      },
+      {
+        "texto": "se han llevado detalle"
+      },
+      {
+        "texto": "y tenemos / hacia el lado de acá"
+      },
+      {
+        "texto": "una _feria de servicios_"
+      },
+      {
+        "texto": "con la participación / de todos los del"
+      },
+      {
+        "texto": "_Comité Materno Perinatal_"
+      },
+      {
+        "texto": "IPS, CPS / _Banco de Leche Humana_",
+        "palabras": 5
+      },
+      {
+        "texto": "tenemos a la Secretaría / de las _Mujeres_"
+      },
+      {
+        "texto": "y la participación / de la _Academia_"
+      },
+      {
+        "texto": "también con algunas / universidades"
+      },
+      {
+        "texto": "ellas están ofreciendo / también diferente información"
+      },
+      {
+        "texto": "a nuestras _gestantes_"
+      },
+      {
+        "texto": "para que se vayan / totalmente _educadas_"
+      },
+      {
+        "texto": "en todo el tema / de _salud sexual_"
+      },
+      {
+        "texto": "finalmente, tenemos también"
+      },
+      {
+        "texto": "a nuestra / _Secretaría de Cultura_"
+      },
+      {
+        "texto": "organizado un evento / de información también"
+      },
+      {
+        "texto": "para ellas y de _animación_"
+      },
+      {
+        "texto": "para sus _bebés_",
+        "hasta_s": 70.2
+      }
+    ],
+    "cursiva_oro": true
+  }
+}
