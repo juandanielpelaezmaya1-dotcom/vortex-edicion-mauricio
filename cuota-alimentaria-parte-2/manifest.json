@@ -1,0 +1,431 @@
+{
+ "slug": "cuota-alimentaria-parte-2",
+ "fps": 29.97,
+ "formatos": [
+  "9x16"
+ ],
+ "composicion": "Abogados",
+ "_nota": "Serie Cuota alimentaria (Accion Juridica, capsula en Ecos de Pasto 24-nov-2026). Montaje exploratorio sin guion de JD: lo genera cuota-alimentaria-parte-1/montaje/armar.py. Cortes en valles de energia sobre tiempos DTW; todo a 1,1x.",
+ "progreso": true,
+ "clips": [
+  {
+   "archivo": "material/C20261124_5780.MP4",
+   "in_s": 6.2,
+   "out_s": 13.63,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "in",
+    "hacia": {
+     "x": 48,
+     "y": 40
+    },
+    "intensidad": 1.12
+   },
+   "_dice": "El legislador ha decidido que la falta de pago o la inasistencia alimentaria"
+  },
+  {
+   "archivo": "material/C20261124_5780.MP4",
+   "in_s": 15.58,
+   "out_s": 27.62,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "out",
+    "hacia": {
+     "x": 48,
+     "y": 40
+    },
+    "intensidad": 1.12
+   },
+   "_dice": "se constituya en un delito. No solo se trata de una deuda en la materia civil, sino que trascienda el ámbito de afectar por ese incumplimiento la libertad de las personas.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5779.MP4",
+   "in_s": 229.56,
+   "out_s": 240.79,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "in",
+    "hacia": {
+     "x": 60,
+     "y": 37
+    },
+    "intensidad": 1.1
+   },
+   "_dice": "El éxito del proceso ejecutivo son los embargos que se pueda realizar: ya sea salarios, ya sea bienes inmuebles, vehículos automotores, establecimientos de comercio.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5781.MP4",
+   "in_s": 61.56,
+   "out_s": 64.03,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "fijo",
+    "hacia": {
+     "x": 50,
+     "y": 37
+    },
+    "intensidad": 1.18
+   },
+   "_dice": "Se permite el embargo del salario",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5781.MP4",
+   "in_s": 69.71,
+   "out_s": 72.6,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "fijo",
+    "hacia": {
+     "x": 50,
+     "y": 37
+    },
+    "intensidad": 1.3
+   },
+   "_dice": "y en este caso es hasta el 50 %.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5781.MP4",
+   "in_s": 87.5,
+   "out_s": 98.29,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "out",
+    "hacia": {
+     "x": 50,
+     "y": 37
+    },
+    "intensidad": 1.1
+   },
+   "_dice": "Es importante también recordar que la ley del código de infancia y adolescencia permite también el embargo de las prestaciones sociales:",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5781.MP4",
+   "in_s": 129.98,
+   "out_s": 135.33,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "in",
+    "hacia": {
+     "x": 50,
+     "y": 37
+    },
+    "intensidad": 1.1
+   },
+   "_dice": "Los empleadores también cumplan cuando les llega una orden.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5781.MP4",
+   "in_s": 146.15,
+   "out_s": 151.88,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "fijo",
+    "hacia": {
+     "x": 50,
+     "y": 37
+    },
+    "intensidad": 1.2
+   },
+   "_dice": "Puede implicar responsabilidad disciplinaria, inclusive para la persona que no lo aplique.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5780.MP4",
+   "in_s": 164.11,
+   "out_s": 175.28,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "in",
+    "hacia": {
+     "x": 48,
+     "y": 40
+    },
+    "intensidad": 1.1
+   },
+   "_dice": "Hay circunstancias en las que no se constituye, como por ejemplo cuando el deudor alimentario acredita que está desempleado y puede demostrar que está buscando un empleo.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5780.MP4",
+   "in_s": 351.5,
+   "out_s": 356.45,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "fijo",
+    "hacia": {
+     "x": 48,
+     "y": 40
+    },
+    "intensidad": 1.16
+   },
+   "_dice": "Entonces los invitamos a nuestros oyentes pues a que nos consulten",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5780.MP4",
+   "in_s": 363.56,
+   "out_s": 365.78,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "out",
+    "hacia": {
+     "x": 48,
+     "y": 40
+    },
+    "intensidad": 1.1
+   },
+   "_dice": "a través de los canales de Acción Jurídica.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  }
+ ],
+ "musica": {
+  "archivo": "material/musica.wav",
+  "volumen": 0.22,
+  "_nota": "original, la genera cuota-alimentaria-parte-1/audio/musica.py (correr despues de armar.py)"
+ },
+ "efectos": [
+  {
+   "archivo": "audio/whoosh.wav",
+   "en_s": 17.43,
+   "volumen": 0.35
+  },
+  {
+   "archivo": "audio/whoosh.wav",
+   "en_s": 52.4,
+   "volumen": 0.35
+  }
+ ],
+ "subtitulos": {
+  "activo": true,
+  "estilo": "editorial",
+  "marca": "accion-juridica",
+  "sombra": true,
+  "pos": {
+   "y": 64
+  },
+  "frases": [
+   {
+    "texto": "El legislador / ha decidido",
+    "y": 74
+   },
+   {
+    "texto": "que la falta / de pago",
+    "y": 74
+   },
+   {
+    "texto": "o la _inasistencia_ / _alimentaria_",
+    "y": 74,
+    "hasta_s": 6.69
+   },
+   {
+    "texto": "se constituya / en un *delito.*",
+    "y": 74
+   },
+   {
+    "texto": "No solo / se trata de / una deuda",
+    "y": 74
+   },
+   {
+    "texto": "en la materia / civil,",
+    "y": 74
+   },
+   {
+    "texto": "sino que / trascienda / el ámbito",
+    "y": 74
+   },
+   {
+    "texto": "de afectar / por ese / incumplimiento",
+    "y": 74
+   },
+   {
+    "texto": "la *libertad* / de las personas.",
+    "y": 74,
+    "hasta_s": 17.63
+   },
+   {
+    "texto": "El éxito / del proceso / ejecutivo",
+    "y": 73
+   },
+   {
+    "texto": "son los / *embargos*",
+    "y": 73
+   },
+   {
+    "texto": "que se pueda / realizar:",
+    "y": 73
+   },
+   {
+    "texto": "ya sea / salarios,",
+    "y": 73
+   },
+   {
+    "texto": "ya sea bienes / inmuebles,",
+    "y": 73
+   },
+   {
+    "texto": "vehículos / automotores,",
+    "y": 73
+   },
+   {
+    "texto": "establecimientos / de comercio.",
+    "y": 73,
+    "hasta_s": 27.84
+   },
+   {
+    "texto": "Se permite el embargo / del salario",
+    "palabras": 7,
+    "y": 20,
+    "hasta_s": 30.08
+   },
+   {
+    "texto": "y en este caso / es hasta el *50 %.*",
+    "palabras": 8,
+    "y": 20,
+    "hasta_s": 32.72
+   },
+   {
+    "texto": "Es importante también / recordar que la ley",
+    "y": 20
+   },
+   {
+    "texto": "del _código de infancia_ / _y adolescencia_",
+    "y": 20
+   },
+   {
+    "texto": "permite también / el embargo de las",
+    "y": 20
+   },
+   {
+    "texto": "_prestaciones sociales._",
+    "y": 20,
+    "hasta_s": 42.53
+   },
+   {
+    "texto": "Que los empleadores / también cumplan",
+    "y": 20
+   },
+   {
+    "texto": "cuando les llega / una orden.",
+    "y": 20,
+    "hasta_s": 47.4
+   },
+   {
+    "texto": "Puede implicar / responsabilidad / disciplinaria,",
+    "y": 20
+   },
+   {
+    "texto": "inclusive para la persona / que _no lo aplique._",
+    "y": 20,
+    "hasta_s": 52.6
+   },
+   {
+    "texto": "Hay / circunstancias / en las que",
+    "y": 74
+   },
+   {
+    "texto": "*no* / se constituye,",
+    "y": 74
+   },
+   {
+    "texto": "como, por / ejemplo,",
+    "y": 74
+   },
+   {
+    "texto": "cuando / el deudor / alimentario",
+    "y": 74
+   },
+   {
+    "texto": "acredita / que está / _desempleado_",
+    "y": 74
+   },
+   {
+    "texto": "y puede / demostrar",
+    "y": 74
+   },
+   {
+    "texto": "que está / buscando / un empleo.",
+    "y": 74,
+    "hasta_s": 62.75
+   },
+   {
+    "texto": "Entonces / los invitamos",
+    "y": 74
+   },
+   {
+    "texto": "a nuestros / oyentes",
+    "y": 74
+   },
+   {
+    "texto": "a que nos / *consulten*",
+    "y": 74,
+    "hasta_s": 67.25
+   },
+   {
+    "texto": "a través de los canales / de **Acción Jurídica.**",
+    "y": 74,
+    "hasta_s": 69.25
+   }
+  ]
+ },
+ "cine": {
+  "degradado": 0.6,
+  "vinetas": [],
+  "luces": [
+   {
+    "en_s": 17.68,
+    "duracion_s": 0.85,
+    "intensidad": 0.55,
+    "desde": "der"
+   },
+   {
+    "en_s": 52.65,
+    "duracion_s": 0.85,
+    "intensidad": 0.55,
+    "desde": "izq"
+   }
+  ],
+  "cierre": {
+   "archivo": "material/cortinilla-aj.mp4",
+   "in_s": 0,
+   "out_s": 5.4,
+   "volumen": 0.8
+  }
+ },
+ "acento": "#7FB6E6"
+}

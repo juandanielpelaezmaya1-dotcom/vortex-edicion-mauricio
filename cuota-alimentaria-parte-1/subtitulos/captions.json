@@ -1,0 +1,1143 @@
+[
+  {
+    "text": " no",
+    "startMs": 0,
+    "endMs": 200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " puede",
+    "startMs": 200,
+    "endMs": 500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " existir",
+    "startMs": 500,
+    "endMs": 840,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " delitos",
+    "startMs": 840,
+    "endMs": 1240,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " y",
+    "startMs": 1240,
+    "endMs": 1360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " previamente",
+    "startMs": 1360,
+    "endMs": 1920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 1920,
+    "endMs": 2120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " existió",
+    "startMs": 2120,
+    "endMs": 2730,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " una",
+    "startMs": 2900,
+    "endMs": 3100,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " fijación",
+    "startMs": 3100,
+    "endMs": 3560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 3560,
+    "endMs": 3660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " una",
+    "startMs": 3660,
+    "endMs": 3820,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cuota",
+    "startMs": 3820,
+    "endMs": 4290,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " alimentaria",
+    "startMs": 4320,
+    "endMs": 5210,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " las",
+    "startMs": 5460,
+    "endMs": 5740,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cuotas",
+    "startMs": 5740,
+    "endMs": 6200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " alimentarias",
+    "startMs": 6200,
+    "endMs": 7160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " nacen",
+    "startMs": 7200,
+    "endMs": 7620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " desde",
+    "startMs": 7620,
+    "endMs": 7860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 7860,
+    "endMs": 8120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " momento",
+    "startMs": 8400,
+    "endMs": 8860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " en",
+    "startMs": 8860,
+    "endMs": 9020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 9020,
+    "endMs": 9160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " se",
+    "startMs": 9160,
+    "endMs": 9340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " fijan",
+    "startMs": 9340,
+    "endMs": 9810,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 10320,
+    "endMs": 10480,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " en",
+    "startMs": 10480,
+    "endMs": 10540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 10540,
+    "endMs": 10800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " momento",
+    "startMs": 10900,
+    "endMs": 11160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " en",
+    "startMs": 11160,
+    "endMs": 11360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 11360,
+    "endMs": 11690,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 12500,
+    "endMs": 12760,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " padre",
+    "startMs": 12860,
+    "endMs": 13240,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " o",
+    "startMs": 13240,
+    "endMs": 13430,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " madre",
+    "startMs": 13640,
+    "endMs": 13900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " o",
+    "startMs": 13900,
+    "endMs": 14000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 14000,
+    "endMs": 14260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " responsable",
+    "startMs": 14280,
+    "endMs": 15170,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 15500,
+    "endMs": 15760,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " un",
+    "startMs": 15940,
+    "endMs": 16180,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " menor",
+    "startMs": 16180,
+    "endMs": 16360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 16360,
+    "endMs": 16540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " edad",
+    "startMs": 16540,
+    "endMs": 16940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 17500,
+    "endMs": 17760,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ha",
+    "startMs": 17940,
+    "endMs": 18200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cumplido",
+    "startMs": 19120,
+    "endMs": 19440,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " con",
+    "startMs": 19440,
+    "endMs": 19620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " sus",
+    "startMs": 19620,
+    "endMs": 19800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " deberes",
+    "startMs": 19800,
+    "endMs": 20360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 20360,
+    "endMs": 20620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " nace",
+    "startMs": 20760,
+    "endMs": 21040,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " únicamente",
+    "startMs": 21040,
+    "endMs": 21860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " con",
+    "startMs": 22100,
+    "endMs": 22240,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 22240,
+    "endMs": 22400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " vínculo",
+    "startMs": 22400,
+    "endMs": 23010,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " es",
+    "startMs": 23300,
+    "endMs": 23560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " muy",
+    "startMs": 23580,
+    "endMs": 23910,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " importante",
+    "startMs": 24220,
+    "endMs": 24980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 24980,
+    "endMs": 25310,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " iniciemos",
+    "startMs": 25440,
+    "endMs": 25900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " con",
+    "startMs": 25900,
+    "endMs": 26040,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 26040,
+    "endMs": 26220,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " fijación",
+    "startMs": 26220,
+    "endMs": 26700,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 26700,
+    "endMs": 26820,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 26820,
+    "endMs": 27000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cuota",
+    "startMs": 27000,
+    "endMs": 27300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " alimentaria",
+    "startMs": 27300,
+    "endMs": 28190,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " porque",
+    "startMs": 28360,
+    "endMs": 28840,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " con",
+    "startMs": 28840,
+    "endMs": 29100,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " esto",
+    "startMs": 29100,
+    "endMs": 29480,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " nace",
+    "startMs": 29480,
+    "endMs": 29660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 29660,
+    "endMs": 29920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " derecho",
+    "startMs": 30020,
+    "endMs": 30340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " para",
+    "startMs": 30340,
+    "endMs": 30540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 30540,
+    "endMs": 30870,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " posteriormente",
+    "startMs": 30940,
+    "endMs": 31640,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " se",
+    "startMs": 31640,
+    "endMs": 31900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " pueda",
+    "startMs": 31920,
+    "endMs": 32140,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " exigir",
+    "startMs": 32140,
+    "endMs": 32680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ya",
+    "startMs": 32980,
+    "endMs": 33200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cuando",
+    "startMs": 33200,
+    "endMs": 33360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " se",
+    "startMs": 33360,
+    "endMs": 33580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " adquiere",
+    "startMs": 33580,
+    "endMs": 34040,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " esa",
+    "startMs": 34040,
+    "endMs": 34370,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " responsabilidad",
+    "startMs": 34480,
+    "endMs": 35120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " y",
+    "startMs": 35120,
+    "endMs": 35260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " esa",
+    "startMs": 35260,
+    "endMs": 35520,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " obligación",
+    "startMs": 35520,
+    "endMs": 36340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 36440,
+    "endMs": 36660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " deber",
+    "startMs": 36660,
+    "endMs": 37130,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " alimentos",
+    "startMs": 37260,
+    "endMs": 37820,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " realmente",
+    "startMs": 37820,
+    "endMs": 38320,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " surgen",
+    "startMs": 38320,
+    "endMs": 38860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " responsabilidades",
+    "startMs": 40220,
+    "endMs": 41200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " qué",
+    "startMs": 41200,
+    "endMs": 41340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " va",
+    "startMs": 41340,
+    "endMs": 41380,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 41380,
+    "endMs": 41460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ser",
+    "startMs": 41460,
+    "endMs": 41720,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " esta",
+    "startMs": 41720,
+    "endMs": 41940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " madre",
+    "startMs": 41940,
+    "endMs": 42410,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 42680,
+    "endMs": 42880,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " madre",
+    "startMs": 42880,
+    "endMs": 43080,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " lo",
+    "startMs": 43080,
+    "endMs": 43340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " primero",
+    "startMs": 43900,
+    "endMs": 44160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 44160,
+    "endMs": 44300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " va",
+    "startMs": 44300,
+    "endMs": 44340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 44340,
+    "endMs": 44500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " hacer",
+    "startMs": 44500,
+    "endMs": 44800,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " es",
+    "startMs": 44800,
+    "endMs": 45060,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " un",
+    "startMs": 45100,
+    "endMs": 45360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " proceso",
+    "startMs": 45480,
+    "endMs": 45680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 45680,
+    "endMs": 45940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " conciliación",
+    "startMs": 45960,
+    "endMs": 46660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " para",
+    "startMs": 46660,
+    "endMs": 46860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " fijar",
+    "startMs": 46860,
+    "endMs": 47160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " esta",
+    "startMs": 47160,
+    "endMs": 47300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cuota",
+    "startMs": 47300,
+    "endMs": 47600,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " alimentaria",
+    "startMs": 47600,
+    "endMs": 48340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " como",
+    "startMs": 48340,
+    "endMs": 48740,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " podemos",
+    "startMs": 48740,
+    "endMs": 49350,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " acudir",
+    "startMs": 49580,
+    "endMs": 50120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " al",
+    "startMs": 50180,
+    "endMs": 50360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " instituto",
+    "startMs": 50360,
+    "endMs": 50780,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " colombiano",
+    "startMs": 50780,
+    "endMs": 51200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 51200,
+    "endMs": 51340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " bienestar",
+    "startMs": 51340,
+    "endMs": 51940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " familiar",
+    "startMs": 51940,
+    "endMs": 52620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " si",
+    "startMs": 52660,
+    "endMs": 52920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ya",
+    "startMs": 54660,
+    "endMs": 54920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " tenemos",
+    "startMs": 54940,
+    "endMs": 55240,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " fijada",
+    "startMs": 55240,
+    "endMs": 55500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " una",
+    "startMs": 55500,
+    "endMs": 55680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cuota",
+    "startMs": 55680,
+    "endMs": 56020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " alimentaria",
+    "startMs": 56020,
+    "endMs": 56910,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 57320,
+    "endMs": 57580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " parte",
+    "startMs": 57600,
+    "endMs": 57900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " obligada",
+    "startMs": 57900,
+    "endMs": 58400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 58400,
+    "endMs": 58660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cumple",
+    "startMs": 58740,
+    "endMs": 59180,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " y",
+    "startMs": 59180,
+    "endMs": 59300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ahí",
+    "startMs": 59300,
+    "endMs": 59440,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " es",
+    "startMs": 59440,
+    "endMs": 59580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " donde",
+    "startMs": 59580,
+    "endMs": 59980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " entramos",
+    "startMs": 59980,
+    "endMs": 60280,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 60280,
+    "endMs": 60460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " hablar",
+    "startMs": 60460,
+    "endMs": 60600,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 60600,
+    "endMs": 60860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " embargos",
+    "startMs": 60880,
+    "endMs": 61260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " y",
+    "startMs": 61260,
+    "endMs": 61450,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " tenemos",
+    "startMs": 61680,
+    "endMs": 62290,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " una",
+    "startMs": 62500,
+    "endMs": 62830,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " consecuencia",
+    "startMs": 62840,
+    "endMs": 63620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ya",
+    "startMs": 63620,
+    "endMs": 63780,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 63780,
+    "endMs": 64000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " sólo",
+    "startMs": 64000,
+    "endMs": 64380,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " civil",
+    "startMs": 64380,
+    "endMs": 64850,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " sino",
+    "startMs": 65080,
+    "endMs": 65480,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " penal",
+    "startMs": 65680,
+    "endMs": 66100,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 66100,
+    "endMs": 66360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cual",
+    "startMs": 66560,
+    "endMs": 66960,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " es",
+    "startMs": 67640,
+    "endMs": 67900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 68440,
+    "endMs": 68700,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " delito",
+    "startMs": 68800,
+    "endMs": 69340,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

@@ -1,0 +1,472 @@
+{
+ "slug": "cuota-alimentaria-parte-1",
+ "fps": 29.97,
+ "formatos": [
+  "9x16"
+ ],
+ "composicion": "Abogados",
+ "_nota": "Serie Cuota alimentaria (Accion Juridica, capsula en Ecos de Pasto 24-nov-2026). Montaje exploratorio sin guion de JD: lo genera cuota-alimentaria-parte-1/montaje/armar.py. Cortes en valles de energia sobre tiempos DTW; todo a 1,1x.",
+ "progreso": true,
+ "clips": [
+  {
+   "archivo": "material/C20261124_5780.MP4",
+   "in_s": 203.56,
+   "out_s": 209.49,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "in",
+    "hacia": {
+     "x": 48,
+     "y": 40
+    },
+    "intensidad": 1.12
+   },
+   "_dice": "No puede existir delitos si previamente no existió una fijación de una cuota alimentaria."
+  },
+  {
+   "archivo": "material/C20261124_5779.MP4",
+   "in_s": 0.65,
+   "out_s": 5.87,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "fijo",
+    "hacia": {
+     "x": 60,
+     "y": 37
+    },
+    "intensidad": 1.16
+   },
+   "_dice": "Las cuotas alimentarias nacen desde el momento en que se fijan,",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5779.MP4",
+   "in_s": 6.14,
+   "out_s": 13.81,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "out",
+    "hacia": {
+     "x": 60,
+     "y": 37
+    },
+    "intensidad": 1.1
+   },
+   "_dice": "no en el momento en que el padre o madre o el responsable de una menor de edad",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5779.MP4",
+   "in_s": 18.04,
+   "out_s": 21.62,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "fijo",
+    "hacia": {
+     "x": 60,
+     "y": 37
+    },
+    "intensidad": 1.26
+   },
+   "_dice": "no ha cumplido con sus deberes.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5780.MP4",
+   "in_s": 86.46,
+   "out_s": 89.69,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "in",
+    "hacia": {
+     "x": 48,
+     "y": 40
+    },
+    "intensidad": 1.12
+   },
+   "_dice": "No nace únicamente con el vínculo.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5779.MP4",
+   "in_s": 21.54,
+   "out_s": 32.18,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "out",
+    "hacia": {
+     "x": 60,
+     "y": 37
+    },
+    "intensidad": 1.1
+   },
+   "_dice": "Es muy importante que iniciemos con la fijación de la cuota alimentaria, porque con esto nace el derecho para que posteriormente se pueda exigir.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5781.MP4",
+   "in_s": 26.12,
+   "out_s": 35.16,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "in",
+    "hacia": {
+     "x": 50,
+     "y": 37
+    },
+    "intensidad": 1.1
+   },
+   "_dice": "Ya cuando se adquiere esa responsabilidad y esa obligación de deber alimentos, realmente surgen responsabilidades.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5779.MP4",
+   "in_s": 67.83,
+   "out_s": 75.7,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "fijo",
+    "hacia": {
+     "x": 60,
+     "y": 37
+    },
+    "intensidad": 1.16
+   },
+   "_dice": "¿Qué va a hacer esta madre? La madre lo primero que va a hacer es un proceso de conciliación para fijar esta cuota alimentaria.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5779.MP4",
+   "in_s": 89.34,
+   "out_s": 93.84,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "in",
+    "hacia": {
+     "x": 60,
+     "y": 37
+    },
+    "intensidad": 1.08
+   },
+   "_dice": "o podemos acudir al Instituto Colombiano de Bienestar Familiar.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5779.MP4",
+   "in_s": 197.05,
+   "out_s": 204.51,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "fijo",
+    "hacia": {
+     "x": 60,
+     "y": 37
+    },
+    "intensidad": 1.22
+   },
+   "_dice": "Si ya tenemos fijada una cuota alimentaria, la parte obligada no cumple...",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5781.MP4",
+   "in_s": 41.26,
+   "out_s": 43.66,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "fijo",
+    "hacia": {
+     "x": 50,
+     "y": 37
+    },
+    "intensidad": 1.2
+   },
+   "_dice": "ahí es donde entramos a hablar de embargos",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5779.MP4",
+   "in_s": 262.78,
+   "out_s": 267.94,
+   "velocidad": 1.1,
+   "zoom": {
+    "tipo": "in",
+    "hacia": {
+     "x": 60,
+     "y": 37
+    },
+    "intensidad": 1.16
+   },
+   "_dice": "tenemos una consecuencia ya no sólo civil, sino penal.",
+   "transicion": {
+    "tipo": "desenfoque",
+    "duracion_s": 0.13
+   }
+  },
+  {
+   "archivo": "material/C20261124_5779.MP4",
+   "in_s": 267.94,
+   "out_s": 269.54,
+   "velocidad": 0.5,
+   "volumen": 0,
+   "zoom": {
+    "tipo": "in",
+    "hacia": {
+     "x": 60,
+     "y": 37
+    },
+    "intensidad": 1.12
+   },
+   "_dice": "(cola sin voz, camara lenta)"
+  }
+ ],
+ "musica": {
+  "archivo": "material/musica.wav",
+  "volumen": 0.22,
+  "_nota": "original, la genera cuota-alimentaria-parte-1/audio/musica.py (correr despues de armar.py)"
+ },
+ "efectos": [
+  {
+   "archivo": "audio/whoosh.wav",
+   "en_s": 40.96,
+   "volumen": 0.35
+  },
+  {
+   "archivo": "audio/whoosh.wav",
+   "en_s": 52.2,
+   "volumen": 0.35
+  },
+  {
+   "archivo": "audio/whoosh-largo.wav",
+   "en_s": 65.9,
+   "volumen": 0.4
+  }
+ ],
+ "subtitulos": {
+  "activo": true,
+  "estilo": "editorial",
+  "marca": "accion-juridica",
+  "sombra": true,
+  "pos": {
+   "y": 64
+  },
+  "frases": [
+   {
+    "texto": "No puede existir / *delitos*",
+    "y": 74
+   },
+   {
+    "texto": "si previamente / no existió",
+    "y": 74
+   },
+   {
+    "texto": "una _fijación_ / de una cuota / alimentaria.",
+    "y": 74,
+    "hasta_s": 5.36
+   },
+   {
+    "texto": "Las cuotas / alimentarias",
+    "y": 73
+   },
+   {
+    "texto": "nacen desde / el momento",
+    "y": 73
+   },
+   {
+    "texto": "en que / *se fijan,*",
+    "y": 73,
+    "hasta_s": 10.09
+   },
+   {
+    "texto": "no en el / momento en que",
+    "y": 73
+   },
+   {
+    "texto": "el padre / o madre",
+    "y": 73
+   },
+   {
+    "texto": "o el responsable / de un menor / de edad",
+    "y": 73,
+    "hasta_s": 17.07
+   },
+   {
+    "texto": "no ha cumplido / con sus deberes.",
+    "y": 73,
+    "hasta_s": 20.34
+   },
+   {
+    "texto": "No nace / _únicamente_ / con el vínculo.",
+    "y": 74,
+    "hasta_s": 23.27
+   },
+   {
+    "texto": "Es muy / importante / que iniciemos",
+    "y": 73
+   },
+   {
+    "texto": "con la _fijación_ / de la cuota / alimentaria,",
+    "y": 73
+   },
+   {
+    "texto": "porque con esto / *nace* / el derecho",
+    "y": 73
+   },
+   {
+    "texto": "para que / posteriormente / se pueda exigir.",
+    "y": 73,
+    "hasta_s": 32.95
+   },
+   {
+    "texto": "Ya cuando se adquiere / esa responsabilidad",
+    "y": 20
+   },
+   {
+    "texto": "y esa obligación / de deber alimentos,",
+    "y": 20
+   },
+   {
+    "texto": "realmente surgen / _responsabilidades._",
+    "y": 20,
+    "hasta_s": 41.16
+   },
+   {
+    "texto": "¿Qué va a hacer / esta madre?",
+    "y": 73
+   },
+   {
+    "texto": "La madre, / lo primero / que va a hacer",
+    "y": 73
+   },
+   {
+    "texto": "es un proceso / de _conciliación_",
+    "y": 73
+   },
+   {
+    "texto": "para fijar / esta cuota / alimentaria.",
+    "y": 73,
+    "hasta_s": 48.3
+   },
+   {
+    "texto": "O podemos / acudir al / Instituto",
+    "y": 73
+   },
+   {
+    "texto": "Colombiano / de Bienestar / Familiar.",
+    "y": 73,
+    "hasta_s": 52.4
+   },
+   {
+    "texto": "Si ya tenemos / fijada una cuota / alimentaria,",
+    "y": 73
+   },
+   {
+    "texto": "la parte / obligada / *no cumple...*",
+    "y": 73,
+    "hasta_s": 59.18
+   },
+   {
+    "texto": "ahí es donde entramos / a hablar de _embargos_",
+    "palabras": 9,
+    "y": 20,
+    "hasta_s": 61.34
+   },
+   {
+    "texto": "tenemos una / consecuencia",
+    "palabras": 4,
+    "y": 73
+   },
+   {
+    "texto": "ya no solo civil, / sino *penal.*",
+    "y": 73,
+    "hasta_s": 66.05
+   }
+  ]
+ },
+ "cine": {
+  "degradado": 0.6,
+  "vinetas": [],
+  "luces": [
+   {
+    "en_s": 41.21,
+    "duracion_s": 0.85,
+    "intensidad": 0.55,
+    "desde": "der"
+   },
+   {
+    "en_s": 52.45,
+    "duracion_s": 0.85,
+    "intensidad": 0.55,
+    "desde": "izq"
+   }
+  ],
+  "cierre": {
+   "archivo": "material/cortinilla-aj.mp4",
+   "in_s": 0,
+   "out_s": 5.4,
+   "volumen": 0.8
+  }
+ },
+ "velos": [
+  {
+   "desde_s": 66.1,
+   "hasta_s": 69.3,
+   "opacidad": 0.6,
+   "desenfoque": 14,
+   "color": "#131937"
+  }
+ ],
+ "textos": [
+  {
+   "texto": "CUOTA ALIMENTARIA · PARTE 2",
+   "estilo": "antetitulo",
+   "pos": {
+    "x": 50,
+    "y": 38
+   },
+   "desde_s": 66.35,
+   "hasta_s": 69.2
+  },
+  {
+   "texto": "¿Qué le pasa / a quien *no paga?*",
+   "estilo": "editorial",
+   "sombra": true,
+   "pos": {
+    "x": 50,
+    "y": 48
+   },
+   "desde_s": 66.55,
+   "hasta_s": 69.2
+  }
+ ],
+ "acento": "#7FB6E6"
+}

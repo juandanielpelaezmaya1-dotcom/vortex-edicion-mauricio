@@ -1,0 +1,1199 @@
+[
+  {
+    "text": " \"El",
+    "startMs": 20,
+    "endMs": 350,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " legislador",
+    "startMs": 540,
+    "endMs": 1020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ha",
+    "startMs": 1020,
+    "endMs": 1280,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " decidido",
+    "startMs": 1320,
+    "endMs": 2000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 2240,
+    "endMs": 2570,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 3420,
+    "endMs": 3680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " falta",
+    "startMs": 4120,
+    "endMs": 4340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 4340,
+    "endMs": 4520,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " pago",
+    "startMs": 4520,
+    "endMs": 4920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " o",
+    "startMs": 5020,
+    "endMs": 5120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 5120,
+    "endMs": 5260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " inasistencia",
+    "startMs": 5260,
+    "endMs": 6000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " elementaria",
+    "startMs": 6000,
+    "endMs": 6720,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " se",
+    "startMs": 6720,
+    "endMs": 6980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " constituya",
+    "startMs": 7100,
+    "endMs": 7580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " en",
+    "startMs": 7580,
+    "endMs": 7700,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " un",
+    "startMs": 7700,
+    "endMs": 7860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " delito,",
+    "startMs": 7860,
+    "endMs": 8220,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 8220,
+    "endMs": 8420,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " solo",
+    "startMs": 8420,
+    "endMs": 8560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " se",
+    "startMs": 8560,
+    "endMs": 8820,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " trata",
+    "startMs": 8860,
+    "endMs": 9330,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 9420,
+    "endMs": 9620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " una",
+    "startMs": 9620,
+    "endMs": 9880,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " deuda",
+    "startMs": 9880,
+    "endMs": 10350,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " en",
+    "startMs": 10600,
+    "endMs": 10720,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 10720,
+    "endMs": 10980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " materia",
+    "startMs": 11160,
+    "endMs": 11770,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " civil,",
+    "startMs": 11780,
+    "endMs": 12100,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " sino",
+    "startMs": 12100,
+    "endMs": 12320,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 12320,
+    "endMs": 12650,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " trascienda",
+    "startMs": 12760,
+    "endMs": 13160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " al",
+    "startMs": 13160,
+    "endMs": 13260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ámbito",
+    "startMs": 13260,
+    "endMs": 13680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 13680,
+    "endMs": 13940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " afectar",
+    "startMs": 14120,
+    "endMs": 14730,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " por",
+    "startMs": 15020,
+    "endMs": 15200,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ese",
+    "startMs": 15200,
+    "endMs": 15360,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " incumplimiento",
+    "startMs": 15360,
+    "endMs": 16260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 16260,
+    "endMs": 16480,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " libertad",
+    "startMs": 16480,
+    "endMs": 16820,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 16820,
+    "endMs": 16940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " las",
+    "startMs": 16940,
+    "endMs": 17260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " personas\"",
+    "startMs": 17260,
+    "endMs": 17680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " El",
+    "startMs": 17680,
+    "endMs": 17860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " éxito",
+    "startMs": 17860,
+    "endMs": 18320,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " del",
+    "startMs": 18320,
+    "endMs": 18640,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " proceso",
+    "startMs": 18640,
+    "endMs": 18900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ejecutivo",
+    "startMs": 18900,
+    "endMs": 19650,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " son",
+    "startMs": 19880,
+    "endMs": 20060,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " los",
+    "startMs": 20060,
+    "endMs": 20300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " embargos",
+    "startMs": 20300,
+    "endMs": 20600,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 20600,
+    "endMs": 20720,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " se",
+    "startMs": 20720,
+    "endMs": 20900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " pueda",
+    "startMs": 20900,
+    "endMs": 21300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " realizar,",
+    "startMs": 21300,
+    "endMs": 21780,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ya",
+    "startMs": 21780,
+    "endMs": 22040,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " sea",
+    "startMs": 22060,
+    "endMs": 22390,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " salarios,",
+    "startMs": 22460,
+    "endMs": 23100,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ya",
+    "startMs": 23100,
+    "endMs": 23280,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " sea",
+    "startMs": 23280,
+    "endMs": 23460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " bienes",
+    "startMs": 23460,
+    "endMs": 23760,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " inmuebles,",
+    "startMs": 23760,
+    "endMs": 24580,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " vehículos,",
+    "startMs": 24680,
+    "endMs": 25340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " automotores,",
+    "startMs": 25340,
+    "endMs": 26300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " establecimientos",
+    "startMs": 26300,
+    "endMs": 26920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 26920,
+    "endMs": 27120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " comercio.",
+    "startMs": 27120,
+    "endMs": 27740,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " \"Que",
+    "startMs": 27740,
+    "endMs": 27920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " se",
+    "startMs": 27920,
+    "endMs": 28180,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " permite",
+    "startMs": 28400,
+    "endMs": 28700,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 28700,
+    "endMs": 28940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " embargo",
+    "startMs": 28940,
+    "endMs": 29260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " del",
+    "startMs": 29260,
+    "endMs": 29440,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " salario,",
+    "startMs": 29440,
+    "endMs": 30120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " y",
+    "startMs": 30120,
+    "endMs": 30220,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " en",
+    "startMs": 30220,
+    "endMs": 30400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " este",
+    "startMs": 30400,
+    "endMs": 30660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " caso",
+    "startMs": 30660,
+    "endMs": 30820,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " es",
+    "startMs": 30820,
+    "endMs": 31080,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " hasta",
+    "startMs": 31360,
+    "endMs": 31600,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 31600,
+    "endMs": 31860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " 50%.",
+    "startMs": 32000,
+    "endMs": 32400,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " Es",
+    "startMs": 33340,
+    "endMs": 33600,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " importante",
+    "startMs": 33800,
+    "endMs": 34240,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " también",
+    "startMs": 34240,
+    "endMs": 34720,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " recordar",
+    "startMs": 34720,
+    "endMs": 35160,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 35160,
+    "endMs": 35420,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 35420,
+    "endMs": 35680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ley",
+    "startMs": 35860,
+    "endMs": 36080,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " del",
+    "startMs": 36080,
+    "endMs": 36410,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " código",
+    "startMs": 36820,
+    "endMs": 36960,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 36960,
+    "endMs": 37080,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " infancia",
+    "startMs": 37080,
+    "endMs": 37340,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " y",
+    "startMs": 37340,
+    "endMs": 37520,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " adolescencia",
+    "startMs": 37520,
+    "endMs": 38480,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " permite",
+    "startMs": 38740,
+    "endMs": 39350,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " también",
+    "startMs": 39360,
+    "endMs": 39760,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 39760,
+    "endMs": 40020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " embargo",
+    "startMs": 40180,
+    "endMs": 40520,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 40520,
+    "endMs": 40700,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " las",
+    "startMs": 40700,
+    "endMs": 40940,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " prestaciones",
+    "startMs": 40940,
+    "endMs": 41840,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " sociales,",
+    "startMs": 41840,
+    "endMs": 42520,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 42520,
+    "endMs": 42660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " los",
+    "startMs": 42660,
+    "endMs": 42990,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " empleadores",
+    "startMs": 43020,
+    "endMs": 43910,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " también",
+    "startMs": 44000,
+    "endMs": 44610,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cumplan",
+    "startMs": 45280,
+    "endMs": 45780,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cuando",
+    "startMs": 45780,
+    "endMs": 46040,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " le",
+    "startMs": 46040,
+    "endMs": 46260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " llega",
+    "startMs": 46260,
+    "endMs": 46500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " una",
+    "startMs": 46500,
+    "endMs": 46830,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " orden,",
+    "startMs": 46920,
+    "endMs": 47460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " puede",
+    "startMs": 47720,
+    "endMs": 48040,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " implicar",
+    "startMs": 48040,
+    "endMs": 48600,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " responsabilidad",
+    "startMs": 48600,
+    "endMs": 49420,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " disciplinaria",
+    "startMs": 49420,
+    "endMs": 50300,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " inclusive",
+    "startMs": 50300,
+    "endMs": 50680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " para",
+    "startMs": 50680,
+    "endMs": 50860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " la",
+    "startMs": 50860,
+    "endMs": 51120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " persona",
+    "startMs": 51200,
+    "endMs": 51420,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 51420,
+    "endMs": 51560,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 51560,
+    "endMs": 51680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " lo",
+    "startMs": 51680,
+    "endMs": 51820,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " aplique\"",
+    "startMs": 51820,
+    "endMs": 52500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " \"Hay",
+    "startMs": 52540,
+    "endMs": 52920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " circunstancias",
+    "startMs": 52920,
+    "endMs": 53500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " en",
+    "startMs": 53500,
+    "endMs": 53620,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " las",
+    "startMs": 53620,
+    "endMs": 53760,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 53760,
+    "endMs": 53920,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " no",
+    "startMs": 53920,
+    "endMs": 54180,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " se",
+    "startMs": 54240,
+    "endMs": 54500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " constituye,",
+    "startMs": 55300,
+    "endMs": 55680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " como",
+    "startMs": 55680,
+    "endMs": 55840,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " por",
+    "startMs": 55840,
+    "endMs": 56100,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " ejemplo",
+    "startMs": 56100,
+    "endMs": 56500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " cuando",
+    "startMs": 56500,
+    "endMs": 57020,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " el",
+    "startMs": 57020,
+    "endMs": 57120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " deudor",
+    "startMs": 57120,
+    "endMs": 57540,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " alimentario",
+    "startMs": 57540,
+    "endMs": 58120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " acredita",
+    "startMs": 58120,
+    "endMs": 58480,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 58480,
+    "endMs": 58680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " está",
+    "startMs": 58680,
+    "endMs": 58900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " desempleado",
+    "startMs": 58900,
+    "endMs": 59760,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " y",
+    "startMs": 59760,
+    "endMs": 59950,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " puede",
+    "startMs": 60020,
+    "endMs": 60460,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " mostrar",
+    "startMs": 60460,
+    "endMs": 60680,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 60680,
+    "endMs": 60860,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " está",
+    "startMs": 60860,
+    "endMs": 61260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " buscando",
+    "startMs": 61320,
+    "endMs": 61740,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " un",
+    "startMs": 61740,
+    "endMs": 62000,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " empleo,",
+    "startMs": 62040,
+    "endMs": 62650,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " entonces",
+    "startMs": 63200,
+    "endMs": 63880,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " los",
+    "startMs": 63900,
+    "endMs": 64120,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " invitamos",
+    "startMs": 64120,
+    "endMs": 64500,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 64500,
+    "endMs": 64660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " nuestros",
+    "startMs": 64660,
+    "endMs": 64900,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " oyentes",
+    "startMs": 64900,
+    "endMs": 65510,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 65680,
+    "endMs": 65870,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " que",
+    "startMs": 65920,
+    "endMs": 66140,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " nos",
+    "startMs": 66140,
+    "endMs": 66470,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " consulten",
+    "startMs": 66740,
+    "endMs": 67260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " a",
+    "startMs": 67260,
+    "endMs": 67450,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " través",
+    "startMs": 67480,
+    "endMs": 67660,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 67660,
+    "endMs": 67760,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " los",
+    "startMs": 67760,
+    "endMs": 67980,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " canales",
+    "startMs": 67980,
+    "endMs": 68180,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " de",
+    "startMs": 68180,
+    "endMs": 68260,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " acción",
+    "startMs": 68260,
+    "endMs": 68520,
+    "timestampMs": null,
+    "confidence": null
+  },
+  {
+    "text": " jurídica\"",
+    "startMs": 68520,
+    "endMs": 69270,
+    "timestampMs": null,
+    "confidence": null
+  }
+]

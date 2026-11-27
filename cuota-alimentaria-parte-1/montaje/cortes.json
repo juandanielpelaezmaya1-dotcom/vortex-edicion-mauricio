@@ -1,0 +1,374 @@
+{
+ "p1": [
+  {
+   "id": "a",
+   "toma": "80",
+   "de": [
+    "no",
+    203.4
+   ],
+   "a": [
+    "alimentaria",
+    208.6
+   ],
+   "texto": "No puede existir delitos si previamente no existió una fijación de una cuota alimentaria.",
+   "in_s": 203.56,
+   "out_s": 209.49,
+   "x": 34
+  },
+  {
+   "id": "b",
+   "toma": "79",
+   "de": [
+    "las",
+    0.0
+   ],
+   "a": [
+    "fijan",
+    5.4
+   ],
+   "texto": "Las cuotas alimentarias nacen desde el momento en que se fijan,",
+   "in_s": 0.65,
+   "out_s": 5.87,
+   "x": 35
+  },
+  {
+   "id": "b2",
+   "toma": "79",
+   "de": [
+    "no",
+    6.2
+   ],
+   "a": [
+    "edad",
+    13.3
+   ],
+   "texto": "no en el momento en que el padre o madre o el responsable de una menor de edad",
+   "in_s": 6.14,
+   "out_s": 13.81,
+   "x": 40
+  },
+  {
+   "id": "c",
+   "toma": "79",
+   "de": [
+    "no",
+    18.3
+   ],
+   "a": [
+    "deberes",
+    21.0
+   ],
+   "texto": "no ha cumplido con sus deberes.",
+   "in_s": 18.04,
+   "out_s": 21.62,
+   "x": 39
+  },
+  {
+   "id": "d",
+   "toma": "80",
+   "de": [
+    "no",
+    87.4
+   ],
+   "a": [
+    "vinculo",
+    89.4
+   ],
+   "texto": "No nace únicamente con el vínculo.",
+   "in_s": 86.46,
+   "out_s": 89.69,
+   "x": 36
+  },
+  {
+   "id": "f",
+   "toma": "79",
+   "de": [
+    "es",
+    21.6
+   ],
+   "a": [
+    "exigir",
+    31.4
+   ],
+   "texto": "Es muy importante que iniciemos con la fijación de la cuota alimentaria, porque con esto nace el derecho para que posteriormente se pueda exigir.",
+   "in_s": 21.54,
+   "out_s": 32.18,
+   "x": 39
+  },
+  {
+   "id": "e",
+   "toma": "81",
+   "de": [
+    "ya",
+    26.1
+   ],
+   "a": [
+    "responsabilidades",
+    34.0
+   ],
+   "texto": "Ya cuando se adquiere esa responsabilidad y esa obligación de deber alimentos, realmente surgen responsabilidades.",
+   "in_s": 26.12,
+   "out_s": 35.16,
+   "x": 36
+  },
+  {
+   "id": "g",
+   "toma": "79",
+   "de": [
+    "que",
+    68.0
+   ],
+   "a": [
+    "alimentaria",
+    74.9
+   ],
+   "texto": "¿Qué va a hacer esta madre? La madre lo primero que va a hacer es un proceso de conciliación para fijar esta cuota alimentaria.",
+   "in_s": 67.83,
+   "out_s": 75.7,
+   "x": 41
+  },
+  {
+   "id": "h2",
+   "toma": "79",
+   "de": [
+    "o",
+    89.0
+   ],
+   "a": [
+    "familiar",
+    93.1
+   ],
+   "texto": "o podemos acudir al Instituto Colombiano de Bienestar Familiar.",
+   "in_s": 89.34,
+   "out_s": 93.84,
+   "x": 40
+  },
+  {
+   "id": "i",
+   "toma": "79",
+   "de": [
+    "si",
+    197.2
+   ],
+   "a": [
+    "cumple",
+    204.3
+   ],
+   "texto": "Si ya tenemos fijada una cuota alimentaria, la parte obligada no cumple...",
+   "in_s": 197.05,
+   "out_s": 204.51,
+   "x": 43
+  },
+  {
+   "id": "k",
+   "toma": "81",
+   "de": [
+    "ahi",
+    41.3
+   ],
+   "a": [
+    "embargos",
+    43.0
+   ],
+   "texto": "ahí es donde entramos a hablar de embargos",
+   "in_s": 41.26,
+   "out_s": 43.66,
+   "x": 37
+  },
+  {
+   "id": "j",
+   "toma": "79",
+   "de": [
+    "tenemos",
+    263.1
+   ],
+   "a": [
+    "penal",
+    267.1
+   ],
+   "texto": "tenemos una consecuencia ya no sólo civil, sino penal.",
+   "in_s": 262.78,
+   "out_s": 267.94,
+   "x": 43
+  }
+ ],
+ "p2": [
+  {
+   "id": "a",
+   "toma": "80",
+   "de": [
+    "el",
+    6.7
+   ],
+   "a": [
+    "alimentaria",
+    12.0
+   ],
+   "texto": "El legislador ha decidido que la falta de pago o la inasistencia alimentaria",
+   "in_s": 6.2,
+   "out_s": 13.63,
+   "x": 37
+  },
+  {
+   "id": "a2",
+   "toma": "80",
+   "de": [
+    "se",
+    16.1
+   ],
+   "a": [
+    "delito",
+    17.3
+   ],
+   "texto": "se constituya en un delito. No solo se trata de una deuda en la materia civil, sino que trascienda el ámbito de afectar por ese incumplimiento la libertad de las personas.",
+   "in_s": 15.58,
+   "out_s": 27.62,
+   "x": 47
+  },
+  {
+   "id": "c",
+   "toma": "79",
+   "de": [
+    "el",
+    229.6
+   ],
+   "a": [
+    "comercio",
+    240.3
+   ],
+   "texto": "El éxito del proceso ejecutivo son los embargos que se pueda realizar: ya sea salarios, ya sea bienes inmuebles, vehículos automotores, establecimientos de comercio.",
+   "in_s": 229.56,
+   "out_s": 240.79,
+   "x": 37
+  },
+  {
+   "id": "d",
+   "toma": "81",
+   "de": [
+    "se",
+    61.6
+   ],
+   "a": [
+    "salario",
+    63.3
+   ],
+   "texto": "Se permite el embargo del salario",
+   "in_s": 61.56,
+   "out_s": 64.03,
+   "x": 43
+  },
+  {
+   "id": "d2",
+   "toma": "81",
+   "de": [
+    "y",
+    69.7
+   ],
+   "a": [
+    "50",
+    71.9
+   ],
+   "texto": "y en este caso es hasta el 50 %.",
+   "in_s": 69.71,
+   "out_s": 72.6,
+   "x": 36
+  },
+  {
+   "id": "e",
+   "toma": "81",
+   "de": [
+    "es",
+    88.1
+   ],
+   "a": [
+    "sociales",
+    97.4
+   ],
+   "texto": "Es importante también recordar que la ley del código de infancia y adolescencia permite también el embargo de las prestaciones sociales:",
+   "in_s": 87.5,
+   "out_s": 98.29,
+   "x": 40
+  },
+  {
+   "id": "f",
+   "toma": "81",
+   "de": [
+    "los",
+    130.0
+   ],
+   "a": [
+    "orden",
+    134.7
+   ],
+   "texto": "Los empleadores también cumplan cuando les llega una orden.",
+   "in_s": 129.98,
+   "out_s": 135.33,
+   "x": 35
+  },
+  {
+   "id": "f2",
+   "toma": "81",
+   "de": [
+    "puede",
+    146.4
+   ],
+   "a": [
+    "aplique",
+    150.9
+   ],
+   "texto": "Puede implicar responsabilidad disciplinaria, inclusive para la persona que no lo aplique.",
+   "in_s": 146.15,
+   "out_s": 151.88,
+   "x": 40
+  },
+  {
+   "id": "g",
+   "toma": "80",
+   "de": [
+    "hay",
+    164.3
+   ],
+   "a": [
+    "empleo",
+    174.8
+   ],
+   "texto": "Hay circunstancias en las que no se constituye, como por ejemplo cuando el deudor alimentario acredita que está desempleado y puede demostrar que está buscando un empleo.",
+   "in_s": 164.11,
+   "out_s": 175.28,
+   "x": 43
+  },
+  {
+   "id": "h",
+   "toma": "80",
+   "de": [
+    "entonces",
+    352.2
+   ],
+   "a": [
+    "consulten",
+    356.0
+   ],
+   "texto": "Entonces los invitamos a nuestros oyentes pues a que nos consulten",
+   "in_s": 351.5,
+   "out_s": 356.45,
+   "x": 43
+  },
+  {
+   "id": "h2",
+   "toma": "80",
+   "de": [
+    "a",
+    362.9
+   ],
+   "a": [
+    "juridica",
+    364.9
+   ],
+   "texto": "a través de los canales de Acción Jurídica.",
+   "in_s": 363.56,
+   "out_s": 365.78,
+   "x": 40
+  }
+ ]
+}
