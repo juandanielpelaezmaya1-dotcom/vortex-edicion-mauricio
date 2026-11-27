@@ -1,0 +1,443 @@
+{
+  "slug": "empanadas-proceso",
+  "fps": 29.97,
+  "formatos": [
+    "9x16"
+  ],
+  "_nota": "Generado por montaje.py (no editar a mano). Imagen: material/look (color/convertir.sh). Audio: audio/mezcla.py -> material/mezcla.wav (musica original + efectos).",
+  "clips": [
+    {
+      "archivo": "material/look/5284.mov",
+      "in_s": 1.3,
+      "out_s": 2.301,
+      "volumen": 0,
+      "velocidad": 0.5,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/look/5222.mov",
+      "in_s": 0.8,
+      "out_s": 1.801,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.2
+      }
+    },
+    {
+      "archivo": "material/look/5226.mov",
+      "in_s": 1.0,
+      "out_s": 2.001,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5229.mov",
+      "in_s": 3.5,
+      "out_s": 4.501,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/look/5232.mov",
+      "in_s": 8.9,
+      "out_s": 9.901,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5235.mov",
+      "in_s": 2.5,
+      "out_s": 3.501,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/look/5236.mov",
+      "in_s": 4.0,
+      "out_s": 6.002,
+      "volumen": 0,
+      "velocidad": 2.0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5238.mov",
+      "in_s": 2.2,
+      "out_s": 3.702,
+      "volumen": 0,
+      "velocidad": 1.5
+    },
+    {
+      "archivo": "material/look/5243.mov",
+      "in_s": 0.5,
+      "out_s": 2.502,
+      "volumen": 0,
+      "velocidad": 2.0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5241.mov",
+      "in_s": 0.0,
+      "out_s": 0.501,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/look/5268.mov",
+      "in_s": 2.5,
+      "out_s": 3.501,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5271.mov",
+      "in_s": 2.0,
+      "out_s": 3.001,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/look/5274.mov",
+      "in_s": 0.5,
+      "out_s": 2.002,
+      "volumen": 0,
+      "velocidad": 1.5,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5244.mov",
+      "in_s": 5.0,
+      "out_s": 6.001,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.2
+      }
+    },
+    {
+      "archivo": "material/look/5256.mov",
+      "in_s": 9.0,
+      "out_s": 10.001,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5246.mov",
+      "in_s": 2.5,
+      "out_s": 4.502,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.2
+      }
+    },
+    {
+      "archivo": "material/look/5249.mov",
+      "in_s": 4.5,
+      "out_s": 6.002,
+      "volumen": 0,
+      "velocidad": 1.5,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5253.mov",
+      "in_s": 9.5,
+      "out_s": 11.002,
+      "volumen": 0,
+      "velocidad": 1.5,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/look/5248.mov",
+      "in_s": 1.0,
+      "out_s": 2.001,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5250.mov",
+      "in_s": 14.0,
+      "out_s": 15.001,
+      "volumen": 0
+    },
+    {
+      "archivo": "material/look/5276.mov",
+      "in_s": 14.3,
+      "out_s": 15.301,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5287.mov",
+      "in_s": 5.0,
+      "out_s": 7.002,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/look/5251.mov",
+      "in_s": 1.5,
+      "out_s": 2.501,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5283.mov",
+      "in_s": 1.8,
+      "out_s": 3.302,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.2
+      }
+    },
+    {
+      "archivo": "material/look/5258.mov",
+      "in_s": 0.0,
+      "out_s": 1.001,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5262.mov",
+      "in_s": 8.5,
+      "out_s": 9.251,
+      "volumen": 0,
+      "velocidad": 0.5
+    },
+    {
+      "archivo": "material/look/5278.mov",
+      "in_s": 1.0,
+      "out_s": 2.001,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5285.mov",
+      "in_s": 2.0,
+      "out_s": 3.001,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/look/5264.mov",
+      "in_s": 9.8,
+      "out_s": 10.801,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.2
+      }
+    },
+    {
+      "archivo": "material/look/5265.mov",
+      "in_s": 0.5,
+      "out_s": 1.501,
+      "volumen": 0,
+      "velocidad": 0.5,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      }
+    },
+    {
+      "archivo": "material/look/5290.mov",
+      "in_s": 2.2,
+      "out_s": 3.201,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.2
+      }
+    },
+    {
+      "archivo": "material/look/5294.mov",
+      "in_s": 12.5,
+      "out_s": 13.501,
+      "volumen": 0
+    },
+    {
+      "archivo": "material/look/5292.mov",
+      "in_s": 0.2,
+      "out_s": 1.201,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5307.mov",
+      "in_s": 3.0,
+      "out_s": 4.001,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "in",
+        "intensidad": 1.06
+      },
+      "transicion": {
+        "tipo": "escala",
+        "duracion_s": 0.2
+      }
+    },
+    {
+      "archivo": "material/look/5308.mov",
+      "in_s": 6.0,
+      "out_s": 7.502,
+      "volumen": 0,
+      "transicion": {
+        "tipo": "desenfoque",
+        "duracion_s": 0.1
+      }
+    },
+    {
+      "archivo": "material/look/5309.mov",
+      "in_s": 16.2,
+      "out_s": 20.705,
+      "volumen": 0,
+      "zoom": {
+        "tipo": "out",
+        "intensidad": 1.06
+      }
+    }
+  ],
+  "pistas": [
+    {
+      "archivo": "material/mezcla.wav",
+      "in_s": 0,
+      "out_s": 44.5445,
+      "en_s": 0,
+      "volumen": 1,
+      "limpiar": false,
+      "ganancia_db": 0,
+      "fundido_s": [
+        0.01,
+        0.01
+      ]
+    }
+  ],
+  "destellos": [
+    {
+      "en_s": 2.002,
+      "duracion_s": 0.25,
+      "color": "#FFE2B8",
+      "intensidad": 0.55
+    }
+  ],
+  "progreso": false
+}
